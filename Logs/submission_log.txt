@@ -1,0 +1,2209 @@
+[2025-05-22 19:35:45] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-22 20:11:18] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-22 21:14:03] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-22 22:08:02] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-22 22:31:56] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-23 17:31:45] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-23 17:36:29] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-23 17:39:49] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-24 13:50:54] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 20:55:16] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 21:05:59] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-27 21:14:32] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 21:21:48] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip - Dikirim via subprocess Popen.
+[2025-05-27 21:41:11] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 21:52:11] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 21:59:26] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 22:06:45] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 22:55:30] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 23:08:04] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-27 23:08:18] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 23:16:19] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-27 23:19:47] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 23:22:12] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-27 23:23:05] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-27 23:25:36] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-27 23:45:56] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 23:48:23] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-27 23:53:34] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-27 23:55:59] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:00:42] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 00:03:08] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:05:10] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 00:07:36] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:13:40] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 00:16:06] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:21:45] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 00:24:08] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 00:24:08] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:26:21] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 00:28:44] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 00:28:44] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:39:22] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 00:41:45] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 00:41:45] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 00:44:15] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-28 00:46:40] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 00:46:40] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 11:18:45] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 11:21:12] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 11:21:12] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 11:30:39] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 11:33:02] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 11:33:02] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 11:39:52] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-28 11:42:16] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 11:42:16] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 11:43:02] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 11:45:29] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 11:45:29] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 11:49:59] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 11:52:24] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 11:52:24] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 11:58:07] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 12:00:31] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 12:00:31] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 12:07:46] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 12:10:10] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 12:10:10] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 12:16:11] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 12:18:36] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 12:18:36] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 13:34:25] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 13:36:49] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 13:36:49] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 13:43:57] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 13:46:23] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 13:46:23] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 13:48:54] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 13:51:17] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 13:51:17] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 13:51:26] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 14:00:42] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 14:03:05] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 14:03:05] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 14:03:19] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-28 14:05:42] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 14:05:42] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 14:05:54] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip - Dikirim via subprocess Popen.
+[2025-05-28 14:08:15] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 14:08:15] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 18:14:46] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 18:17:13] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 18:17:13] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 18:17:33] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip - Dikirim via subprocess Popen.
+[2025-05-28 18:19:55] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 18:19:55] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 18:23:44] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 18:26:07] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 18:26:07] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 18:26:52] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-28 18:29:19] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 18:29:19] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 18:52:45] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 18:55:13] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 18:55:13] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 18:59:12] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 19:01:41] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 19:01:41] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 19:08:15] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 19:10:41] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 19:10:41] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 19:15:06] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip - Dikirim via subprocess Popen.
+[2025-05-28 19:17:31] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 19:17:31] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 19:24:55] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip - Dikirim via subprocess Popen.
+[2025-05-28 19:27:23] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 19:27:23] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 19:30:39] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/icon.png - File disalin ke Sample-Malware.
+[2025-05-28 19:30:39] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/icon.png - Dikirim via subprocess Popen.
+[2025-05-28 19:35:11] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-28 19:37:41] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 19:37:41] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 19:47:42] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-06 19-15-19.png - File disalin ke Sample-Malware.
+[2025-05-28 19:47:42] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-06 19-15-19.png - Dikirim via subprocess Popen.
+[2025-05-28 19:51:11] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-07 14-17-33.png - File disalin ke Sample-Malware.
+[2025-05-28 19:51:11] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-07 14-17-33.png - Dikirim via subprocess Popen.
+[2025-05-28 19:54:07] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-15 17-36-41.png - File disalin ke Sample-Malware.
+[2025-05-28 19:54:07] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-15 17-36-41.png - Dikirim via subprocess Popen.
+[2025-05-28 19:57:54] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screencast from 27-05-25 23:23:03.webm - File disalin ke Sample-Malware.
+[2025-05-28 19:57:54] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screencast from 27-05-25 23:23:03.webm - Dikirim via subprocess Popen.
+[2025-05-28 20:00:22] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 20:00:22] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 20:03:06] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/tumblr_3a7dbe0cfede38d4afb23c9a335a43a9_f922f604_1280.gif - File disalin ke Sample-Malware.
+[2025-05-28 20:03:06] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/tumblr_3a7dbe0cfede38d4afb23c9a335a43a9_f922f604_1280.gif - Dikirim via subprocess Popen.
+[2025-05-28 20:05:55] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/malware_report_20250527-205741.pdf - File disalin ke Sample-Malware.
+[2025-05-28 20:05:55] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware_report_20250527-205741.pdf - Dikirim via subprocess Popen.
+[2025-05-28 20:14:26] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-09 15-21-23.png - File disalin ke Sample-Malware.
+[2025-05-28 20:14:26] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-09 15-21-23.png - Dikirim via subprocess Popen.
+[2025-05-28 20:17:51] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/CHA804.json - File disalin ke Sample-Malware.
+[2025-05-28 20:17:51] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/CHA804.json - Dikirim via subprocess Popen.
+[2025-05-28 20:20:50] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-13 17-58-19.png - File disalin ke Sample-Malware.
+[2025-05-28 20:20:50] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-13 17-58-19.png - Dikirim via subprocess Popen.
+[2025-05-28 20:20:54] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 20:20:54] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 20:26:21] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-12 20-04-13.png - File disalin ke Sample-Malware.
+[2025-05-28 20:26:21] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-12 20-04-13.png - Dikirim via subprocess Popen.
+[2025-05-28 20:27:46] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-13 02-19-43.png - File disalin ke Sample-Malware.
+[2025-05-28 20:27:46] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-13 02-19-43.png - Dikirim via subprocess Popen.
+[2025-05-28 20:29:27] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-12 16-29-04.png - File disalin ke Sample-Malware.
+[2025-05-28 20:29:27] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-12 16-29-04.png - Dikirim via subprocess Popen.
+[2025-05-28 23:23:02] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-28 23:25:28] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 23:25:28] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 23:26:43] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Banking-Malware.zip - Dikirim via subprocess Popen.
+[2025-05-28 23:29:07] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 23:29:07] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-28 23:30:00] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe - Dikirim via subprocess Popen.
+[2025-05-28 23:32:27] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-28 23:32:27] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 15:06:35] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 15:09:07] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 15:09:07] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 16:31:12] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 16:33:38] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 16:33:38] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 16:35:20] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 16:37:45] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 16:37:45] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 16:45:26] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 16:47:53] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 16:47:53] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 17:03:57] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe - Dikirim via subprocess Popen.
+[2025-05-29 17:06:22] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 17:06:22] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 17:08:23] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 17:10:53] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 17:10:53] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 17:14:05] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 17:16:33] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 17:16:33] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 18:26:40] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 18:29:06] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 18:29:06] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 18:51:10] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 18:53:38] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 18:53:38] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 18:59:12] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 19:01:41] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 19:01:41] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 19:12:16] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 19:14:43] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 19:14:43] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 19:15:14] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 19:17:42] INFO: 🟢 switch_to_report_summary() dipanggil dari lambda
+[2025-05-29 19:17:42] INFO: ✅ switch_to_report_summary() DIPANGGIL!
+[2025-05-29 19:21:31] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 19:21:41] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 19:21:41] INFO: Fading from LoadingWidget to UploadWidget.
+[2025-05-29 19:21:42] INFO: UploadWidget shown.
+[2025-05-29 19:21:47] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 19:21:47] INFO: Switching to UploadSuccessWidget.
+[2025-05-29 19:21:50] INFO: Switching to AnalysisProgressWidget.
+[2025-05-29 19:24:13] INFO: 🟢 _safe_switch_to_summary() called.
+[2025-05-29 19:24:13] INFO: ✅ switch_to_report_summary() CALLED!
+[2025-05-29 19:24:13] INFO: Successfully switched to ReportSummaryWidget.
+[2025-05-29 22:20:54] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 22:21:09] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 22:21:09] INFO: Fading from LoadingWidget to UploadWidget.
+[2025-05-29 22:21:10] INFO: UploadWidget shown.
+[2025-05-29 22:21:33] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 22:21:33] INFO: Switching to UploadSuccessWidget.
+[2025-05-29 22:21:36] INFO: Switching to AnalysisProgressWidget.
+[2025-05-29 22:24:05] INFO: 🟢 _safe_switch_to_summary() called.
+[2025-05-29 22:24:05] INFO: ✅ switch_to_report_summary() CALLED!
+[2025-05-29 22:24:05] INFO: Successfully switched to ReportSummaryWidget.
+[2025-05-29 22:30:03] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 22:30:13] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 22:30:13] INFO: Fading from LoadingWidget to UploadWidget.
+[2025-05-29 22:30:14] INFO: UploadWidget shown.
+[2025-05-29 22:30:22] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 22:30:22] INFO: Switching to UploadSuccessWidget.
+[2025-05-29 22:30:25] INFO: Switching to AnalysisProgressWidget.
+[2025-05-29 22:32:50] INFO: 🟢 _safe_switch_to_summary() called.
+[2025-05-29 22:32:50] INFO: ✅ switch_to_report_summary() CALLED!
+[2025-05-29 22:32:50] INFO: ReportSummary: Memuat data dari laporan: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-223248.pdf
+[2025-05-29 22:32:50] INFO: Successfully switched to ReportSummaryWidget.
+[2025-05-29 22:32:57] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-223248.pdf
+[2025-05-29 22:33:47] INFO: Switching back to Upload screen via rebuild.
+[2025-05-29 22:33:47] INFO: 🔁 Rebuilding UploadWidget & AnalysisProgressWidget...
+[2025-05-29 22:33:47] INFO: Old UploadWidget removed from stack and scheduled for deletion.
+[2025-05-29 22:33:47] INFO: New UploadWidget created and inserted into stack at index 1.
+[2025-05-29 22:33:47] INFO: Old AnalysisProgressWidget removed from stack and scheduled for deletion.
+[2025-05-29 22:33:47] INFO: New AnalysisProgressWidget created and inserted into stack at index 3.
+[2025-05-29 22:33:47] INFO: ✅ UploadWidget & AnalysisProgressWidget rebuilt. Current widget set to UploadWidget.
+[2025-05-29 22:33:56] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Annabelle.exe - Dikirim via subprocess Popen.
+[2025-05-29 22:33:56] INFO: Switching to UploadSuccessWidget.
+[2025-05-29 22:33:59] INFO: Switching to AnalysisProgressWidget.
+[2025-05-29 22:36:25] INFO: 🟢 _safe_switch_to_summary() called.
+[2025-05-29 22:36:25] INFO: ✅ switch_to_report_summary() CALLED!
+[2025-05-29 22:36:25] INFO: ReportSummary: Memuat data dari laporan: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-223623.pdf
+[2025-05-29 22:36:25] INFO: Successfully switched to ReportSummaryWidget.
+[2025-05-29 22:39:23] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-223623.pdf
+[2025-05-29 22:41:32] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 22:41:43] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 22:41:43] INFO: Switching to UploadWidget.
+[2025-05-29 22:41:43] INFO: UploadWidget shown and reset.
+[2025-05-29 22:41:49] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 22:49:45] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 22:49:56] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 22:49:56] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-29 22:49:56] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 22:51:26] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 22:51:26] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 22:51:26] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 22:51:26] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 22:51:26] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 22:51:26] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 22:51:26] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 22:51:26] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 22:51:29] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 22:51:29] INFO: AnalysisProgressWidget ditampilkan dan direset.
+[2025-05-29 22:53:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-29 22:53:53] INFO: ReportSummary: Memuat data dari laporan: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-225351.pdf
+[2025-05-29 22:53:53] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-05-29 22:54:10] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-225351.pdf
+[2025-05-29 22:54:13] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-29 22:54:13] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-29 22:54:13] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 22:54:13] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-29 22:54:13] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-29 22:54:13] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-29 23:02:07] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 23:02:17] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 23:02:17] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-29 23:02:17] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:02:27] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 23:02:27] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 23:02:27] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 23:02:27] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 23:02:27] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 23:02:27] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 23:02:27] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 23:02:27] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 23:02:27] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-29 23:02:30] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 23:02:30] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-29 23:02:30] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-29 23:04:54] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-29 23:04:55] INFO: ReportSummary: Memuat data dari laporan: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-230452.pdf
+[2025-05-29 23:04:55] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-29 23:05:03] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-29 23:05:04] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-29 23:05:04] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:05:04] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-29 23:05:04] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-29 23:05:04] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-29 23:05:07] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe
+[2025-05-29 23:05:07] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe - Dikirim via subprocess Popen.
+[2025-05-29 23:05:07] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe
+[2025-05-29 23:05:07] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 23:05:07] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 23:05:07] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 23:05:07] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 23:05:07] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 23:05:07] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-29 23:05:11] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 23:05:11] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-29 23:05:11] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-29 23:17:59] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 23:18:09] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 23:18:09] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-29 23:18:09] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:18:18] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 23:18:18] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 23:18:18] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 23:18:18] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 23:18:18] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 23:18:18] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 23:18:18] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 23:18:18] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 23:18:18] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-29 23:18:21] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 23:18:21] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-29 23:18:21] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-29 23:20:40] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-29 23:20:41] INFO: ReportSummary: Memuat data dari laporan: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-232039.pdf
+[2025-05-29 23:20:41] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-29 23:21:44] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-232039.pdf
+[2025-05-29 23:21:48] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-29 23:21:48] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-29 23:21:48] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:21:48] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-29 23:21:48] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-29 23:21:48] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-29 23:21:56] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip
+[2025-05-29 23:21:56] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip - Dikirim via subprocess Popen.
+[2025-05-29 23:21:56] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/malware2.zip
+[2025-05-29 23:21:56] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 23:21:56] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 23:21:56] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 23:21:56] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 23:21:57] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 23:21:57] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-29 23:22:00] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 23:22:00] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-29 23:22:00] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-29 23:24:20] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-29 23:24:21] INFO: ReportSummary: Memuat data dari laporan: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-232419.pdf
+[2025-05-29 23:24:21] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-29 23:26:16] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-29 23:26:17] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-29 23:26:17] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:26:17] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-29 23:26:17] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-29 23:26:17] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-29 23:34:59] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 23:35:09] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 23:35:09] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-29 23:35:09] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:35:30] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Anap.a.exe
+[2025-05-29 23:35:30] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Anap.a.exe - Dikirim via subprocess Popen.
+[2025-05-29 23:35:30] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Anap.a.exe
+[2025-05-29 23:35:30] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 23:35:30] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 23:35:30] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 23:35:30] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 23:35:30] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 23:35:30] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-29 23:35:34] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 23:35:34] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-29 23:35:34] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-29 23:37:57] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-29 23:37:57] INFO: ReportSummary: PDF kustom terbaru: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250529-233755.pdf
+[2025-05-29 23:37:57] WARNING: ReportSummary: Tidak dapat menemukan atau memuat analysis.json Cuckoo terbaru.
+[2025-05-29 23:37:57] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-29 23:46:04] INFO: MainWindow initialized and SetupThread started.
+[2025-05-29 23:46:14] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-29 23:46:14] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-29 23:46:14] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-29 23:46:21] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 23:46:21] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-29 23:46:21] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-29 23:46:21] INFO: UploadWidget: Menjalankan analisis statis: /home/cuckoo/TA_AnalisisMalware/ML_Statis/script.py
+[2025-05-29 23:46:21] INFO: UploadWidget: Menjalankan generator laporan dinamis: /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-29 23:46:21] INFO: UploadWidget: Analisis statis dan dinamis dimulai.
+[2025-05-29 23:46:21] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-29 23:46:21] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-29 23:46:21] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-29 23:46:25] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-29 23:46:25] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-29 23:46:25] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-29 23:48:46] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-29 23:48:46] INFO: ResultSummary: Memuat laporan terbaru...
+[2025-05-29 23:48:46] INFO: ResultSummary: Tidak ada kandidat analisis Cuckoo yang valid ditemukan.
+[2025-05-29 23:48:46] WARNING: ResultSummary: Tidak dapat menemukan atau memuat analysis.json Cuckoo terbaru.
+[2025-05-29 23:48:46] WARNING: ResultSummary: Tidak dapat menemukan atau memuat report.json Cuckoo terbaru.
+[2025-05-29 23:48:46] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 00:02:33] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 00:02:44] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 00:02:44] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 00:02:44] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:02:50] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:02:50] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:02:50] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:02:50] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:02:50] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:02:50] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:02:50] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:02:50] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:02:53] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:02:53] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:02:53] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:05:15] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 00:05:16] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 00:05:16] INFO: ResultSummary: Tidak ada kandidat file analisis Cuckoo yang valid ditemukan.
+[2025-05-30 00:05:16] WARNING: ResultSummary: Path analysis.json Cuckoo tidak ditemukan.
+[2025-05-30 00:05:16] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 00:15:45] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 00:15:56] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 00:15:56] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 00:15:56] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:16:01] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 00:16:01] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:16:01] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 00:16:01] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:16:01] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:16:01] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:16:01] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:16:02] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:16:05] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:16:05] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:16:05] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:18:28] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 00:18:29] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 00:18:29] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih (berdasarkan mtime report.json): /home/cuckoo/.cuckoocwd/storage/analyses/20250529/AX74GT/analysis.json
+[2025-05-30 00:18:29] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/AX74GT/analysis.json
+[2025-05-30 00:18:29] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 00:19:06] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-30 00:19:06] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-30 00:19:06] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:19:06] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-30 00:19:06] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-30 00:19:06] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-30 00:19:10] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:19:10] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:19:10] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:19:10] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:19:10] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:19:10] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:19:10] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:19:11] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:19:14] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:19:14] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:19:14] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:21:34] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 00:21:34] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 00:21:34] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih (berdasarkan mtime report.json): /home/cuckoo/.cuckoocwd/storage/analyses/20250529/2703TU/analysis.json
+[2025-05-30 00:21:34] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/2703TU/analysis.json
+[2025-05-30 00:21:34] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 00:33:32] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 00:33:42] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 00:33:42] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 00:33:42] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:33:52] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:33:52] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:33:52] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:33:52] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:33:52] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:33:52] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:33:52] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:33:52] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:33:55] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:33:55] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:33:56] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:36:19] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 00:36:19] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 00:36:19] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/N6EOQ5/analysis.json
+[2025-05-30 00:36:19] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:36:19] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 65, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange # Oranye lebih jelas dari kuning untuk "Berbahaya"
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:42:33] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 00:42:44] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 00:42:44] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 00:42:44] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:42:47] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:42:47] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:42:47] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:42:47] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:42:47] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:42:47] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:42:47] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:42:47] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:42:51] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:42:51] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:42:51] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:50:46] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 00:51:00] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 00:51:00] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 00:51:00] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:51:20] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:51:20] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:51:20] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 00:51:20] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:51:20] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:51:20] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:51:20] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:51:20] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:51:23] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:51:23] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:51:24] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:53:51] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 00:53:51] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 00:53:51] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih (berdasarkan mtime report.json): /home/cuckoo/.cuckoocwd/storage/analyses/20250529/SNE5GC/analysis.json
+[2025-05-30 00:53:51] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/SNE5GC/analysis.json
+[2025-05-30 00:53:51] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:53:51] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 66, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 00:55:05] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 00:55:15] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 00:55:15] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 00:55:15] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 00:55:19] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 00:55:19] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-30 00:55:19] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 00:55:19] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 00:55:19] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 00:55:19] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 00:55:19] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 00:55:19] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 00:55:23] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 00:55:23] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 00:55:23] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 00:57:47] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 00:57:47] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 00:57:47] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih (berdasarkan mtime report.json): /home/cuckoo/.cuckoocwd/storage/analyses/20250529/9QIU0S/analysis.json
+[2025-05-30 00:57:47] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/9QIU0S/analysis.json
+[2025-05-30 00:57:47] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:04:08] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:04:18] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:04:18] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:04:18] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:04:24] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 01:04:24] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:04:24] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 01:04:24] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:04:24] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:04:24] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:04:24] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:04:24] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:04:27] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:04:27] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:04:28] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:06:50] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:06:50] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:06:50] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/CZP1VM/analysis.json
+[2025-05-30 01:06:50] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:06:50] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 64, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:10:29] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:10:39] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:10:39] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:10:39] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:10:44] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 01:10:44] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:10:44] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe
+[2025-05-30 01:10:44] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:10:44] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:10:44] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:10:44] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:10:44] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:10:47] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:10:47] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:10:48] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:13:11] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:13:11] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:13:11] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/ZYG5TE/analysis.json
+[2025-05-30 01:13:11] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/ZYG5TE/analysis.json
+[2025-05-30 01:13:11] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:13:11] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:17:31] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:17:41] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:17:41] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:17:41] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:17:58] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Avoid.exe
+[2025-05-30 01:17:58] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Avoid.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:17:58] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Avoid.exe
+[2025-05-30 01:17:58] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:17:59] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:17:59] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:17:59] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:17:59] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:18:02] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:18:02] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:18:02] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:20:23] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:20:23] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:20:23] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/PNEVS6/analysis.json
+[2025-05-30 01:20:23] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/PNEVS6/analysis.json
+[2025-05-30 01:20:23] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:24] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:20:58] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250530-012021.pdf
+[2025-05-30 01:21:01] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-30 01:21:01] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:01] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:01] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:01] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:01] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:21:02] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-30 01:21:02] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:21:02] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-30 01:21:02] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-30 01:21:02] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-30 01:27:25] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:27:35] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:27:35] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:27:35] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:27:41] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/CookieClickerHack.exe
+[2025-05-30 01:27:41] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/CookieClickerHack.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:27:41] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/CookieClickerHack.exe
+[2025-05-30 01:27:41] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:27:41] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:27:41] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:27:41] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:27:42] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:27:45] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:27:45] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:27:45] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:30:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:30:07] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:30:08] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/ZB5OY7/analysis.json
+[2025-05-30 01:30:08] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/ZB5OY7/analysis.json
+[2025-05-30 01:30:08] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:30:08] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:33:12] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:33:22] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:33:22] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:33:22] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:33:27] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Lentin.zip
+[2025-05-30 01:33:27] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Lentin.zip - Dikirim via subprocess Popen.
+[2025-05-30 01:33:27] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Lentin.zip
+[2025-05-30 01:33:27] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:33:27] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:33:27] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:33:27] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:33:27] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:33:30] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:33:30] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:33:31] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:35:54] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:35:54] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:35:54] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/T49CEG/analysis.json
+[2025-05-30 01:35:54] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/T49CEG/analysis.json
+[2025-05-30 01:35:54] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:35:54] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:38:46] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:38:56] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:38:56] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:38:56] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:39:04] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 01:39:04] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:39:04] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 01:39:04] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:39:04] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:39:04] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:39:04] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:39:04] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:39:07] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:39:07] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:39:08] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:41:30] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:41:30] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:41:30] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/9BKIXI/analysis.json
+[2025-05-30 01:41:30] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/9BKIXI/analysis.json
+[2025-05-30 01:41:30] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:41:56] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-30 01:41:57] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-30 01:41:57] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:41:57] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-30 01:41:57] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-30 01:41:57] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-30 01:42:04] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Axam.a.exe
+[2025-05-30 01:42:04] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Axam.a.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:42:04] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Axam.a.exe
+[2025-05-30 01:42:04] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:42:04] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:42:04] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:42:04] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:42:05] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:42:08] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:42:08] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:42:08] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:44:30] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:44:30] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:44:30] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/EE22QI/analysis.json
+[2025-05-30 01:44:30] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/EE22QI/analysis.json
+[2025-05-30 01:44:30] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:44:30] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:44:31] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:51:27] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 01:51:37] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 01:51:37] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 01:51:37] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:52:00] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 01:52:00] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-30 01:52:00] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 01:52:00] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:52:00] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:52:00] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:52:00] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:52:00] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:52:03] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:52:03] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:52:04] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:54:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:54:24] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:54:24] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/EA8J5X/analysis.json
+[2025-05-30 01:54:24] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/EA8J5X/analysis.json
+[2025-05-30 01:54:24] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:54:46] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-30 01:54:47] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-30 01:54:47] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 01:54:47] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-30 01:54:47] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-30 01:54:47] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-30 01:54:54] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/EngRat.0.1.0.zip
+[2025-05-30 01:54:54] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/EngRat.0.1.0.zip - Dikirim via subprocess Popen.
+[2025-05-30 01:54:54] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/EngRat.0.1.0.zip
+[2025-05-30 01:54:54] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 01:54:54] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 01:54:54] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 01:54:54] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 01:54:54] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 01:54:57] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 01:54:57] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 01:54:57] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 01:57:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 01:57:24] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 01:57:25] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/0Y58NJ/analysis.json
+[2025-05-30 01:57:25] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/0Y58NJ/analysis.json
+[2025-05-30 01:57:25] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 01:57:25] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-05-30 02:06:15] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 02:06:25] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 02:06:25] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 02:06:25] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 02:06:40] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe
+[2025-05-30 02:06:40] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe - Dikirim via subprocess Popen.
+[2025-05-30 02:06:40] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe
+[2025-05-30 02:06:40] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 02:06:40] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 02:06:40] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 02:06:40] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 02:06:40] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 02:06:43] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 02:06:43] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 02:06:44] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 02:12:41] INFO: MainWindow initialized and SetupThread started.
+[2025-05-30 02:12:52] INFO: SetupThread: auto_start.py dipanggil.
+[2025-05-30 02:12:52] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-05-30 02:12:52] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 02:12:55] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 02:12:55] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-05-30 02:12:55] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe
+[2025-05-30 02:12:55] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 02:12:55] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 02:12:55] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 02:12:55] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 02:12:56] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 02:12:59] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 02:12:59] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 02:12:59] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 02:15:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 02:15:24] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 02:15:25] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/FXFE16/analysis.json
+[2025-05-30 02:15:25] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/FXFE16/analysis.json
+[2025-05-30 02:15:25] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 02:15:54] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-30 02:15:54] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-30 02:15:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 02:15:54] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-30 02:15:54] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-30 02:15:54] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-30 02:15:58] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe
+[2025-05-30 02:15:58] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe - Dikirim via subprocess Popen.
+[2025-05-30 02:15:58] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe
+[2025-05-30 02:15:58] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 02:15:58] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 02:15:58] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 02:15:58] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 02:15:58] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 02:16:01] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 02:16:01] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 02:16:02] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 02:18:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 02:18:24] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 02:18:24] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/BKEP9H/analysis.json
+[2025-05-30 02:18:24] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/BKEP9H/analysis.json
+[2025-05-30 02:18:24] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-05-30 02:18:28] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-05-30 02:18:28] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-05-30 02:18:28] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-05-30 02:18:28] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-05-30 02:18:28] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-05-30 02:18:28] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-05-30 02:18:31] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip
+[2025-05-30 02:18:31] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip - Dikirim via subprocess Popen.
+[2025-05-30 02:18:31] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Ransomware.WannaCry_Plus.zip
+[2025-05-30 02:18:31] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-05-30 02:18:31] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-05-30 02:18:31] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-05-30 02:18:31] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-05-30 02:18:32] INFO: UploadSuccessWidget ditampilkan.
+[2025-05-30 02:18:35] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-05-30 02:18:35] INFO: AnalysisProgressWidget disiapkan.
+[2025-05-30 02:18:35] INFO: AnalysisProgressWidget ditampilkan.
+[2025-05-30 02:20:59] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-05-30 02:20:59] INFO: ResultSummary: Memulai load_latest_report...
+[2025-05-30 02:21:00] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/8TXJ9L/analysis.json
+[2025-05-30 02:21:00] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250529/8TXJ9L/analysis.json
+[2025-05-30 02:21:00] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 03:36:54] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 03:36:54] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 03:36:54] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 03:37:04] INFO: SetupThread: auto_start.py called.
+[2025-06-14 03:37:04] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 03:37:04] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 03:37:36] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 03:37:36] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-14 03:37:36] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 03:37:36] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-06-14 03:37:36] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 03:37:36] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 03:37:36] INFO: MainWindow: handle_file_upload_success called. Switching to UploadSuccessWidget.
+[2025-06-14 03:37:40] INFO: MainWindow: switch_to_analysis_progress called. Switching to AnalysisProgressWidget.
+[2025-06-14 03:43:42] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 03:43:42] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 03:43:42] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 03:43:52] INFO: SetupThread: auto_start.py called.
+[2025-06-14 03:43:52] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 03:43:52] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 14:23:21] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:23:21] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:23:21] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:23:59] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:24:00] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:24:00] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:31:37] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:31:37] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:31:37] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:32:03] INFO: SetupThread: auto_start.py called.
+[2025-06-14 14:32:03] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 14:32:03] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 14:39:35] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:39:35] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:39:35] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:39:36] INFO: SetupThread: auto_start.py called.
+[2025-06-14 14:39:36] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 14:39:36] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 14:50:45] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:50:45] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:50:45] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:53:25] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:53:26] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:53:26] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:53:41] INFO: SetupThread: auto_start.py called.
+[2025-06-14 14:53:41] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 14:53:41] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 14:54:08] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 14:54:08] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 14:54:08] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 14:54:08] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-06-14 14:54:08] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 14:54:08] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 14:54:08] INFO: MainWindow: handle_file_upload_success called. Switching to UploadSuccessWidget.
+[2025-06-14 14:54:11] INFO: MainWindow: switch_to_analysis_progress called. Switching to AnalysisProgressWidget.
+[2025-06-14 14:58:21] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 14:58:21] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 14:58:21] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 14:58:35] INFO: SetupThread: auto_start.py called.
+[2025-06-14 14:58:35] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 14:58:35] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:01:38] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:01:38] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 15:01:38] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 15:01:48] INFO: SetupThread: auto_start.py called.
+[2025-06-14 15:01:48] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 15:01:48] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:03:03] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:03:03] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 15:03:03] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:03:03] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-06-14 15:03:03] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:03:03] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:03:03] INFO: MainWindow: handle_file_upload_success called. Switching to UploadSuccessWidget.
+[2025-06-14 15:03:06] INFO: MainWindow: switch_to_analysis_progress called. Switching to AnalysisProgressWidget.
+[2025-06-14 15:04:43] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:04:43] INFO: SetupThread: Starting 'report_generator.py' in background...
+[2025-06-14 15:04:43] INFO: SetupThread: Call to report_generator.py successful (running in background).
+[2025-06-14 15:04:54] INFO: SetupThread: auto_start.py called.
+[2025-06-14 15:04:54] INFO: SetupThread finished. Switching to UploadWidget.
+[2025-06-14 15:04:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:14:08] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:14:18] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:14:18] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:14:18] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:14:28] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:14:28] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 15:14:28] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:14:28] INFO: UploadWidget: Menjalankan generator laporan dinamis (report_generator.py): /home/cuckoo/TA_AnalisisMalware/Cuckoo Upload/report_generator.py
+[2025-06-14 15:14:28] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:14:28] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:14:28] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:14:29] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:14:32] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:14:32] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:14:32] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:18:46] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:18:56] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:18:56] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:18:56] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:19:03] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:19:03] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 15:19:03] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:19:03] INFO: UploadWidget: Menjalankan report_generator.py: /home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py
+[2025-06-14 15:19:03] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:19:03] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:19:03] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:19:03] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:19:06] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:19:06] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:19:07] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:21:47] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:21:57] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:21:57] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:21:57] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:22:01] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:22:01] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 15:22:01] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:22:01] INFO: UploadWidget: Menjalankan report_generator.py: /home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py
+[2025-06-14 15:22:01] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:22:01] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:22:01] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:22:01] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:22:04] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:22:04] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:22:05] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:27:19] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:27:29] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:27:29] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:27:29] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:27:35] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:27:35] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 15:27:35] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:27:35] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:27:35] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:27:35] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:27:35] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:27:35] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:27:38] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:27:38] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:27:39] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:30:00] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 15:30:00] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 15:30:00] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/HK4VHY/analysis.json
+[2025-06-14 15:30:00] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/HK4VHY/analysis.json
+[2025-06-14 15:30:00] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:30:00] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:33:42] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:33:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:33:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:33:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:34:00] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 15:34:00] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe'
+[2025-06-14 15:34:00] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 15:34:00] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 15:34:00] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:34:00] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:34:00] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:34:00] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:34:03] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:34:03] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:34:04] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:36:23] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 15:36:23] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 15:36:23] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/7C0APJ/analysis.json
+[2025-06-14 15:36:23] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/7C0APJ/analysis.json
+[2025-06-14 15:36:23] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:36:23] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:38:42] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250614-153621.pdf
+[2025-06-14 15:39:49] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:39:59] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:39:59] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:39:59] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:40:03] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 15:40:03] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-14 15:40:03] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 15:40:03] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 15:40:03] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:40:03] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:40:03] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:40:03] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:40:06] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:40:06] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:40:06] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:42:29] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 15:42:29] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 15:42:29] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/ATFN9Z/analysis.json
+[2025-06-14 15:42:29] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/ATFN9Z/analysis.json
+[2025-06-14 15:42:29] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 15:42:37] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250614-154227.pdf
+[2025-06-14 15:47:26] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 15:47:36] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 15:47:36] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 15:47:36] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:47:40] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 15:47:40] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-14 15:47:40] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 15:47:40] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-14 15:47:40] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:47:40] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:47:40] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:47:40] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:47:43] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:47:43] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:47:44] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:50:06] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 15:50:06] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 15:50:06] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/ZUKWXJ/analysis.json
+[2025-06-14 15:50:06] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/ZUKWXJ/analysis.json
+[2025-06-14 15:50:06] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 15:50:52] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250614-155004.pdf
+[2025-06-14 15:51:19] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-14 15:51:19] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-14 15:51:19] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 15:51:19] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-14 15:51:19] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-14 15:51:19] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-14 15:51:28] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:51:28] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-14 15:51:28] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:51:28] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-14 15:51:28] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 15:51:28] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 15:51:28] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 15:51:28] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 15:51:31] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 15:51:31] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 15:51:32] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 15:53:49] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 15:53:49] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 15:53:49] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/54T4Q8/analysis.json
+[2025-06-14 15:53:49] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/54T4Q8/analysis.json
+[2025-06-14 15:53:49] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:53:49] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 15:54:49] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250614-155347.pdf

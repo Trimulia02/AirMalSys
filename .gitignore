@@ -1,0 +1,13 @@
+# Abaikan file besar
+resultML/ml_venv/
+resultML/__pycache__/
+*.pth
+*.pkl
+*.joblib
+*.h5
+
+# Optional tambahan
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
