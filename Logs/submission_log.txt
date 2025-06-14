@@ -2207,3 +2207,796 @@ Traceback (most recent call last):
     score_arc_color = Qt.GlobalColor.orange
 AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
 [2025-06-14 15:54:49] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250614-155347.pdf
+[2025-06-14 19:42:26] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 19:43:04] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 19:52:28] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 19:52:43] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 19:52:43] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 19:52:43] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 19:55:10] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 19:55:24] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 19:55:24] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 19:55:24] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 19:55:39] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 19:55:39] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe'
+[2025-06-14 19:55:39] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 19:55:39] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 19:55:39] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 19:55:39] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 19:55:39] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 19:55:39] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 19:55:42] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 19:55:42] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 19:55:43] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 19:58:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 19:58:07] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 19:58:07] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/J7I2G0/analysis.json
+[2025-06-14 19:58:07] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/J7I2G0/analysis.json
+[2025-06-14 19:58:07] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 19:58:07] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:01:28] INFO: ReportSummary: Membuka PDF: /home/cuckoo/TA_AnalisisMalware/Report/malware_report_20250614-195805.pdf
+[2025-06-14 20:17:57] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 20:18:07] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 20:18:07] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 20:18:07] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 20:18:16] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 20:18:16] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe'
+[2025-06-14 20:18:16] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 20:18:16] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 20:18:16] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 20:18:16] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 20:18:16] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 20:18:17] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 20:18:20] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 20:18:20] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 20:18:20] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 20:20:42] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 20:20:42] INFO: ResultSummary: Memulai load_latest_report...
+[2025-06-14 20:20:42] INFO: ResultSummary: File analisis Cuckoo terbaru dipilih: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/PTL82W/analysis.json
+[2025-06-14 20:20:42] INFO: ResultSummary: Berhasil memuat analysis.json: /home/cuckoo/.cuckoocwd/storage/analyses/20250614/PTL82W/analysis.json
+[2025-06-14 20:20:43] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:20:43] ERROR: GaugeWidget: Terjadi error saat paintEvent: sip.enumtype object 'GlobalColor' has no member 'orange'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/report_summary.py", line 68, in paintEvent
+    score_arc_color = Qt.GlobalColor.orange
+AttributeError: sip.enumtype object 'GlobalColor' has no member 'orange'
+[2025-06-14 20:23:35] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 20:23:45] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 20:23:45] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 20:23:45] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 20:23:49] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 20:23:49] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe'
+[2025-06-14 20:23:49] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 20:23:49] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-06-14 20:23:49] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 20:23:49] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 20:23:49] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 20:23:49] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 20:23:52] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 20:23:52] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 20:23:52] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 20:26:14] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 20:26:14] INFO: ResultSummary: ML result: benign
+[2025-06-14 20:26:14] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-14 20:31:29] INFO: MainWindow initialized and SetupThread started.
+[2025-06-14 20:31:39] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-14 20:31:39] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-14 20:31:39] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-14 20:31:46] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-14 20:31:46] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe'
+[2025-06-14 20:31:46] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-14 20:31:46] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-14 20:31:46] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-14 20:31:46] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-14 20:31:46] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-14 20:31:46] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-14 20:31:49] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-14 20:31:49] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-14 20:31:49] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-14 20:34:08] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-14 20:34:08] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 00:15:35] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:15:49] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:15:49] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:15:49] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:16:04] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:16:04] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe'
+[2025-06-15 00:16:04] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:16:04] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:16:04] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 00:16:04] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 00:16:04] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 00:16:05] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 00:16:08] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 00:16:08] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 00:16:08] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 00:18:32] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 00:18:33] ERROR: MainWindow: Error saat beralih ke ReportSummaryWidget: 'ResultSummaryWidget' object has no attribute 'load_latest_report'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/main_window.py", line 122, in show_report_summary_screen
+    self.report_summary.load_latest_report()
+AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_report'
+[2025-06-15 00:21:07] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:21:17] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:21:17] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:21:17] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:21:21] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:21:21] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe'
+[2025-06-15 00:21:21] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:21:21] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:21:21] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 00:21:21] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 00:21:21] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 00:21:21] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 00:21:24] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 00:21:24] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 00:21:25] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 00:23:46] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 00:23:47] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 00:27:01] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:27:11] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:27:11] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:27:11] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:27:17] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:27:17] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe'
+[2025-06-15 00:27:17] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:27:17] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:27:17] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 00:27:17] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 00:27:17] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 00:27:18] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 00:27:21] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 00:27:21] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 00:27:21] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 00:29:41] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 00:29:41] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 00:32:35] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:32:45] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:32:45] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:32:45] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:32:48] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 00:32:48] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-15 00:32:48] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 00:32:48] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 00:32:48] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 00:32:48] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 00:32:48] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 00:32:49] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 00:32:52] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 00:32:52] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 00:32:52] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 00:35:15] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 00:35:16] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 00:35:40] WARNING: PDF path tidak valid atau file tidak ada.
+[2025-06-15 00:35:43] WARNING: PDF path tidak valid atau file tidak ada.
+[2025-06-15 00:35:44] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 00:35:44] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 00:35:44] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:35:44] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 00:35:44] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 00:35:44] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 00:35:47] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:35:47] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/butterflyondesktop.exe'
+[2025-06-15 00:35:47] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:35:47] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/butterflyondesktop.exe
+[2025-06-15 00:35:47] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 00:35:47] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 00:35:47] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 00:35:47] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 00:35:50] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 00:35:50] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 00:35:51] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 00:38:13] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 00:38:14] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 00:38:22] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 00:38:23] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 00:38:23] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:38:23] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 00:38:23] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 00:38:23] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 00:38:40] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 00:38:40] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Alerta.exe'
+[2025-06-15 00:38:40] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 00:38:40] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 00:38:40] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 00:38:40] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 00:38:40] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 00:38:40] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 00:38:43] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 00:38:43] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 00:38:44] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 00:41:01] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 00:41:02] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 00:43:42] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:43:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:43:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:43:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:48:05] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:48:20] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:48:20] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:48:20] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:50:11] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:50:31] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:50:31] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:50:31] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 00:55:17] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 00:55:25] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 00:55:25] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 00:55:25] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:00:46] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:00:50] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:00:51] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:00:51] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:00:51] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:00:54] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:00:55] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:00:55] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:00:55] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:00:57] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:00:59] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:00:59] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:00:59] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:01:01] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:01:58] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:02:02] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:02:03] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:02:03] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:02:03] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:02:06] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:02:07] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:02:07] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:02:07] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:02:09] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:02:11] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:02:11] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:02:11] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:06:20] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:06:58] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:07:15] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:08:18] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:10:45] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:12:30] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:16:07] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:21:15] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:21:22] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:21:22] INFO: SetupThread: auto_start.py dipanggil (non-blocking).
+[2025-06-15 01:21:22] INFO: ✅ show_upload_screen_after_loading() DIPANGGIL.
+[2025-06-15 01:21:22] INFO: UploadWidget: reset_fields() dipanggil.
+[2025-06-15 01:26:15] INFO: MainWindow: SetupThread dimulai.
+[2025-06-15 01:26:18] INFO: SetupThread: auto_start.py berhasil dijalankan.
+[2025-06-15 01:26:18] INFO: MainWindow: SetupThread selesai. Tampilkan UploadWidget.
+[2025-06-15 01:26:18] INFO: UploadWidget: reset_fields() dipanggil.
+[2025-06-15 01:27:27] INFO: MainWindow: SetupThread dimulai.
+[2025-06-15 01:27:30] INFO: SetupThread: auto_start.py berhasil dijalankan.
+[2025-06-15 01:27:30] INFO: MainWindow: SetupThread selesai. Tampilkan UploadWidget.
+[2025-06-15 01:27:30] INFO: UploadWidget: reset_fields() dipanggil.
+[2025-06-15 01:28:05] INFO: MainWindow: SetupThread dimulai.
+[2025-06-15 01:28:08] INFO: SetupThread: auto_start.py berhasil dijalankan.
+[2025-06-15 01:28:08] INFO: MainWindow: SetupThread selesai. Tampilkan UploadWidget.
+[2025-06-15 01:28:08] INFO: UploadWidget: reset_fields() dipanggil.
+[2025-06-15 01:30:56] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:31:06] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:31:06] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:31:06] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:34:44] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:34:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:34:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:34:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:38:48] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:39:04] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:39:04] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:39:04] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:40:34] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:40:44] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:40:44] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:40:44] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:40:49] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 01:40:49] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Alerta.exe'
+[2025-06-15 01:40:49] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 01:40:49] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 01:40:49] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 01:40:49] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 01:40:49] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 01:40:50] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 01:40:53] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 01:40:53] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 01:40:53] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 01:43:14] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 01:43:14] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 01:44:58] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:45:16] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:45:16] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:45:16] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:47:14] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:47:30] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:47:30] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:47:30] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:48:04] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:48:14] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:48:14] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:48:14] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:48:51] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 01:48:51] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-15 01:48:51] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 01:48:51] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 01:48:51] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 01:48:51] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 01:48:52] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 01:48:52] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 01:48:55] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 01:48:55] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 01:48:55] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 01:51:18] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 01:51:19] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 01:56:27] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 01:56:37] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 01:56:37] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 01:56:37] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:56:42] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 01:56:42] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-15 01:56:42] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 01:56:42] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 01:56:42] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 01:56:42] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 01:56:42] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 01:56:43] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 01:56:46] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 01:56:46] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 01:56:46] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 01:59:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 01:59:07] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 01:59:23] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 01:59:23] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 01:59:23] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 01:59:23] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 01:59:23] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 01:59:23] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 01:59:28] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe
+[2025-06-15 01:59:28] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/$uckyLocker.exe'
+[2025-06-15 01:59:28] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe
+[2025-06-15 01:59:28] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe
+[2025-06-15 01:59:28] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 01:59:28] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 01:59:28] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 01:59:29] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 01:59:32] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 01:59:32] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 01:59:32] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:01:51] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:01:51] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:02:02] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 02:02:02] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 02:02:02] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:02:02] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 02:02:02] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 02:02:02] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 02:02:05] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Fantom.exe
+[2025-06-15 02:02:05] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Fantom.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Fantom.exe'
+[2025-06-15 02:02:05] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Fantom.exe
+[2025-06-15 02:02:05] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Fantom.exe
+[2025-06-15 02:02:05] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:02:05] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:02:05] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:02:06] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:02:09] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:02:09] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:02:09] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:04:29] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:04:30] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:04:36] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 02:04:36] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 02:04:36] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:04:36] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 02:04:36] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 02:04:36] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 02:05:01] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 02:05:01] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-15 02:05:01] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 02:05:01] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 02:05:01] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:05:01] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:05:01] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:05:02] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:05:05] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:05:05] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:05:05] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:07:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:07:24] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:11:28] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 02:11:39] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 02:11:39] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 02:11:39] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:11:40] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 02:11:40] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-06-15 02:11:40] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 02:11:40] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-06-15 02:11:40] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:11:40] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:11:40] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:11:40] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:11:43] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:11:43] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:11:44] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:14:05] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:14:05] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:14:20] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 02:14:20] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 02:14:20] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:14:20] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 02:14:20] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 02:14:20] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 02:14:34] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 02:14:34] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-15 02:14:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 02:14:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 02:14:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:14:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:14:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:14:34] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:14:37] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:14:37] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:14:38] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:17:00] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:17:00] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:17:12] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 02:17:13] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 02:17:13] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:17:13] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 02:17:13] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 02:17:13] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 02:17:18] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe
+[2025-06-15 02:17:18] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/$uckyLocker.exe'
+[2025-06-15 02:17:18] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe
+[2025-06-15 02:17:18] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/$uckyLocker.exe
+[2025-06-15 02:17:18] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:17:18] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:17:18] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:17:19] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:17:22] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:17:22] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:17:22] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:19:40] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:19:40] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:31:33] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 02:31:43] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 02:31:43] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 02:31:43] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:32:05] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 02:32:05] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Alerta.exe'
+[2025-06-15 02:32:05] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 02:32:05] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 02:32:05] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:32:05] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:32:05] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:32:06] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:32:09] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:32:09] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:32:09] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:34:29] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:34:29] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:38:18] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 02:38:28] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 02:38:28] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 02:38:28] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:38:34] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Ana.exe
+[2025-06-15 02:38:34] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Ana.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Ana.exe'
+[2025-06-15 02:38:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Ana.exe
+[2025-06-15 02:38:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Ana.exe
+[2025-06-15 02:38:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:38:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:38:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:38:34] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:38:37] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:38:37] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:38:37] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:40:58] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:40:58] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:50:10] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 02:50:20] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 02:50:20] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 02:50:20] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:50:27] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 02:50:27] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Alerta.exe'
+[2025-06-15 02:50:27] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 02:50:27] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-06-15 02:50:27] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:50:27] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:50:27] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:50:27] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:50:30] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:50:30] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:50:31] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:52:51] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:52:51] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 02:57:12] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 02:57:22] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 02:57:22] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 02:57:22] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 02:57:23] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 02:57:23] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-15 02:57:23] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 02:57:23] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 02:57:23] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 02:57:23] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 02:57:23] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 02:57:24] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 02:57:27] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 02:57:27] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 02:57:27] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 02:59:46] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 02:59:47] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 03:04:13] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 03:04:23] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 03:04:23] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 03:04:23] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 03:04:24] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 03:04:24] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-15 03:04:24] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 03:04:24] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 03:04:24] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 03:04:24] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 03:04:24] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 03:04:24] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 03:04:27] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 03:04:27] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 03:04:28] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 03:06:47] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 03:06:47] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 03:07:01] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 03:07:02] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 03:07:02] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 03:07:02] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 03:07:02] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 03:07:02] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 03:07:04] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Cerber5.exe
+[2025-06-15 03:07:04] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Cerber5.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Cerber5.exe'
+[2025-06-15 03:07:04] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Cerber5.exe
+[2025-06-15 03:07:04] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/Cerber5.exe
+[2025-06-15 03:07:04] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 03:07:04] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 03:07:04] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 03:07:04] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 03:07:07] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 03:07:07] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 03:07:07] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 03:09:25] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 03:09:25] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 03:16:08] INFO: MainWindow initialized and SetupThread started.
+[2025-06-15 03:16:18] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-15 03:16:18] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-15 03:16:18] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 03:16:19] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 03:16:19] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-06-15 03:16:19] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 03:16:19] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-06-15 03:16:19] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 03:16:19] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 03:16:19] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 03:16:20] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 03:16:23] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 03:16:23] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 03:16:23] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 03:18:45] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 03:18:46] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 03:19:14] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 03:19:14] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 03:19:14] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 03:19:14] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 03:19:14] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 03:19:14] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 03:19:17] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/DeriaLock.exe
+[2025-06-15 03:19:17] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/DeriaLock.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DeriaLock.exe'
+[2025-06-15 03:19:17] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/DeriaLock.exe
+[2025-06-15 03:19:17] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/DeriaLock.exe
+[2025-06-15 03:19:17] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 03:19:17] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 03:19:17] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 03:19:18] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 03:19:21] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 03:19:21] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 03:19:21] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 03:21:39] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 03:21:40] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-15 03:22:35] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-15 03:22:35] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-15 03:22:35] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-15 03:22:35] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-15 03:22:35] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-15 03:22:35] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-15 03:22:38] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/PowerPoint.exe
+[2025-06-15 03:22:38] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/PowerPoint.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/PowerPoint.exe'
+[2025-06-15 03:22:38] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/PowerPoint.exe
+[2025-06-15 03:22:38] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Ransomware/PowerPoint.exe
+[2025-06-15 03:22:38] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-15 03:22:38] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-15 03:22:38] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-15 03:22:38] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-15 03:22:41] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-15 03:22:41] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-15 03:22:42] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-15 03:25:03] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-15 03:25:03] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
