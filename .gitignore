@@ -1,13 +1,22 @@
-# Abaikan file besar
-resultML/ml_venv/
-resultML/__pycache__/
-*.pth
-*.pkl
-*.joblib
-*.h5
+# Abaikan folder resultML (semua isinya)
+resultML/
 
-# Optional tambahan
+# Abaikan folder virtual environment
+venv/
+ml_venv/
 __pycache__/
+
+# Abaikan file log, cache, dll
+*.log
 *.pyc
+*.pkl
+*.pth
+*.csv
+*.ipynb
+*.joblib
+
+# Abaikan sistem & editor
 .DS_Store
 .vscode/
+.idea/
+*.swp
