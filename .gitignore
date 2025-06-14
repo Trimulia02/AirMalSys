@@ -1,12 +1,9 @@
-# Abaikan folder resultML (semua isinya)
-resultML/
-
-# Abaikan folder virtual environment
+# ❌ Abaikan virtual env di mana pun
 venv/
 ml_venv/
-__pycache__/
+resultML/ml_venv/
 
-# Abaikan file log, cache, dll
+# ❌ Abaikan jenis file secara global
 *.log
 *.pyc
 *.pkl
@@ -15,7 +12,22 @@ __pycache__/
 *.ipynb
 *.joblib
 
-# Abaikan sistem & editor
+# ✅ Kecualikan semua jenis file di resultML/ agar tetap di-push
+!resultML/*.log
+!resultML/*.pyc
+!resultML/*.pkl
+!resultML/*.pth
+!resultML/*.csv
+!resultML/*.ipynb
+!resultML/*.joblib
+!resultML/*.json
+!resultML/*.py
+
+# ✅ Izinkan __pycache__ hanya dalam resultML/
+!resultML/__pycache__/
+!resultML/__pycache__/**
+
+# ❌ Abaikan sistem/editor
 .DS_Store
 .vscode/
 .idea/
