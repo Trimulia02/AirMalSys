@@ -1,34 +1,4 @@
-# ❌ Abaikan virtual env di mana pun
-venv/
+# Abaikan semua folder bernama ml_venv di mana pun lokasinya
 ml_venv/
-resultML/ml_venv/
-
-# ❌ Abaikan jenis file secara global
-*.log
-*.pyc
-*.pkl
-*.pth
-*.csv
-*.ipynb
-*.joblib
-
-# ✅ Kecualikan semua jenis file di resultML/ agar tetap di-push
-!resultML/*.log
-!resultML/*.pyc
-!resultML/*.pkl
-!resultML/*.pth
-!resultML/*.csv
-!resultML/*.ipynb
-!resultML/*.joblib
-!resultML/*.json
-!resultML/*.py
-
-# ✅ Izinkan __pycache__ hanya dalam resultML/
-!resultML/__pycache__/
-!resultML/__pycache__/**
-
-# ❌ Abaikan sistem/editor
-.DS_Store
-.vscode/
-.idea/
-*.swp
+*/ml_venv/
+**/ml_venv/
