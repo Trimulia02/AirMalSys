@@ -1,62 +1,83 @@
-from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QGridLayout
-from PyQt5.QtGui import QFont, QPainter, QPen, QColor
-from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QGridLayout, QFrame
+from PyQt5.QtGui import QFont, QPainter, QPen, QColor, QBrush, QLinearGradient
+from PyQt5.QtCore import Qt, QRectF
 import os
 import logging
 import json
 from datetime import datetime
 
+# --- PATH KONSTAN (TIDAK ADA PERUBAHAN) ---
 ANALYSIS_DIR_CUCKOO = "/home/cuckoo/.cuckoocwd/storage/analyses"
 CUSTOM_PDF_REPORT_DIR = "/home/cuckoo/TA_AnalisisMalware/Report"
 ML_RESULT_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
+
 
 class GaugeWidget(QWidget):
     def __init__(self, score=0, parent=None):
         super().__init__(parent)
         self.score = 0.0
         self.set_score(score)
-        self.setMinimumSize(150, 150)
+        self.setMinimumSize(180, 180)
 
     def set_score(self, score):
         try:
             self.score = float(score)
         except (ValueError, TypeError):
-            logging.warning(f"GaugeWidget: Invalid score '{score}', set to 0.0.")
             self.score = 0.0
         self.update()
 
     def paintEvent(self, event):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.Antialiasing)
+        
         rect = self.rect()
-        center = rect.center()
-        radius = min(rect.width(), rect.height()) / 2 - 20
-        x = int(center.x() - radius)
-        y = int(center.y() - radius)
-        w = h = int(2 * radius)
+        side = min(rect.width(), rect.height())
+        
+        gauge_rect = QRectF(15, 15, side - 30, side - 30)
 
-        painter.setPen(QPen(Qt.gray, 20))
-        painter.drawArc(x, y, w, h, 45 * 16, 270 * 16)
+        pen = QPen(QColor("#E0E0E0"), 10)
+        pen.setCapStyle(Qt.RoundCap)
+        painter.setPen(pen)
+        start_angle_bg = 210 * 16
+        span_angle_bg = -240 * 16
+        painter.drawArc(gauge_rect, start_angle_bg, span_angle_bg)
 
         clamped_score = max(0.0, min(self.score, 10.0))
-        angle_span = int((clamped_score / 10.0) * 270)
-        color = Qt.darkGray
-        if clamped_score >= 8:
-            color = Qt.red
-        elif clamped_score >= 6:
-            color = QColor(255, 165, 0)
-        elif clamped_score >= 3:
-            color = Qt.yellow
-        else:
-            color = Qt.green
+        
+        # <-- DIUBAH: Warna gauge disesuaikan agar presisi dengan warna kategori
+        if clamped_score >= 8: color = QColor("#D32F2F")      # Sangat Berbahaya (Merah)
+        elif clamped_score >= 6: color = QColor("#F57C00")    # Berbahaya (Oranye)
+        elif clamped_score >= 3: color = QColor("#FFC107")    # Mencurigakan (Kuning)
+        else: color = QColor("#4CAF50")                       # Aman (Hijau)
 
-        painter.setPen(QPen(color, 20))
-        painter.drawArc(x, y, w, h, (45 + 270 - angle_span) * 16, angle_span * 16)
+        pen.setColor(color)
+        painter.setPen(pen)
+        score_span_angle = int((clamped_score / 10.0) * span_angle_bg)
+        painter.drawArc(gauge_rect, start_angle_bg, score_span_angle)
+        
+        inner_rect = gauge_rect.adjusted(15, 15, -15, -15)
+        painter.setBrush(QBrush(QColor("#FFFFFF")))
+        painter.setPen(Qt.NoPen)
+        painter.drawEllipse(inner_rect)
 
-        painter.setPen(Qt.white)
-        font = QFont("Arial", 16, QFont.Bold)
-        painter.setFont(font)
-        painter.drawText(rect, Qt.AlignCenter, f"{clamped_score:.1f}\nScore")
+        score_text_rect = inner_rect.adjusted(0, -8, 0, -8)
+        painter.setPen(QColor("#000000"))
+        
+        font_score = QFont("Arial", 26, QFont.Bold) 
+        painter.setFont(font_score)
+        painter.drawText(score_text_rect, Qt.AlignCenter, f"{clamped_score:.1f}")
+
+        font_label = QFont("Arial", 11)
+        painter.setFont(font_label)
+        # <-- DIUBAH: Posisi label "Score" digeser lebih ke bawah
+        label_rect = score_text_rect.adjusted(0, 42, 0, 0)
+        painter.drawText(label_rect, Qt.AlignCenter, "Score")
+
+        font_ends = QFont("Arial", 10)
+        painter.setFont(font_ends)
+        painter.drawText(int(gauge_rect.left()) - 5, int(gauge_rect.bottom()) + 5, "0")
+        painter.drawText(int(gauge_rect.right()) - 5, int(gauge_rect.bottom()) + 5, "10")
+        
         painter.end()
 
 
@@ -64,75 +85,90 @@ class ResultSummaryWidget(QWidget):
     def __init__(self, on_restart_analysis, parent=None):
         super().__init__(parent)
         self.on_restart_analysis = on_restart_analysis
-        self.setStyleSheet("background-color: #2b2b2b; color: white;")
+        self.setStyleSheet("background-color: #3C3C3C;")
         self.pdf_path = None
         self.initUI()
 
     def initUI(self):
-        main_layout = QVBoxLayout()
+        main_layout = QVBoxLayout(self)
+        main_layout.setContentsMargins(25, 25, 25, 25)
         content_layout = QHBoxLayout()
         button_layout = QHBoxLayout()
 
-        left_frame = QVBoxLayout()
-        title_gauge = QLabel("Behavior Score")
+        left_panel = QFrame()
+        left_panel.setStyleSheet("background-color: #F5F5F5; border-radius: 15px;")
+        left_layout = QVBoxLayout(left_panel)
+        left_layout.setContentsMargins(15, 15, 15, 15)
+        
+        title_gauge = QLabel("Skor Perilaku")
         title_gauge.setAlignment(Qt.AlignCenter)
-        title_gauge.setStyleSheet("font-weight: bold; font-size: 14px;")
+        title_gauge.setStyleSheet("font-weight: bold; font-size: 16px; color: black; padding-top: 10px;") 
+        
         self.gauge = GaugeWidget()
-        self.categoryLabel = QLabel("Category: -")
+        
+        self.categoryLabel = QLabel("Kategori : -")
         self.categoryLabel.setAlignment(Qt.AlignCenter)
-        self.categoryLabel.setFixedHeight(40)
         self.categoryLabel.setStyleSheet("""
-            background-color: gray;
-            color: white;
-            font-weight: bold;
-            font-size: 14px;
-            padding: 8px;
-            border-radius: 12px;
+            background-color: gray; color: white; font-weight: bold; font-size: 14px; 
+            border-radius: 15px; padding: 8px 30px;
         """)
-        left_frame.addWidget(title_gauge)
-        left_frame.addWidget(self.gauge, alignment=Qt.AlignCenter)
-        left_frame.addWidget(self.categoryLabel, alignment=Qt.AlignCenter)
-        left_frame.addStretch()
+        
+        left_layout.addWidget(title_gauge)
+        left_layout.addWidget(self.gauge, alignment=Qt.AlignCenter)
+        left_layout.addSpacing(10)
+        left_layout.addWidget(self.categoryLabel, alignment=Qt.AlignCenter)
+        left_layout.addStretch()
 
-        right_frame = QGridLayout()
-        title = QLabel("Malware Details")
-        title.setFont(QFont("Arial", 14, QFont.Bold))
-        title.setAlignment(Qt.AlignCenter)
-        right_frame.addWidget(title, 0, 0, 1, 2)
-
+        right_panel = QFrame()
+        right_panel.setStyleSheet("background-color: #F5F5F5; border-radius: 15px;")
+        right_layout = QGridLayout(right_panel)
+        right_layout.setContentsMargins(25, 15, 25, 15)
+        
+        title_details = QLabel("Keterangan Malware")
+        title_details.setAlignment(Qt.AlignCenter)
+        title_details.setStyleSheet("font-weight: bold; font-size: 16px; color: black; padding-top: 10px; padding-bottom: 15px;")
+        right_layout.addWidget(title_details, 0, 0, 1, 2)
+        
+        # <-- DIUBAH: "Task ID" menjadi "File ID", "Waktu Analisis" menjadi "Periode"
         self.fields = {
-            "Type": QLabel("-"), "Filename": QLabel("-"), "Size": QLabel("-"),
-            "Task ID": QLabel("-"), "Category": QLabel("-"),
-            "Analysis Time": QLabel("-"), "Environment": QLabel("-")
+            "Jenis": QLabel("-"), "Nama": QLabel("-"), "Ukuran": QLabel("-"),
+            "File ID": QLabel("-"), "Kategori": QLabel("-"),
+            "Periode": QLabel("-"), "Lingkungan": QLabel("-")
         }
-        for i, (key, label) in enumerate(self.fields.items()):
+        
+        row = 1
+        for key, label in self.fields.items():
             key_lbl = QLabel(key)
-            key_lbl.setStyleSheet("font-weight: bold;")
-            label.setStyleSheet("color: white;")
-            right_frame.addWidget(key_lbl, i + 1, 0)
-            right_frame.addWidget(label, i + 1, 1)
+            key_lbl.setStyleSheet("font-weight: bold; color: #333; font-size: 14px;")
+            label.setWordWrap(True)
+            label.setStyleSheet("color: black; font-size: 14px;")
+            
+            right_layout.addWidget(key_lbl, row, 0)
+            right_layout.addWidget(label, row, 1, alignment=Qt.AlignRight)
+            
+            line = QFrame()
+            line.setFrameShape(QFrame.HLine)
+            line.setFrameShadow(QFrame.Sunken)
+            line.setStyleSheet("color: #E0E0E0; margin-top: 5px; margin-bottom: 5px;")
+            right_layout.addWidget(line, row + 1, 0, 1, 2)
+            row += 2
+        
+        right_layout.setColumnStretch(1, 1)
+        right_layout.setRowStretch(row, 1)
 
-        content_layout.addLayout(left_frame, 1)
-        content_layout.addLayout(right_frame, 2)
+        content_layout.addWidget(left_panel, 1)
+        content_layout.addSpacing(20)
+        content_layout.addWidget(right_panel, 1)
 
-        self.viewPdfButton = QPushButton("Open PDF")
-        self.viewPdfButton.setStyleSheet("""
-            background-color: #00e676;
-            color: black;
-            padding: 10px;
-            font-weight: bold;
-            border-radius: 8px;
-        """)
+        self.viewPdfButton = QPushButton("Lihat PDF")
+        self.viewPdfButton.setMinimumHeight(45)
+        self.viewPdfButton.setStyleSheet("QPushButton { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #00e676, stop:1 #00c853); color: White; padding: 10px; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #69f0ae, stop:1 #00e676); }")
+        
+        self.restartButton = QPushButton("Analisa Ulang")
+        self.restartButton.setMinimumHeight(45)
+        self.restartButton.setStyleSheet("QPushButton { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #448AFF, stop:1 #2962FF); color: white; padding: 10px; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #82B1FF, stop:1 #448AFF); }")
+
         self.viewPdfButton.clicked.connect(self.open_pdf)
-
-        self.restartButton = QPushButton("Reanalyze")
-        self.restartButton.setStyleSheet("""
-            background-color: #2979ff;
-            color: white;
-            padding: 10px;
-            font-weight: bold;
-            border-radius: 8px;
-        """)
         self.restartButton.clicked.connect(self.on_restart_analysis)
 
         button_layout.addWidget(self.viewPdfButton)
@@ -141,8 +177,33 @@ class ResultSummaryWidget(QWidget):
         main_layout.addLayout(content_layout)
         main_layout.addSpacing(20)
         main_layout.addLayout(button_layout)
-        self.setLayout(main_layout)
+    
+    def load_latest_report(self):
+        json_path = self._find_latest_analysis_json()
+        if not json_path: return
+        try:
+            with open(json_path, 'r') as f: data = json.load(f)
+        except Exception as e:
+            logging.error(f"Failed to load analysis.json: {e}")
+            return
 
+        score = data.get("score", 0.0)
+        category = ("Sangat Berbahaya" if score >= 8 else "Berbahaya" if score >= 6 else "Mencurigakan" if score >= 3 else "Aman")
+        predicted_family = self._read_ml_results()
+        target = data.get("target", {})
+        file_size = target.get("size", 0)
+        ukuran = f"{file_size} bytes" if file_size else "-"
+
+        # <-- DIUBAH: Mapping data ke field yang baru
+        metadata = {
+            "Jenis": predicted_family.title(), "Nama": target.get("filename", "-"),
+            "Ukuran": ukuran, "File ID": data.get("id", "-"),
+            "Kategori": category,
+            "Periode": datetime.fromtimestamp(os.path.getmtime(json_path)).strftime('%Y-%m-%d %H:%M'),
+            "Lingkungan": data.get("machine", {}).get("platform", "Windows") + " (Airgap)"
+        }
+        self.update_summary(score, category, metadata)
+    
     def _read_ml_results(self):
         predicted_family = "-"
         if os.path.exists(ML_RESULT_PATH):
@@ -152,104 +213,43 @@ class ResultSummaryWidget(QWidget):
                         if line.startswith("Predicted family:"):
                             predicted_family = line.split(":", 1)[1].strip()
                             break
-            except Exception as e:
-                logging.error(f"Error reading ML_RESULT_PATH: {e}")
+            except Exception as e: logging.error(f"Error reading ML_RESULT_PATH: {e}")
         return predicted_family
 
     def _find_latest_analysis_json(self):
-        latest_file = None
-        latest_time = 0
+        latest_file, latest_time = None, 0
         for root, _, files in os.walk(ANALYSIS_DIR_CUCKOO):
             if "analysis.json" in files:
                 path = os.path.join(root, "analysis.json")
                 mtime = os.path.getmtime(path)
                 if mtime > latest_time:
-                    latest_time = mtime
-                    latest_file = path
+                    latest_time, latest_file = mtime, path
         return latest_file
-
-    def load_latest_report(self):
-        json_path = self._find_latest_analysis_json()
-        if not json_path:
-            logging.warning("No analysis.json found.")
-            return
-
-        try:
-            with open(json_path, 'r') as f:
-                data = json.load(f)
-        except Exception as e:
-            logging.error(f"Failed to load analysis.json: {e}")
-            return
-
-        score = data.get("score", 0.0)
-        category = (
-            "Very Dangerous" if score >= 8 else
-            "Dangerous" if score >= 6 else
-            "Suspicious" if score >= 3 else
-            "Not Dangerous"
-        )
-
-        predicted_family = self._read_ml_results()
-
-        target = data.get("target", {})
-        file_size = target.get("size", 0)
-        ukuran = f"{file_size / 1024:.2f} KB" if file_size else "-"
-
-        metadata = {
-            "Type": predicted_family.upper(),
-            "Filename": target.get("filename", "-"),
-            "Size": ukuran,
-            "Task ID": data.get("id", "-"),
-            "Category": category,
-            "Analysis Time": datetime.fromtimestamp(os.path.getmtime(json_path)).strftime('%Y-%m-%d %H:%M:%S'),
-            "Environment": data.get("machine", {}).get("platform", "Windows") + " (Sandbox)"
-        }
-
-        self.update_summary(score, category, metadata)
 
     def update_summary(self, score, category, metadata):
         self.gauge.set_score(score)
-        self.categoryLabel.setText(f"Category: {category}")
+        self.categoryLabel.setText(f"Kategori : {category}")
+        
         category_lower = category.lower()
-        if "very dangerous" in category_lower:
-            self.categoryLabel.setStyleSheet("background-color: #c00000; color: white; font-weight: bold; padding: 8px; border-radius: 12px;")
-        elif "dangerous" in category_lower:
-            self.categoryLabel.setStyleSheet("background-color: #ff8c00; color: white; font-weight: bold; padding: 8px; border-radius: 12px;")
-        elif "suspicious" in category_lower:
-            self.categoryLabel.setStyleSheet("background-color: #ffc107; color: black; font-weight: bold; padding: 8px; border-radius: 12px;")
-        else:
-            self.categoryLabel.setStyleSheet("background-color: #28a745; color: white; font-weight: bold; padding: 8px; border-radius: 12px;")
+        if "sangat berbahaya" in category_lower: style = "background-color: #D32F2F; color: white;"
+        elif "berbahaya" in category_lower: style = "background-color: #F57C00; color: white;"
+        elif "mencurigakan" in category_lower: style = "background-color: #FFC107; color: black;"
+        else: style = "background-color: #4CAF50; color: white;"
+        self.categoryLabel.setStyleSheet(f"{style} font-weight: bold; border-radius: 15px; padding: 8px 30px; font-size: 14px;")
 
         for key, label_widget in self.fields.items():
             value = metadata.get(key, "-")
-            if key == "Type":
-                label_widget.setText(value.upper())
-                if value.upper() == "MALWARE":
-                    label_widget.setStyleSheet("color: red; font-weight: bold;")
-                elif value.upper() == "BENIGN":
-                    label_widget.setStyleSheet("color: green; font-weight: bold;")
-                else:
-                    label_widget.setStyleSheet("color: white;")
-            else:
-                label_widget.setText(str(value))
+            label_widget.setText(str(value))
 
     def open_pdf(self):
         if not self.pdf_path:
             pdf_files = [f for f in os.listdir(CUSTOM_PDF_REPORT_DIR) if f.endswith(".pdf")]
-            if not pdf_files:
-                logging.warning("No PDF found in report directory.")
-                return
-            latest_pdf = max(
-                pdf_files,
-                key=lambda f: os.path.getmtime(os.path.join(CUSTOM_PDF_REPORT_DIR, f))
-            )
+            if not pdf_files: return
+            latest_pdf = max(pdf_files, key=lambda f: os.path.getmtime(os.path.join(CUSTOM_PDF_REPORT_DIR, f)))
             self.pdf_path = os.path.join(CUSTOM_PDF_REPORT_DIR, latest_pdf)
 
         if self.pdf_path and os.path.exists(self.pdf_path):
             try:
-                if os.name == 'posix':
-                    os.system(f'xdg-open "{self.pdf_path}"')
-                elif os.name == 'nt':
-                    os.startfile(self.pdf_path)
-            except Exception as e:
-                logging.error(f"Failed to open PDF: {e}")
+                if os.name == 'posix': os.system(f'xdg-open "{self.pdf_path}"')
+                elif os.name == 'nt': os.startfile(self.pdf_path)
+            except Exception as e: logging.error(f"Failed to open PDF: {e}")

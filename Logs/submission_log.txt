@@ -3000,3 +3000,373 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-06-15 03:22:42] INFO: AnalysisProgressWidget ditampilkan.
 [2025-06-15 03:25:03] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
 [2025-06-15 03:25:03] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-17 17:45:40] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 17:45:40] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 17:45:40] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 17:45:40] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 17:46:17] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 17:46:17] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 17:46:17] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 17:46:17] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 17:46:44] INFO: UploadWidget: Memproses file: /home/cuckoo/sampel_benign.exe
+[2025-06-17 17:46:44] INFO: ERROR - /home/cuckoo/sampel_benign.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/sampel_benign.exe'
+[2025-06-17 17:46:44] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/sampel_benign.exe
+[2025-06-17 17:46:44] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/sampel_benign.exe
+[2025-06-17 17:46:44] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 17:46:44] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 17:46:44] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 17:46:44] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 17:46:48] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 17:46:48] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 17:46:48] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 17:49:15] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-17 17:49:15] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-17 17:49:53] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild. Membangun ulang widget.
+[2025-06-17 17:49:53] INFO: 🔁 Membangun ulang UploadWidget & AnalysisProgressWidget...
+[2025-06-17 17:49:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 17:49:53] INFO: UploadWidget baru dibuat dan dimasukkan ke stack pada index 1.
+[2025-06-17 17:49:53] INFO: AnalysisProgressWidget baru dibuat dan dimasukkan ke stack pada index 3.
+[2025-06-17 17:49:53] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-17 18:19:50] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 18:19:50] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 18:19:50] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 18:19:50] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 18:24:02] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 18:24:12] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 18:24:12] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 18:24:12] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 18:24:27] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 18:24:27] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe'
+[2025-06-17 18:24:27] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 18:24:27] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 18:24:27] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 18:24:27] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 18:24:27] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 18:24:27] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 18:24:30] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 18:24:30] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 18:24:30] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 18:26:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-17 18:26:53] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-17 18:31:15] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 18:31:25] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 18:31:25] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 18:31:25] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 18:32:43] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 18:32:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 18:32:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 18:32:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 18:37:48] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 18:37:58] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 18:37:58] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 18:37:58] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 18:51:25] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 18:51:40] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 18:51:40] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 18:51:40] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 18:52:12] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 18:52:12] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe'
+[2025-06-17 18:52:12] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 18:52:12] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 18:52:12] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 18:52:12] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 18:52:12] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 18:52:13] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 18:52:16] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 18:52:16] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 18:52:16] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 19:06:16] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 19:06:32] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 19:06:32] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 19:06:32] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 19:07:36] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 19:07:36] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe'
+[2025-06-17 19:07:36] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 19:07:36] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-17 19:07:36] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 19:07:36] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 19:07:36] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 19:07:37] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 19:07:40] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 19:07:40] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 19:07:40] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 19:10:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-17 19:10:07] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-17 23:12:15] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:12:25] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:12:25] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:12:25] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:16:57] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:17:07] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:17:07] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:17:07] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:17:43] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:17:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:17:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:17:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:18:45] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:18:55] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:18:55] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:18:55] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:18:56] INFO: UploadWidget: Memproses file: /home/cuckoo/TA_AnalisisMalware_BackUp1.zip
+[2025-06-17 23:18:56] INFO: ERROR - /home/cuckoo/TA_AnalisisMalware_BackUp1.zip - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/TA_AnalisisMalware_BackUp1.zip'
+[2025-06-17 23:18:56] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/TA_AnalisisMalware_BackUp1.zip
+[2025-06-17 23:18:56] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/TA_AnalisisMalware_BackUp1.zip
+[2025-06-17 23:18:56] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 23:18:56] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 23:18:56] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 23:18:57] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 23:19:00] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 23:19:00] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 23:19:00] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 23:19:38] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:19:48] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:19:48] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:19:48] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:31:17] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:31:30] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:31:30] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:31:30] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:31:50] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:32:03] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:32:03] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:32:03] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:39:33] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:39:44] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:39:44] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:39:44] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:40:57] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-17 23:40:57] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DanaBot.exe'
+[2025-06-17 23:40:57] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-17 23:40:57] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-17 23:40:57] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 23:40:57] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 23:40:57] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 23:40:57] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 23:41:00] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 23:41:00] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 23:41:01] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 23:43:23] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-17 23:43:23] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-17 23:56:32] INFO: MainWindow initialized and SetupThread started.
+[2025-06-17 23:56:42] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-17 23:56:42] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-17 23:56:42] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-17 23:56:47] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-17 23:56:47] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DanaBot.exe'
+[2025-06-17 23:56:47] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-17 23:56:47] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-17 23:56:47] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-17 23:56:47] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-17 23:56:47] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-17 23:56:47] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-17 23:56:50] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-17 23:56:50] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-17 23:56:50] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-17 23:59:11] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-17 23:59:12] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-18 00:04:08] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 00:04:19] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 00:04:19] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 00:04:19] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 00:04:26] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-18 00:04:26] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DanaBot.exe'
+[2025-06-18 00:04:26] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-18 00:04:26] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-18 00:04:26] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 00:04:26] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 00:04:26] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-18 00:04:26] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-18 00:04:29] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-18 00:04:29] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-18 00:04:30] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-18 00:06:52] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-18 00:06:52] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-18 00:13:04] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 00:13:15] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 00:13:15] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 00:13:15] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 00:13:32] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe
+[2025-06-18 00:13:32] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Opaserv.l.exe'
+[2025-06-18 00:13:32] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe
+[2025-06-18 00:13:32] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe
+[2025-06-18 00:13:32] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 00:13:32] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 00:13:32] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-18 00:13:32] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-18 00:13:35] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-18 00:13:35] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-18 00:13:36] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-18 00:15:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-18 00:15:55] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-18 00:33:32] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 00:33:43] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 00:33:43] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 00:33:43] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 00:33:48] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 00:33:48] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/EternalRocks.exe'
+[2025-06-18 00:33:48] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 00:33:48] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 00:33:48] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 00:33:48] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 00:33:48] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-18 00:33:48] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-18 00:33:51] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-18 00:33:51] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-18 00:33:52] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-18 00:36:13] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-18 00:36:13] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-18 00:45:42] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 00:45:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 00:45:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 00:45:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 00:45:56] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 00:45:56] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/EternalRocks.exe'
+[2025-06-18 00:45:56] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 00:45:56] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 00:45:56] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 00:45:56] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 00:45:56] INFO: MainWindow: Menerima panggilan handle_file_upload_success. Beralih ke UploadSuccessWidget.
+[2025-06-18 00:45:56] INFO: UploadSuccessWidget ditampilkan.
+[2025-06-18 00:45:59] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress. Beralih ke AnalysisProgressWidget.
+[2025-06-18 00:45:59] INFO: AnalysisProgressWidget disiapkan.
+[2025-06-18 00:46:00] INFO: AnalysisProgressWidget ditampilkan.
+[2025-06-18 00:48:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary dari AnalysisProgressWidget.
+[2025-06-18 00:48:24] INFO: Berhasil beralih ke ReportSummaryWidget dengan animasi fade.
+[2025-06-18 00:57:12] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 00:57:22] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 00:57:22] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 00:57:22] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 00:57:27] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/CodeRed.a.exe
+[2025-06-18 00:57:27] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/CodeRed.a.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/CodeRed.a.exe'
+[2025-06-18 00:57:27] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/CodeRed.a.exe
+[2025-06-18 00:57:27] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/CodeRed.a.exe
+[2025-06-18 00:57:27] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 00:57:27] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 00:57:27] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 00:57:30] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:02:51] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:03:01] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:03:01] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:03:01] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:03:02] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:03:02] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/EternalRocks.exe'
+[2025-06-18 01:03:02] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:03:02] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:03:02] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:03:02] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:03:02] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:03:06] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:05:26] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:05:26] INFO: Jendela diperbesar ke 720x540 untuk laporan.
+[2025-06-18 01:05:26] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:08:25] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:08:36] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:08:36] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:08:36] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:08:38] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:08:38] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/EternalRocks.exe'
+[2025-06-18 01:08:38] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:08:38] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:08:38] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:08:38] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:08:38] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:08:41] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:11:02] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:11:02] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 01:11:02] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:20:36] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:20:36] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:20:36] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:20:36] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:20:47] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:20:47] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/EternalRocks.exe'
+[2025-06-18 01:20:47] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:20:47] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/EternalRocks.exe
+[2025-06-18 01:20:47] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:20:47] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:20:47] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:20:50] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:23:13] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:23:13] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 01:23:13] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:25:58] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:26:09] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:26:09] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:26:09] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:26:54] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-18 01:26:54] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe'
+[2025-06-18 01:26:54] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-18 01:26:54] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-18 01:26:54] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:26:54] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:26:54] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:26:58] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:29:21] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:29:21] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 01:29:21] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:39:44] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-06-18 01:39:44] INFO: Jendela dikembalikan ke 480x340.
+[2025-06-18 01:39:44] INFO: 🔁 Membangun ulang widget inti...
+[2025-06-18 01:39:44] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:39:44] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-06-18 01:39:54] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-18 01:39:54] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Lokibot.exe'
+[2025-06-18 01:39:54] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-18 01:39:54] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Stealer/Lokibot.exe
+[2025-06-18 01:39:54] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:39:54] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:39:54] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:39:57] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:42:22] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:42:22] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 01:42:22] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:52:29] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:52:29] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:52:29] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:52:29] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:52:48] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/theZoo/malware/Binaries/All.ElectroRAT/All.ElectroRAT.zip
+[2025-06-18 01:52:48] INFO: ERROR - /home/cuckoo/Documents/samples/theZoo/malware/Binaries/All.ElectroRAT/All.ElectroRAT.zip - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/All.ElectroRAT.zip'
+[2025-06-18 01:52:48] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/theZoo/malware/Binaries/All.ElectroRAT/All.ElectroRAT.zip
+[2025-06-18 01:52:48] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/theZoo/malware/Binaries/All.ElectroRAT/All.ElectroRAT.zip
+[2025-06-18 01:52:48] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:52:48] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:52:48] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:52:51] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:52:59] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:52:59] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:52:59] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:52:59] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:55:12] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:55:12] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 01:55:12] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:56:32] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:56:32] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:56:32] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:56:32] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 01:56:37] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-18 01:56:37] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DanaBot.exe'
+[2025-06-18 01:56:37] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-18 01:56:37] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Banking-Malware/DanaBot.exe
+[2025-06-18 01:56:37] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 01:56:37] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 01:56:37] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 01:56:40] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 01:59:02] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 01:59:02] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 01:59:02] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-06-18 01:59:50] INFO: MainWindow initialized and SetupThread started.
+[2025-06-18 01:59:50] INFO: SetupThread: auto_start.py dipanggil.
+[2025-06-18 01:59:50] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-06-18 01:59:50] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-06-18 02:00:05] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe
+[2025-06-18 02:00:05] INFO: ERROR - /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Opaserv.l.exe'
+[2025-06-18 02:00:05] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe
+[2025-06-18 02:00:05] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/samples/Da2dalus/The-MALWARE-Repo/Net-Worm/Opaserv.l.exe
+[2025-06-18 02:00:05] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-06-18 02:00:05] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-06-18 02:00:05] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-06-18 02:00:08] INFO: MainWindow: Menerima panggilan switch_to_analysis_progress.
+[2025-06-18 02:02:29] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-06-18 02:02:29] INFO: Jendela diperbesar ke 720x460 untuk laporan.
+[2025-06-18 02:02:29] INFO: Berhasil beralih ke ReportSummaryWidget.

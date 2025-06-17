@@ -1,1 +1,1 @@
-Predicted family: malware
+Predicted family: benign
