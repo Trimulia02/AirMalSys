@@ -1,200 +1,179 @@
-import json
+#!/usr/bin/env python3
 import os
-import glob
-from pathlib import Path
-from cvss import CVSS4
+import json
+import time
+import logging
+from datetime import datetime
+from reportlab.lib.pagesizes import A4
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, LongTable, TableStyle, PageBreak
+from reportlab.lib.enums import TA_LEFT
 
-# Mapping TTP ID ke update CVSS vector
-# Menambahkan lebih banyak TTPs dan menyesuaikan dampak
-TTP_TO_VECTOR = {
-    "T1070.004": {"VI": "H", "SI": "H", "VC": "H"},  # Indicator Removal: Clear Host Logs, impact confidentiality, integrity, and availability
-    "T1082": {"VC": "H", "VI": "L"},  # System Information Discovery: impact confidentiality
-    "T1497.001": {"VC": "H", "SI": "H", "SC": "H", "AV": "L"}, # Virtualization/Sandbox Evasion: impact all, and network attack vector for broader applicability
-    "T1547.001": {"VI": "H", "SI": "H", "AT": "P"},  # Boot or Logon Autostart Execution: impact integrity and system integrity, requires physical access
-    "T1059.003": {"VC": "H", "VI": "H", "UI": "N"},  # Command and Scripting Interpreter: impact confidentiality and integrity, no user interaction
-    "T1490": {"VA": "H", "VI": "H", "SA": "H"}, # Inhibit System Recovery: high impact on availability, integrity, and system availability
-    "T1112": {"VI": "H", "SC": "H"}, # Modify Registry: high impact on integrity and system confidentiality
-    "T1491.001": {"VC": "L", "UI": "N"} # Defacement: low confidentiality, no user interaction
-}
+# Konfigurasi path
+ANALYSIS_DIR = "/home/cuckoo/.cuckoocwd/storage/analyses"
+REPORT_DIR = "/home/cuckoo/TA_AnalisisMalware/Report"
+ML_RESULT_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
+CVSS_SCORE_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/cvss_score.txt"
 
-def find_latest_report():
-    """
-    Mencari file report.json terbaru di direktori analisis Cuckoo.
-    """
-    # Memastikan path sesuai dengan struktur Cuckoo default
-    paths = glob.glob("/home/cuckoo/.cuckoocwd/storage/analyses/*/*/task_1/report.json")
-    if not paths:
-        print("[!] Gagal membaca report.json: tidak ditemukan jalur yang cocok.")
-        return None
-    latest = max(paths, key=os.path.getmtime)
-    print(f"[DEBUG] Menggunakan report.json terbaru: {latest}")
+def find_latest_analysis():
+    latest = None
+    latest_mtime = 0
+    for root, dirs, files in os.walk(ANALYSIS_DIR):
+        if "task_1" in dirs:
+            report_path = os.path.join(root, "task_1", "report.json")
+            analysis_path = os.path.join(root, "analysis.json")
+            if os.path.exists(report_path) and os.path.exists(analysis_path):
+                mtime = os.path.getmtime(report_path)
+                if mtime > latest_mtime:
+                    latest = (report_path, analysis_path)
+                    latest_mtime = mtime
     return latest
 
-def update_vector_from_ttps(ttps_list, current_vector):
-    """
-    Memperbarui vektor CVSS berdasarkan daftar TTPs yang terdeteksi.
-    """
-    for ttp_id in ttps_list:
-        mapping = TTP_TO_VECTOR.get(ttp_id)
-        if mapping:
-            current_vector.update(mapping)
-    return current_vector
+def read_ml_result():
+    try:
+        with open(ML_RESULT_PATH, "r") as f:
+            for line in f:
+                if "malware" in line.lower():
+                    return "malware"
+                elif "benign" in line.lower():
+                    return "benign"
+    except:
+        pass
+    return "benign"
 
-def generate_vector_from_signatures(signatures):
-    """
-    Menghasilkan vektor CVSS4 berdasarkan tanda tangan yang terdeteksi.
-    Logika diperluas untuk mencakup lebih banyak variasi.
-    """
-    # Base vector CVSS4, diatur ke nilai default terendah atau paling umum
-    base_vector = {
-        "AV": "N",  # Attack Vector: Network
-        "AC": "L",  # Attack Complexity: Low (default to easiest to exploit)
-        "AT": "N",  # Attacker Aftermath: None (no additional requirements)
-        "PR": "N",  # Privileges Required: None
-        "UI": "N",  # User Interaction: None (default to no user interaction)
-        "VC": "L",  # Confidentiality Impact: Low
-        "VI": "L",  # Integrity Impact: Low
-        "VA": "L",  # Availability Impact: Low
-        "SC": "L",  # System Confidentiality Impact: Low
-        "SI": "L",  # System Integrity Impact: Low
-        "SA": "L",  # System Availability Impact: Low
-        "S": "N",   # Safety: None
-        "R": "U",   # Response Effort: Unavailable
-        "V": "D"    # Vulnerability: Default
-    }
+def read_cvss_score():
+    try:
+        with open(CVSS_SCORE_PATH, "r") as f:
+            return f.read().strip()
+    except:
+        return "-"
 
-    # Kriteria untuk memvariasikan vektor CVSS
-    # Menambahkan bobot berdasarkan tingkat keparahan atau jenis perilaku
-    for sig in signatures:
-        name = sig.get("name", "").lower()
-        score = sig.get("score", 0) # Menggunakan skor tanda tangan jika tersedia
+def format_timestamp(ts):
+    if isinstance(ts, dict) and "__isodt__" in ts:
+        try:
+            dt = datetime.fromisoformat(ts["__isodt__"].replace("Z", "+00:00"))
+            return dt.strftime("%Y-%m-%d %H:%M:%S")
+        except:
+            return str(ts)
+    return str(ts)
 
-        # Prioritaskan dampak tinggi untuk tanda tangan dengan skor tinggi
-        if score >= 8: # Contoh: Tanda tangan dengan skor tinggi menunjukkan dampak serius
-            base_vector["VC"] = "H"
-            base_vector["VI"] = "H"
-            base_vector["VA"] = "H"
-            base_vector["SC"] = "H"
-            base_vector["SI"] = "H"
-            base_vector["SA"] = "H"
+def generate_pdf(report_data, analysis_data, ml_label):
+    os.makedirs(REPORT_DIR, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    pdf_path = os.path.join(REPORT_DIR, f"report_{timestamp}.pdf")
 
-        # Kategori perilaku spesifik dan dampaknya
-        if "adjustprivilege" in name or "token" in name:
-            base_vector["PR"] = "L"  # Low privileges required for privilege adjustment
-            base_vector["VI"] = "H"  # High integrity impact
-            base_vector["SC"] = "H"  # High system confidentiality impact
-            base_vector["AT"] = "P"  # Physical access for some token manipulations
+    styles = getSampleStyleSheet()
+    h1 = ParagraphStyle("Heading1", parent=styles["Heading1"], fontSize=16, spaceAfter=14)
+    h2 = ParagraphStyle("Heading2", parent=styles["Heading2"], fontSize=13, spaceAfter=8)
+    table_cell = ParagraphStyle("TableCell", parent=styles["Normal"], fontSize=10, alignment=TA_LEFT)
 
-        if "wrote_proc_memory" in name or "inject" in name:
-            base_vector["AC"] = "L"  # Low attack complexity for memory injection
-            base_vector["VC"] = "H"  # High confidentiality impact
-            base_vector["VI"] = "H"  # High integrity impact
-            base_vector["UI"] = "N"  # Often no user interaction
-            base_vector["S"] = "X"   # Safety: Undefined (can lead to various outcomes)
+    doc = SimpleDocTemplate(pdf_path, pagesize=A4)
+    elements = []
 
-        if "drop" in name or "file_drops" in name or "executes_dropped_exe" in name:
-            base_vector["VI"] = "H"  # High integrity impact (new files)
-            base_vector["VA"] = "H"  # High availability impact (can lead to system instability)
-            base_vector["SC"] = "H"  # High system confidentiality (if dropping malware)
-            base_vector["R"] = "A"   # Response: Automated (if detection is automated)
+    elements.append(Paragraph("MALWARE ANALYSIS REPORT", h1))
 
-        if "loads_dropped_dll" in name:
-            base_vector["VC"] = "H"
-            base_vector["VI"] = "H"
-            base_vector["SI"] = "H"
-            base_vector["AC"] = "L"
+    # File Info
+    target = analysis_data.get("target", {})
+    task = analysis_data.get("tasks", [{}])[0]
+    score = read_cvss_score()
 
-        if "registry_write_runkey" in name or "registry_changes_wallpaper" in name:
-            base_vector["VI"] = "L"  # Integrity impact can be low for simple changes
-            base_vector["SI"] = "L"  # System integrity can be low for simple changes
-            base_vector["PR"] = "L"  # Low privileges if modifying user run keys
-            base_vector["UI"] = "N"  # No user interaction needed for persistence
+    file_info = [
+        ["Filename", target.get("filename", "-")],
+        ["Size (bytes)", str(target.get("size", "-"))],
+        ["MD5", target.get("md5", "-")],
+        ["SHA1", target.get("sha1", "-")],
+        ["SHA256", target.get("sha256", "-")],
+        ["Score", score],
+        ["Started On", format_timestamp(task.get("started_on", "-"))],
+        ["Stopped On", format_timestamp(task.get("stopped_on", "-"))],
+    ]
+    elements.append(Paragraph("General File Information", h2))
+    t = LongTable([[Paragraph(f"<b>{k}</b>", table_cell), Paragraph(v, table_cell)] for k, v in file_info], colWidths=[150, 350])
+    t.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.5, colors.black)]))
+    elements.append(t)
+    elements.append(Spacer(1, 12))
 
-        if "registry_writes_large_value" in name:
-            base_vector["VI"] = "H" # High integrity impact (large data suggests malicious intent)
-            base_vector["VA"] = "L" # Low availability impact (might not crash system)
-            base_vector["SC"] = "H" # High system confidentiality (if storing sensitive data)
+    # Machine Learning Classification
+    elements.append(Paragraph("Machine Learning Classification", h2))
+    ml_table = LongTable([
+        [Paragraph("<b>Classification</b>", table_cell), Paragraph(f"<font color={'red' if ml_label == 'malware' else 'green'}>{ml_label.upper()}</font>", table_cell)],
+    ], colWidths=[150, 350])
+    ml_table.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.5, colors.black)]))
+    elements.append(ml_table)
+    elements.append(Spacer(1, 12))
 
-        if "ransom" in name or "encrypt" in name or "deletes_shadow_copies" in name:
-            base_vector["VA"] = "H"  # High availability impact (data unavailable)
-            base_vector["VI"] = "H"  # High integrity impact (data corrupted/encrypted)
-            base_vector["SI"] = "H"  # High system integrity impact (system files affected)
-            base_vector["S"] = "C"   # Safety: Catastrophic (data loss)
-            base_vector["R"] = "C"   # Response: Compensating (requires recovery efforts)
+    # Signatures
+    sigs = report_data.get("signatures", [])
+    if sigs:
+        elements.append(Paragraph("Detected Signatures", h2))
+        sig_table_data = [[Paragraph("<b>No.</b>", table_cell), Paragraph("<b>Description</b>", table_cell)]]
+        for idx, sig in enumerate(sigs, 1):
+            desc = sig.get("description", "-")
+            sig_table_data.append([Paragraph(str(idx), table_cell), Paragraph(desc, table_cell)])
+        sig_table = LongTable(sig_table_data, colWidths=[50, 450])
+        sig_table.setStyle(TableStyle([
+            ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
+            ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
+        ]))
+        elements.append(sig_table)
+        elements.append(PageBreak())
 
-        if "keylogger" in name or "screenshot" in name:
-            base_vector["VC"] = "H"  # High confidentiality impact
-            base_vector["UI"] = "P"  # Passive user interaction (user types/sees screen)
+    # MITRE ATT&CK Techniques
+    ttps = analysis_data.get("ttps", [])
+    if ttps:
+        elements.append(Paragraph("MITRE ATT&CK Techniques", h2))
+        mitre_data = [[Paragraph("<b>ID</b>", table_cell), Paragraph("<b>Name</b>", table_cell)]]
+        for t in ttps:
+            mitre_data.append([Paragraph(t.get("id", "-"), table_cell), Paragraph(t.get("name", "-"), table_cell)])
+        mitre_table = LongTable(mitre_data, colWidths=[150, 350])
+        mitre_table.setStyle(TableStyle([
+            ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
+            ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
+        ]))
+        elements.append(mitre_table)
+        elements.append(Spacer(1, 12))
 
-        if "cmd_attrib_hidden" in name:
-            base_vector["VC"] = "L" # Low confidentiality impact (just hiding files)
-            base_vector["VI"] = "L" # Low integrity impact (files not modified, just hidden)
-            base_vector["UI"] = "N" # No user interaction needed
-            base_vector["S"] = "N" # No safety impact
+    # Proses (bernomor)
+    processes = report_data.get("behavior", {}).get("processes", [])
+    if processes:
+        elements.append(Paragraph("Processes Observed", h2))
+        proc_data = [[Paragraph("<b>No.</b>", table_cell), Paragraph("<b>Process Name</b>", table_cell), Paragraph("<b>PID</b>", table_cell)]]
+        for i, p in enumerate(processes, 1):
+            proc_data.append([
+                Paragraph(str(i), table_cell),
+                Paragraph(p.get("process_name", "-"), table_cell),
+                Paragraph(str(p.get("pid", "-")), table_cell),
+            ])
+        proc_table = LongTable(proc_data, colWidths=[50, 300, 150])
+        proc_table.setStyle(TableStyle([
+            ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
+            ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
+        ]))
+        elements.append(proc_table)
 
-        if "files_creates_shortcut" in name:
-            base_vector["VI"] = "L" # Low integrity impact (just creating a shortcut)
-            base_vector["UI"] = "A" # Active user interaction (user needs to click shortcut)
-
-        # Tambahan dari TTP
-        ttps = sig.get("ttps", [])
-        base_vector = update_vector_from_ttps(ttps, base_vector)
-
-    # Convert the dictionary to the CVSS4 vector string format
-    # Ensure all required metrics are present, even if their values are default
-    final_vector_parts = []
-    for k in ["AV", "AC", "AT", "PR", "UI", "VC", "VI", "VA", "SC", "SI", "SA", "S", "R", "V"]:
-        final_vector_parts.append(f"{k}:{base_vector.get(k, 'X')}") # Use 'X' for undefined/missing
-
-    vector_str = "CVSS:4.0/" + "/".join(final_vector_parts)
-    print(f"[DEBUG] Final CVSS4 Vector: {vector_str}")
-    return vector_str
-
+    doc.build(elements)
+    print(f"✅ PDF saved: {pdf_path}")
 
 def main():
-    """
-    Fungsi utama untuk membaca laporan, menghitung skor CVSS, dan menyimpan hasilnya.
-    """
-    report_path = find_latest_report()
-    if not report_path or not os.path.exists(report_path):
-        print("[!] Gagal membaca report.json: file tidak ditemukan atau jalur tidak valid.")
+    logging.basicConfig(level=logging.INFO)
+    result = find_latest_analysis()
+    if not result:
+        print("❌ Tidak ada laporan ditemukan.")
         return
 
+    report_path, analysis_path = result
     try:
-        with open(report_path, "r") as f:
-            report = json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"[!] Gagal membaca report.json: Error decoding JSON: {e}")
+        with open(report_path) as f:
+            report_data = json.load(f)
+        with open(analysis_path) as f:
+            analysis_data = json.load(f)
+    except Exception as e:
+        print(f"❌ Gagal membaca file JSON: {e}")
         return
-    except Exception as e:
-        print(f"[!] Gagal membaca report.json: {e}")
-        return
 
-    signatures = report.get("signatures", [])
-    if not signatures:
-        print("[!] Tidak ada tanda tangan yang ditemukan dalam laporan.")
-        # Jika tidak ada tanda tangan, tetapkan skor default rendah
-        vector = "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N/S:N/R:N/V:D"
-    else:
-        vector = generate_vector_from_signatures(signatures)
-
-    try:
-        cvss = CVSS4(vector)
-        score = cvss.base_score
-    except Exception as e:
-        print(f"[!] Gagal menghitung CVSS dari vektor '{vector}': {e}")
-        score = 0.0 # Default to 0.0 if calculation fails
-
-    output_dir = Path("/home/cuckoo/TA_AnalisisMalware/Logs/")
-    output_dir.mkdir(parents=True, exist_ok=True) # Pastikan direktori ada
-    output_path = output_dir / "cvss_score.txt"
-
-    try:
-        with open(output_path, "w") as f:
-            f.write(f"{score:.1f}\n")
-        print(f"[+] CVSS Score berhasil disimpan: {score:.1f} di {output_path}")
-    except Exception as e:
-        print(f"[!] Gagal menyimpan skor CVSS ke {output_path}: {e}")
+    ml_label = read_ml_result()
+    generate_pdf(report_data, analysis_data, ml_label)
 
 if __name__ == "__main__":
     main()

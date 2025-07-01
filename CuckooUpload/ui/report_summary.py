@@ -11,6 +11,7 @@ ANALYSIS_DIR_CUCKOO = "/home/cuckoo/.cuckoocwd/storage/analyses"
 CUSTOM_PDF_REPORT_DIR = "/home/cuckoo/TA_AnalisisMalware/Report"
 ML_RESULT_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
 CVSS_SCORE_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/cvss_score.txt"
+CVSS_CALCULATOR_PATH = "/home/cuckoo/TA_AnalisisMalware/reportModule/cvss_calculator.py"
 
 
 class GaugeWidget(QWidget):
@@ -169,6 +170,13 @@ class ResultSummaryWidget(QWidget):
         main_layout.addLayout(button_layout)
 
     def load_latest_report(self):
+        # ✅ Jalankan cvss_calculator.py terlebih dahulu
+        try:
+            subprocess.run(["python3", CVSS_CALCULATOR_PATH], check=True)
+        except subprocess.CalledProcessError as e:
+            logging.error(f"Gagal menjalankan cvss_calculator.py: {e}")
+            return
+
         json_path = self._find_latest_analysis_json()
         if not json_path:
             return
