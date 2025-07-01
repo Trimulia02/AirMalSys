@@ -1,1 +1,3 @@
-Predicted family: benign
+Malware
+1.0
+Adware

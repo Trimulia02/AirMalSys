@@ -1,7 +1,20 @@
-# Abaikan semua folder bernama ml_venv di mana pun lokasinya
+# Ignore all virtual environments
+venv/
+*/venv/
+**/venv/
+
 ml_venv/
 */ml_venv/
 **/ml_venv/
 
-# Abaikan folder Report agar tidak ikut ke Git
+# Python build cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Optional
+*.env
+*.venv
+pip-log.txt
 Report/

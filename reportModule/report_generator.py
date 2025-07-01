@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os
 import json
-import time
 import logging
 from datetime import datetime
 from reportlab.lib.pagesizes import A4
@@ -30,17 +29,24 @@ def find_latest_analysis():
                     latest_mtime = mtime
     return latest
 
-def read_ml_result():
+def read_ml_results():
+    if not os.path.exists(ML_RESULT_PATH):
+        return "Tidak diketahui", "Tidak diketahui", "-"
     try:
         with open(ML_RESULT_PATH, "r") as f:
-            for line in f:
-                if "malware" in line.lower():
-                    return "malware"
-                elif "benign" in line.lower():
-                    return "benign"
-    except:
-        pass
-    return "benign"
+            lines = [line.strip() for line in f.readlines()]
+            if len(lines) >= 3:
+                jenis = "Malware" if lines[0].lower() == "malware" else "Benign"
+                confidence = f"{float(lines[1]) * 100:.1f}%"
+                family = lines[2]
+                return jenis, family, confidence
+            elif len(lines) >= 2:
+                jenis = "Malware" if lines[0].lower() == "malware" else "Benign"
+                confidence = f"{float(lines[1]) * 100:.1f}%"
+                return jenis, "-", confidence
+    except Exception as e:
+        print(f"[!] Error reading ML results: {e}")
+    return "Tidak diketahui", "Tidak diketahui", "-"
 
 def read_cvss_score():
     try:
@@ -58,7 +64,7 @@ def format_timestamp(ts):
             return str(ts)
     return str(ts)
 
-def generate_pdf(report_data, analysis_data, ml_label):
+def generate_pdf(report_data, analysis_data, jenis, family, confidence):
     os.makedirs(REPORT_DIR, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     pdf_path = os.path.join(REPORT_DIR, f"report_{timestamp}.pdf")
@@ -73,7 +79,7 @@ def generate_pdf(report_data, analysis_data, ml_label):
 
     elements.append(Paragraph("MALWARE ANALYSIS REPORT", h1))
 
-    # File Info
+    # General Info
     target = analysis_data.get("target", {})
     task = analysis_data.get("tasks", [{}])[0]
     score = read_cvss_score()
@@ -84,7 +90,7 @@ def generate_pdf(report_data, analysis_data, ml_label):
         ["MD5", target.get("md5", "-")],
         ["SHA1", target.get("sha1", "-")],
         ["SHA256", target.get("sha256", "-")],
-        ["Score", score],
+        ["CVSS Score", score],
         ["Started On", format_timestamp(task.get("started_on", "-"))],
         ["Stopped On", format_timestamp(task.get("stopped_on", "-"))],
     ]
@@ -94,10 +100,12 @@ def generate_pdf(report_data, analysis_data, ml_label):
     elements.append(t)
     elements.append(Spacer(1, 12))
 
-    # Machine Learning Classification
+    # ML Classification
     elements.append(Paragraph("Machine Learning Classification", h2))
     ml_table = LongTable([
-        [Paragraph("<b>Classification</b>", table_cell), Paragraph(f"<font color={'red' if ml_label == 'malware' else 'green'}>{ml_label.upper()}</font>", table_cell)],
+        [Paragraph("<b>Jenis</b>", table_cell), Paragraph(jenis, table_cell)],
+        [Paragraph("<b>Family</b>", table_cell), Paragraph(family, table_cell)],
+        [Paragraph("<b>Confidence</b>", table_cell), Paragraph(confidence, table_cell)],
     ], colWidths=[150, 350])
     ml_table.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.5, colors.black)]))
     elements.append(ml_table)
@@ -119,7 +127,7 @@ def generate_pdf(report_data, analysis_data, ml_label):
         elements.append(sig_table)
         elements.append(PageBreak())
 
-    # MITRE ATT&CK Techniques
+    # MITRE TTP
     ttps = analysis_data.get("ttps", [])
     if ttps:
         elements.append(Paragraph("MITRE ATT&CK Techniques", h2))
@@ -134,7 +142,7 @@ def generate_pdf(report_data, analysis_data, ml_label):
         elements.append(mitre_table)
         elements.append(Spacer(1, 12))
 
-    # Proses (bernomor)
+    # Proses
     processes = report_data.get("behavior", {}).get("processes", [])
     if processes:
         elements.append(Paragraph("Processes Observed", h2))
@@ -172,8 +180,8 @@ def main():
         print(f"❌ Gagal membaca file JSON: {e}")
         return
 
-    ml_label = read_ml_result()
-    generate_pdf(report_data, analysis_data, ml_label)
+    jenis, family, confidence = read_ml_results()
+    generate_pdf(report_data, analysis_data, jenis, family, confidence)
 
 if __name__ == "__main__":
     main()

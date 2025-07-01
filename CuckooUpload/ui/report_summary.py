@@ -6,13 +6,17 @@ import logging
 import json
 from datetime import datetime
 import subprocess
+import threading
+import time
 
 ANALYSIS_DIR_CUCKOO = "/home/cuckoo/.cuckoocwd/storage/analyses"
 CUSTOM_PDF_REPORT_DIR = "/home/cuckoo/TA_AnalisisMalware/Report"
 ML_RESULT_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
 CVSS_SCORE_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/cvss_score.txt"
 CVSS_CALCULATOR_PATH = "/home/cuckoo/TA_AnalisisMalware/reportModule/cvss_calculator.py"
-
+INFERENCE_PATH = "/home/cuckoo/TA_AnalisisMalware/resultML/inference.py"
+VENV_PYTHON = "/home/cuckoo/TA_AnalisisMalware/resultML/venv/bin/python"
+ARTIFACTS_DIR = "/home/cuckoo/TA_AnalisisMalware/resultML/artifacts"
 
 class GaugeWidget(QWidget):
     def __init__(self, score=0, parent=None):
@@ -31,7 +35,6 @@ class GaugeWidget(QWidget):
     def paintEvent(self, event):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.Antialiasing)
-
         rect = self.rect()
         side = min(rect.width(), rect.height())
         gauge_rect = QRectF(15, 15, side - 30, side - 30)
@@ -85,6 +88,7 @@ class ResultSummaryWidget(QWidget):
         content_layout = QHBoxLayout()
         button_layout = QHBoxLayout()
 
+        # Left panel: Gauge
         left_panel = QFrame()
         left_panel.setStyleSheet("background-color: #F5F5F5; border-radius: 15px;")
         left_layout = QVBoxLayout(left_panel)
@@ -96,10 +100,7 @@ class ResultSummaryWidget(QWidget):
         self.gauge = GaugeWidget()
         self.categoryLabel = QLabel("Kategori : -")
         self.categoryLabel.setAlignment(Qt.AlignCenter)
-        self.categoryLabel.setStyleSheet("""
-            background-color: gray; color: white; font-weight: bold; font-size: 14px;
-            border-radius: 15px; padding: 8px 30px;
-        """)
+        self.categoryLabel.setStyleSheet("background-color: gray; color: white; font-weight: bold; font-size: 14px; border-radius: 15px; padding: 8px 30px;")
 
         left_layout.addWidget(title_gauge)
         left_layout.addWidget(self.gauge, alignment=Qt.AlignCenter)
@@ -107,6 +108,7 @@ class ResultSummaryWidget(QWidget):
         left_layout.addWidget(self.categoryLabel, alignment=Qt.AlignCenter)
         left_layout.addStretch()
 
+        # Right panel: Metadata
         right_panel = QFrame()
         right_panel.setStyleSheet("background-color: #F5F5F5; border-radius: 15px;")
         right_layout = QGridLayout(right_panel)
@@ -118,9 +120,15 @@ class ResultSummaryWidget(QWidget):
         right_layout.addWidget(title_details, 0, 0, 1, 2)
 
         self.fields = {
-            "Jenis": QLabel("-"), "Nama": QLabel("-"), "Ukuran": QLabel("-"),
-            "File ID": QLabel("-"), "Kategori": QLabel("-"),
-            "Periode": QLabel("-"), "Lingkungan": QLabel("-")
+            "Jenis": QLabel("-"),
+            "Family": QLabel("-"),
+            "Confidence": QLabel("-"),
+            "Nama": QLabel("-"),
+            "Ukuran": QLabel("-"),
+            "File ID": QLabel("-"),
+            "Kategori": QLabel("-"),
+            "Periode": QLabel("-"),
+            "Lingkungan": QLabel("-")
         }
 
         row = 1
@@ -143,21 +151,13 @@ class ResultSummaryWidget(QWidget):
         content_layout.addSpacing(20)
         content_layout.addWidget(right_panel, 1)
 
+        # Buttons
         self.viewPdfButton = QPushButton("Lihat PDF")
         self.viewPdfButton.setMinimumHeight(45)
-        self.viewPdfButton.setStyleSheet(
-            "QPushButton { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #00e676, stop:1 #00c853);"
-            "color: White; padding: 10px; font-size: 14px; font-weight: bold; border-radius: 22px; }"
-            "QPushButton:hover { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #69f0ae, stop:1 #00e676); }"
-        )
-
+        self.viewPdfButton.setStyleSheet("QPushButton { background-color: #00c853; color: white; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: #00e676; }")
         self.restartButton = QPushButton("Analisa Ulang")
         self.restartButton.setMinimumHeight(45)
-        self.restartButton.setStyleSheet(
-            "QPushButton { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #448AFF, stop:1 #2962FF);"
-            "color: white; padding: 10px; font-size: 14px; font-weight: bold; border-radius: 22px; }"
-            "QPushButton:hover { background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #82B1FF, stop:1 #448AFF); }"
-        )
+        self.restartButton.setStyleSheet("QPushButton { background-color: #2962FF; color: white; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: #448AFF; }")
 
         self.viewPdfButton.clicked.connect(self.open_pdf)
         self.restartButton.clicked.connect(self.on_restart_analysis)
@@ -170,25 +170,38 @@ class ResultSummaryWidget(QWidget):
         main_layout.addLayout(button_layout)
 
     def load_latest_report(self):
-        # ✅ Jalankan cvss_calculator.py terlebih dahulu
+        thread = threading.Thread(target=self._run_analysis_pipeline)
+        thread.start()
+
+    def _run_analysis_pipeline(self):
         try:
             subprocess.run(["python3", CVSS_CALCULATOR_PATH], check=True)
-        except subprocess.CalledProcessError as e:
-            logging.error(f"Gagal menjalankan cvss_calculator.py: {e}")
+        except Exception as e:
+            logging.error(f"Gagal menjalankan CVSS calculator: {e}")
             return
 
         json_path = self._find_latest_analysis_json()
         if not json_path:
             return
 
+        try:
+            subprocess.run([
+                VENV_PYTHON, INFERENCE_PATH,
+                "--report", json_path,
+                "--artifacts", ARTIFACTS_DIR
+            ], check=True)
+        except Exception as e:
+            logging.error(f"Gagal menjalankan inference: {e}")
+            return
+
+        for _ in range(10):
+            if os.path.exists(ML_RESULT_PATH) and os.path.getsize(ML_RESULT_PATH) > 0:
+                break
+            time.sleep(0.5)
+
         score = self._read_cvss_score()
-        category = (
-            "Sangat Berbahaya" if score >= 8 else
-            "Berbahaya" if score >= 6 else
-            "Mencurigakan" if score >= 3 else
-            "Aman"
-        )
-        predicted_family = self._read_ml_results()
+        category = "Sangat Berbahaya" if score >= 8 else "Berbahaya" if score >= 6 else "Mencurigakan" if score >= 3 else "Aman"
+        predicted_family, confidence, jenis = self._read_ml_results()
 
         try:
             with open(json_path, 'r') as f:
@@ -202,34 +215,47 @@ class ResultSummaryWidget(QWidget):
         ukuran = f"{file_size} bytes" if file_size else "-"
 
         metadata = {
-            "Jenis": predicted_family.title(), "Nama": target.get("filename", "-"),
-            "Ukuran": ukuran, "File ID": data.get("id", "-"),
+            "Jenis": jenis,
+            "Family": predicted_family,
+            "Confidence": f"{confidence:.1f}%" if confidence else "-",
+            "Nama": target.get("filename", "-"),
+            "Ukuran": ukuran,
+            "File ID": data.get("id", "-"),
             "Kategori": category,
             "Periode": datetime.fromtimestamp(os.path.getmtime(json_path)).strftime('%Y-%m-%d %H:%M'),
             "Lingkungan": data.get("machine", {}).get("platform", "Windows") + " (Airgap)"
         }
+
         self.update_summary(score, category, metadata)
 
     def _read_cvss_score(self):
         try:
             with open(CVSS_SCORE_PATH, 'r') as f:
                 return float(f.read().strip())
-        except Exception as e:
-            logging.warning(f"Gagal membaca CVSS Score: {e}")
+        except Exception:
             return 0.0
 
     def _read_ml_results(self):
         predicted_family = "-"
+        confidence = None
+        jenis = "-"
         if os.path.exists(ML_RESULT_PATH):
             try:
                 with open(ML_RESULT_PATH, 'r') as f:
-                    for line in f:
-                        if line.startswith("Predicted family:"):
-                            predicted_family = line.split(":", 1)[1].strip()
-                            break
+                    lines = [line.strip() for line in f.readlines()]
+                    if lines:
+                        status = lines[0].lower()
+                        if status == "malware" and len(lines) >= 3:
+                            predicted_family = lines[2]
+                            confidence = float(lines[1]) * 100
+                            jenis = "Malware"
+                        elif status == "benign":
+                            predicted_family = "Benign"
+                            confidence = float(lines[1]) * 100
+                            jenis = "Benign"
             except Exception as e:
                 logging.error(f"Error reading ML_RESULT_PATH: {e}")
-        return predicted_family
+        return predicted_family, confidence, jenis
 
     def _find_latest_analysis_json(self):
         latest_file, latest_time = None, 0
@@ -244,16 +270,15 @@ class ResultSummaryWidget(QWidget):
     def update_summary(self, score, category, metadata):
         self.gauge.set_score(score)
         self.categoryLabel.setText(f"Kategori : {category}")
-        category_lower = category.lower()
-        if "sangat berbahaya" in category_lower:
-            style = "background-color: #D32F2F; color: white;"
-        elif "berbahaya" in category_lower:
-            style = "background-color: #F57C00; color: white;"
-        elif "mencurigakan" in category_lower:
-            style = "background-color: #FFC107; color: black;"
-        else:
-            style = "background-color: #4CAF50; color: white;"
-        self.categoryLabel.setStyleSheet(f"{style} font-weight: bold; border-radius: 15px; padding: 8px 30px; font-size: 14px;")
+        color_map = {
+            "Sangat Berbahaya": "#D32F2F",
+            "Berbahaya": "#F57C00",
+            "Mencurigakan": "#FFC107",
+            "Aman": "#4CAF50"
+        }
+        bg_color = color_map.get(category, "gray")
+        fg_color = "white" if category != "Mencurigakan" else "black"
+        self.categoryLabel.setStyleSheet(f"background-color: {bg_color}; color: {fg_color}; font-weight: bold; border-radius: 15px; padding: 8px 30px; font-size: 14px;")
 
         for key, label_widget in self.fields.items():
             value = metadata.get(key, "-")
@@ -274,17 +299,11 @@ class ResultSummaryWidget(QWidget):
             logging.error("Tidak ada file PDF ditemukan.")
             return
 
-        latest_pdf = max(
-            pdf_files,
-            key=lambda f: os.path.getmtime(os.path.join(CUSTOM_PDF_REPORT_DIR, f))
-        )
+        latest_pdf = max(pdf_files, key=lambda f: os.path.getmtime(os.path.join(CUSTOM_PDF_REPORT_DIR, f)))
         latest_path = os.path.join(CUSTOM_PDF_REPORT_DIR, latest_pdf)
 
         try:
-            if os.name == 'posix':
-                os.system(f'xdg-open "{latest_path}"')
-            elif os.name == 'nt':
-                os.startfile(latest_path)
+            os.system(f'xdg-open "{latest_path}"')
         except Exception as e:
             logging.error(f"Gagal membuka PDF: {e}")
 
