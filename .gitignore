@@ -2,3 +2,6 @@
 ml_venv/
 */ml_venv/
 **/ml_venv/
+
+# Abaikan folder Report agar tidak ikut ke Git
+Report/

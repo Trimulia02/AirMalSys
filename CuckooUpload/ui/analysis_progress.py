@@ -8,11 +8,12 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt, QTimer, QPropertyAnimation
 from PyQt5.QtGui import QMovie
 
+
 class AnalysisProgressWidget(QWidget):
     def __init__(self, on_analysis_complete=None):
         super().__init__()
         self.on_analysis_complete = on_analysis_complete
-        self.report_dir = "/home/cuckoo/TA_AnalisisMalware/Report"
+        self.analysis_started_at = datetime.now()
 
         self.setStyleSheet("""
             QProgressBar {
@@ -74,9 +75,6 @@ class AnalysisProgressWidget(QWidget):
         layout.addWidget(self.open_button)
         self.setLayout(layout)
 
-        self.analysis_started_at = datetime.now()
-        self.last_report_path = self.get_latest_report_path()
-
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.update_progress)
         self.timer.start(1000)
@@ -89,28 +87,28 @@ class AnalysisProgressWidget(QWidget):
         self.anim.setEndValue(1)
         self.anim.start()
 
-    def get_latest_report_path(self):
-        pdfs = glob.glob(os.path.join(self.report_dir, "*.pdf"))
-        return max(pdfs, key=os.path.getmtime) if pdfs else None
+    def find_latest_report_json(self):
+        base_dir = "/home/cuckoo/.cuckoocwd/storage/analyses"
+        pattern = os.path.join(base_dir, "*", "*", "task_1", "report.json")
+        files = glob.glob(pattern)
+        if not files:
+            return None
+        return max(files, key=os.path.getmtime)
 
     def update_progress(self):
         value = self.progress.value()
-        new_report = self.get_latest_report_path()
 
-        if new_report:
-            report_mtime = datetime.fromtimestamp(os.path.getmtime(new_report))
-            if (not self.last_report_path or new_report != self.last_report_path) and report_mtime > self.analysis_started_at:
-                self.progress.setValue(100)
-                self.label.setText("✅ Analisis selesai. Menampilkan ringkasan...")
-                self.timer.stop()
-                self.last_report_path = new_report
-                print("🟢 on_analysis_complete() dipanggil dari AnalysisProgressWidget")
-                if self.on_analysis_complete:
-                    print("🟢 on_analysis_complete() dipanggil dari AnalysisProgressWidget")
-                    QTimer.singleShot(1200, self.on_analysis_complete)
-                else:
-                    print("🔴 on_analysis_complete tidak ter-set")
-
+        latest_report = self.find_latest_report_json()
+        if latest_report and os.path.getmtime(latest_report) > self.analysis_started_at.timestamp():
+            self.progress.setValue(100)
+            self.label.setText("✅ Analisis selesai. Menampilkan ringkasan...")
+            self.timer.stop()
+            print("🟢 on_analysis_complete() dipanggil dari AnalysisProgressWidget")
+            if self.on_analysis_complete:
+                QTimer.singleShot(1200, self.on_analysis_complete)
+            else:
+                print("🔴 on_analysis_complete tidak ter-set")
+            return
 
         if value < 97:
             self.progress.setValue(value + 1)
