@@ -18,3 +18,8 @@ __pycache__/
 *.venv
 pip-log.txt
 Report/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
