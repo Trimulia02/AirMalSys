@@ -7,9 +7,9 @@ class Config:
     def __init__(self):
         # Model
         self.hidden_size     = 128      # hidden dim LSTM
-        self.num_layers      = 1        # jumlah layer LSTM
+        self.num_layers      = 2        # jumlah layer LSTM
         self.dropout         = 0.3      # dropout di classifier
-        self.embedding_dim   = 64       # embedding dim
+        self.embedding_dim   = 300       # embedding dim
         self.numeric_dim     = 4        # jumlah fitur numerik
         self.num_classes     = 2        # output 2 kelas
 
@@ -32,9 +32,9 @@ class MulticlassConfig(Config):
     def __init__(self):
         # Model
         self.hidden_size     = 128      # hidden dim LSTM
-        self.num_layers      = 1        # jumlah layer LSTM
+        self.num_layers      = 2        # jumlah layer LSTM
         self.dropout         = 0.3      # dropout di classifier
-        self.embedding_dim   = 64       # embedding dim
+        self.embedding_dim   = 300       # embedding dim
         self.numeric_dim     = 4        # jumlah fitur numerik
         self.num_classes     = 6        # output 6 kelas
         
