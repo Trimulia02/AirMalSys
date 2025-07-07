@@ -3840,3 +3840,887 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-02 03:19:02] INFO: Menampilkan AnalysisProgressWidget.
 [2025-07-02 03:21:17] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
 [2025-07-02 03:21:17] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 11:27:24] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 11:27:38] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 11:27:38] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 11:27:38] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 11:28:07] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 11:28:17] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 11:28:17] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 11:28:17] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 11:29:35] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/satan.exe
+[2025-07-03 11:29:35] INFO: ERROR - /home/cuckoo/Documents/Ransomware/satan.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/satan.exe'
+[2025-07-03 11:29:35] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/satan.exe
+[2025-07-03 11:29:35] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/satan.exe
+[2025-07-03 11:29:35] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 11:29:35] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 11:29:35] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 11:29:35] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 11:29:38] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 11:29:39] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 11:31:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 11:31:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 11:34:06] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-03 11:34:07] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-03 11:34:07] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-03 11:37:00] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 11:37:10] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 11:37:10] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 11:37:10] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 11:37:18] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Satana.exe
+[2025-07-03 11:37:18] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Satana.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Satana.exe'
+[2025-07-03 11:37:18] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Satana.exe
+[2025-07-03 11:37:18] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Satana.exe
+[2025-07-03 11:37:18] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 11:37:18] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 11:37:18] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 11:37:18] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 11:37:22] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 11:37:22] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 11:39:39] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 11:39:39] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 11:45:42] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 11:45:58] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 11:45:58] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 11:45:58] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 11:46:34] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/trojan/LoveYou.exe
+[2025-07-03 11:46:34] INFO: ERROR - /home/cuckoo/Documents/trojan/LoveYou.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/LoveYou.exe'
+[2025-07-03 11:46:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/trojan/LoveYou.exe
+[2025-07-03 11:46:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/trojan/LoveYou.exe
+[2025-07-03 11:46:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 11:46:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 11:46:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 11:46:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 11:46:37] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 11:46:37] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 11:48:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 11:48:54] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 11:49:56] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-03 11:49:56] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-03 11:49:56] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-03 12:39:42] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 12:39:58] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 12:39:58] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 12:39:58] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 12:40:40] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Adware/0b0f43e9b305f28a757069ecf6fd2612d8f9a717af00d62ddbe5316e2f684858.exe
+[2025-07-03 12:40:40] INFO: ERROR - /home/cuckoo/Documents/Adware/0b0f43e9b305f28a757069ecf6fd2612d8f9a717af00d62ddbe5316e2f684858.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/0b0f43e9b305f28a757069ecf6fd2612d8f9a717af00d62ddbe5316e2f684858.exe'
+[2025-07-03 12:40:40] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Adware/0b0f43e9b305f28a757069ecf6fd2612d8f9a717af00d62ddbe5316e2f684858.exe
+[2025-07-03 12:40:40] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Adware/0b0f43e9b305f28a757069ecf6fd2612d8f9a717af00d62ddbe5316e2f684858.exe
+[2025-07-03 12:40:40] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 12:40:40] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 12:40:40] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 12:40:41] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 12:40:44] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 12:40:44] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 12:43:00] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 12:43:00] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 12:44:29] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-03 12:44:30] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-03 12:44:30] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-03 12:51:35] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 12:51:51] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 12:51:51] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 12:51:51] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 12:52:20] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Trojan/BlueScreen.exe
+[2025-07-03 12:52:20] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Trojan/BlueScreen.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/BlueScreen.exe'
+[2025-07-03 12:52:20] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Trojan/BlueScreen.exe
+[2025-07-03 12:52:20] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Trojan/BlueScreen.exe
+[2025-07-03 12:52:20] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 12:52:20] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 12:52:20] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 12:52:20] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 12:52:23] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 12:52:23] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 12:54:39] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 12:54:39] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 12:57:21] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-03 12:57:21] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-03 12:57:21] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-03 12:57:35] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Trojan/ColorBug.exe
+[2025-07-03 12:57:35] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Trojan/ColorBug.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/ColorBug.exe'
+[2025-07-03 12:57:35] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Trojan/ColorBug.exe
+[2025-07-03 12:57:35] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Trojan/ColorBug.exe
+[2025-07-03 12:57:35] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 12:57:35] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 12:57:35] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 12:57:36] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 12:57:39] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 12:57:39] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 12:59:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 12:59:53] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 14:05:32] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 14:05:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 14:05:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 14:05:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 14:06:50] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-03 14:06:50] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-07-03 14:06:50] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-03 14:06:50] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-03 14:06:50] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 14:06:50] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 14:06:50] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 14:06:50] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 14:06:53] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 14:06:54] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 14:09:11] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 14:09:12] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 14:09:58] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-03 14:09:58] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-03 14:09:58] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-03 14:41:36] INFO: MainWindow initialized and SetupThread started.
+[2025-07-03 14:41:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-03 14:41:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-03 14:41:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-03 14:42:35] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-07-03 14:42:35] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Trojan/Alerta.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Alerta.exe'
+[2025-07-03 14:42:35] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-07-03 14:42:35] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Trojan/Alerta.exe
+[2025-07-03 14:42:35] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 14:42:35] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 14:42:35] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 14:42:35] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 14:42:38] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 14:42:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 14:44:54] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 14:44:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-03 14:45:36] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-03 14:45:36] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-03 14:45:36] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-03 14:46:14] INFO: UploadWidget: Memproses file: /home/cuckoo/TA_AnalisisMalware/Report/report_20250615-031843.pdf
+[2025-07-03 14:46:14] INFO: ERROR - /home/cuckoo/TA_AnalisisMalware/Report/report_20250615-031843.pdf - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/report_20250615-031843.pdf'
+[2025-07-03 14:46:14] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/TA_AnalisisMalware/Report/report_20250615-031843.pdf
+[2025-07-03 14:46:14] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/TA_AnalisisMalware/Report/report_20250615-031843.pdf
+[2025-07-03 14:46:14] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-03 14:46:14] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-03 14:46:14] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-03 14:46:15] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-03 14:46:18] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-03 14:46:18] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-03 14:48:39] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-03 14:48:40] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-04 14:52:16] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 14:52:32] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-04 14:52:32] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-04 14:52:32] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-04 14:52:43] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/trojan/000.exe
+[2025-07-04 14:52:43] INFO: ERROR - /home/cuckoo/Documents/trojan/000.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/000.exe'
+[2025-07-04 14:52:43] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/trojan/000.exe
+[2025-07-04 14:52:43] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/trojan/000.exe
+[2025-07-04 14:52:43] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-04 14:52:43] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-04 14:52:43] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-04 14:52:44] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-04 14:52:47] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-04 14:52:47] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-04 14:55:06] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-04 14:55:06] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-04 14:56:13] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-04 14:56:13] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-04 14:56:13] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-04 14:56:36] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/RedEye.exe
+[2025-07-04 14:56:36] INFO: ERROR - /home/cuckoo/Documents/Ransomware/RedEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/RedEye.exe'
+[2025-07-04 14:56:36] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/RedEye.exe
+[2025-07-04 14:56:36] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/RedEye.exe
+[2025-07-04 14:56:36] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-04 14:56:36] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-04 14:56:36] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-04 14:56:36] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-04 14:56:39] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-04 14:56:40] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-04 14:58:58] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-04 14:58:58] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-04 15:24:53] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 15:24:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-04 15:24:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-04 15:24:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-04 15:25:00] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-04 15:25:00] INFO: ERROR - /home/cuckoo/Documents/Ransomware/RedBoot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/RedBoot.exe'
+[2025-07-04 15:25:00] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-04 15:25:00] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-04 15:25:00] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-04 15:25:00] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-04 15:25:00] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-04 15:25:00] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-04 15:25:03] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-04 15:25:04] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-04 15:27:20] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-04 15:27:20] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-04 15:28:11] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 15:28:22] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-04 15:28:22] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-04 15:28:22] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-04 15:29:11] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-04 15:29:11] INFO: ERROR - /home/cuckoo/Documents/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-04 15:29:11] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-04 15:29:11] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-04 15:29:11] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-04 15:29:11] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-04 15:29:11] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-04 15:29:12] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-04 15:29:15] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-04 15:29:15] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-04 15:31:31] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-04 15:31:31] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-04 16:01:16] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 16:02:31] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 16:02:45] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 16:02:53] INFO: MainWindow initialized and SetupThread started.
+[2025-07-04 16:03:18] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-04 16:03:18] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-04 16:03:18] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-04 16:03:50] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-04 16:03:50] INFO: ERROR - /home/cuckoo/Documents/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-04 16:03:50] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-04 16:03:50] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-04 16:03:50] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-04 16:03:50] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-04 16:03:50] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-04 16:03:50] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-04 16:03:53] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-04 16:03:54] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-04 16:06:09] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-04 16:06:10] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 01:38:32] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 01:38:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 01:38:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 01:38:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 01:39:06] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-05 01:39:06] INFO: ERROR - /home/cuckoo/Documents/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-05 01:39:06] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-05 01:39:06] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/7ev3n.exe
+[2025-07-05 01:39:06] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 01:39:06] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 01:39:06] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 01:39:07] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 01:39:10] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 01:39:10] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 01:41:26] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 01:41:26] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 01:53:13] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-05 01:53:14] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-05 01:53:14] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-05 01:53:22] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/BadRabbit.exe
+[2025-07-05 01:53:22] INFO: ERROR - /home/cuckoo/Documents/Ransomware/BadRabbit.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/BadRabbit.exe'
+[2025-07-05 01:53:22] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/BadRabbit.exe
+[2025-07-05 01:53:22] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/BadRabbit.exe
+[2025-07-05 01:53:22] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 01:53:22] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 01:53:22] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 01:53:22] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 01:53:26] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 01:53:26] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 01:55:40] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 01:55:40] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 02:05:37] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 02:05:47] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 02:05:47] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 02:05:47] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 02:06:02] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/RedEye.exe
+[2025-07-05 02:06:02] INFO: ERROR - /home/cuckoo/Documents/Ransomware/RedEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/RedEye.exe'
+[2025-07-05 02:06:02] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/RedEye.exe
+[2025-07-05 02:06:02] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/RedEye.exe
+[2025-07-05 02:06:02] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 02:06:02] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 02:06:02] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 02:06:02] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 02:06:05] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 02:06:05] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 02:08:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 02:08:25] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 02:12:27] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 02:12:37] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 02:12:37] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 02:12:37] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 02:12:48] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-05 02:12:48] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Rensenware.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Rensenware.exe'
+[2025-07-05 02:12:48] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-05 02:12:48] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-05 02:12:48] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 02:12:48] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 02:12:48] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 02:12:49] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 02:12:52] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 02:12:52] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 02:15:08] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 02:15:09] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 02:16:01] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 02:16:12] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 02:16:12] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 02:16:12] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 02:16:13] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 02:16:13] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Krotten.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Krotten.exe'
+[2025-07-05 02:16:13] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 02:16:13] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 02:16:13] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 02:16:13] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 02:16:13] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 02:16:13] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 02:16:17] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 02:16:17] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 02:18:33] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 02:18:33] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 02:20:21] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 02:20:32] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 02:20:32] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 02:20:32] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 02:20:36] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/DeriaLock.exe
+[2025-07-05 02:20:36] INFO: ERROR - /home/cuckoo/Documents/Ransomware/DeriaLock.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DeriaLock.exe'
+[2025-07-05 02:20:36] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/DeriaLock.exe
+[2025-07-05 02:20:36] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/DeriaLock.exe
+[2025-07-05 02:20:36] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 02:20:36] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 02:20:36] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 02:20:36] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 02:20:39] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 02:20:40] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 02:22:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 02:22:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 02:24:00] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 02:24:11] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 02:24:11] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 02:24:11] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 02:25:12] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Dharma.exe
+[2025-07-05 02:25:12] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Dharma.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Dharma.exe'
+[2025-07-05 02:25:12] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Dharma.exe
+[2025-07-05 02:25:12] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Dharma.exe
+[2025-07-05 02:25:12] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 02:25:12] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 02:25:12] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 02:25:12] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 02:25:15] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 02:25:16] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 02:27:34] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 02:27:35] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:33:16] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 03:33:26] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 03:33:26] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 03:33:26] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 03:33:34] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/DeriaLock.exe
+[2025-07-05 03:33:34] INFO: ERROR - /home/cuckoo/Documents/Ransomware/DeriaLock.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DeriaLock.exe'
+[2025-07-05 03:33:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/DeriaLock.exe
+[2025-07-05 03:33:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/DeriaLock.exe
+[2025-07-05 03:33:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:33:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:33:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:33:35] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:33:38] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:33:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:35:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:35:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:36:29] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 03:36:39] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 03:36:39] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 03:36:39] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 03:36:47] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Fantom.exe
+[2025-07-05 03:36:47] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Fantom.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Fantom.exe'
+[2025-07-05 03:36:47] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Fantom.exe
+[2025-07-05 03:36:47] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Fantom.exe
+[2025-07-05 03:36:47] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:36:47] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:36:47] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:36:47] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:36:50] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:36:51] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:39:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:39:08] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:39:59] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 03:40:10] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 03:40:10] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 03:40:10] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 03:41:34] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 03:41:34] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Krotten.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Krotten.exe'
+[2025-07-05 03:41:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 03:41:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 03:41:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:41:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:41:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:41:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:41:38] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:41:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:43:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:43:53] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:45:14] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 03:45:25] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 03:45:25] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 03:45:25] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 03:45:37] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/PetrWrap
+[2025-07-05 03:45:37] INFO: ERROR - /home/cuckoo/Documents/Ransomware/PetrWrap - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/PetrWrap'
+[2025-07-05 03:45:37] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/PetrWrap
+[2025-07-05 03:45:37] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/PetrWrap
+[2025-07-05 03:45:37] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:45:37] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:45:37] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:45:38] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:45:41] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:45:41] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:47:56] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:47:56] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:48:31] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-05 03:48:31] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-05 03:48:31] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-05 03:48:33] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-05 03:48:33] INFO: ERROR - /home/cuckoo/Documents/Ransomware/RedBoot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/RedBoot.exe'
+[2025-07-05 03:48:33] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-05 03:48:33] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-05 03:48:33] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:48:33] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:48:33] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:48:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:48:37] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:48:37] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:50:52] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:50:52] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:51:16] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 03:51:27] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 03:51:27] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 03:51:27] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 03:51:45] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/PowerPoint.exe
+[2025-07-05 03:51:45] INFO: ERROR - /home/cuckoo/Documents/Ransomware/PowerPoint.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/PowerPoint.exe'
+[2025-07-05 03:51:45] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/PowerPoint.exe
+[2025-07-05 03:51:45] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/PowerPoint.exe
+[2025-07-05 03:51:45] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:51:45] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:51:45] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:51:46] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:51:49] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:51:49] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:54:05] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:54:05] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:55:52] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-05 03:55:53] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-05 03:55:53] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-05 03:55:55] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-05 03:55:55] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Rensenware.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Rensenware.exe'
+[2025-07-05 03:55:55] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-05 03:55:55] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-05 03:55:55] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:55:55] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:55:55] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:55:55] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:55:58] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:55:58] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 03:58:12] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 03:58:13] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 03:58:44] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 03:58:54] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 03:58:54] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 03:58:54] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 03:58:56] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Locky.AZ.exe
+[2025-07-05 03:58:56] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Locky.AZ.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Locky.AZ.exe'
+[2025-07-05 03:58:56] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Locky.AZ.exe
+[2025-07-05 03:58:56] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Locky.AZ.exe
+[2025-07-05 03:58:56] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 03:58:56] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 03:58:56] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 03:58:57] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 03:59:00] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 03:59:00] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 04:01:16] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 04:01:16] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 04:02:37] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 04:02:48] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 04:02:48] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 04:02:48] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 04:04:43] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 04:04:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 04:04:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 04:04:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 05:14:16] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 05:14:27] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 05:14:27] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 05:14:27] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 05:14:51] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 05:15:02] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 05:15:02] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 05:15:02] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 05:16:39] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 05:16:49] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 05:16:49] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 05:16:49] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 05:16:53] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 05:16:53] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Krotten.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Krotten.exe'
+[2025-07-05 05:16:53] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 05:16:53] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Krotten.exe
+[2025-07-05 05:16:53] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 05:16:53] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 05:16:53] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 05:16:53] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 05:16:56] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 05:16:57] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 05:19:12] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 05:19:12] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 05:21:24] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 05:21:35] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 05:21:35] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 05:21:35] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 05:21:36] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/InfinityCrypt.exe
+[2025-07-05 05:21:36] INFO: ERROR - /home/cuckoo/Documents/Ransomware/InfinityCrypt.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/InfinityCrypt.exe'
+[2025-07-05 05:21:36] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/InfinityCrypt.exe
+[2025-07-05 05:21:36] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/InfinityCrypt.exe
+[2025-07-05 05:21:36] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 05:21:36] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 05:21:36] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 05:21:37] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 05:21:40] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 05:21:40] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 05:23:57] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 05:23:57] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-05 05:35:57] INFO: MainWindow initialized and SetupThread started.
+[2025-07-05 05:36:07] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-05 05:36:07] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-05 05:36:07] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-05 05:36:59] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/$uckyLocker.exe
+[2025-07-05 05:36:59] INFO: ERROR - /home/cuckoo/Documents/Ransomware/$uckyLocker.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/$uckyLocker.exe'
+[2025-07-05 05:36:59] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/$uckyLocker.exe
+[2025-07-05 05:36:59] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/$uckyLocker.exe
+[2025-07-05 05:36:59] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-05 05:36:59] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-05 05:36:59] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-05 05:37:00] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-05 05:37:03] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-05 05:37:03] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-05 05:39:19] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-05 05:39:19] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:16:34] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:16:50] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:16:50] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:16:50] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:17:20] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:17:30] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:17:30] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:17:30] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:17:58] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Keylogger/1cdb6733c402bb21c71997839d008b94e69097f3156e69bad3dd7c252cf042e7.exe
+[2025-07-06 18:17:58] INFO: ERROR - /home/cuckoo/Documents/Keylogger/1cdb6733c402bb21c71997839d008b94e69097f3156e69bad3dd7c252cf042e7.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/1cdb6733c402bb21c71997839d008b94e69097f3156e69bad3dd7c252cf042e7.exe'
+[2025-07-06 18:17:58] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Keylogger/1cdb6733c402bb21c71997839d008b94e69097f3156e69bad3dd7c252cf042e7.exe
+[2025-07-06 18:17:58] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Keylogger/1cdb6733c402bb21c71997839d008b94e69097f3156e69bad3dd7c252cf042e7.exe
+[2025-07-06 18:17:58] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 18:17:58] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 18:17:58] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 18:17:59] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 18:18:02] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 18:18:02] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 18:20:21] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 18:20:21] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:23:57] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-06 18:23:58] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-06 18:23:58] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-06 18:24:38] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/GoldenEye.exe
+[2025-07-06 18:24:38] INFO: ERROR - /home/cuckoo/Documents/Ransomware/GoldenEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/GoldenEye.exe'
+[2025-07-06 18:24:38] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/GoldenEye.exe
+[2025-07-06 18:24:38] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/GoldenEye.exe
+[2025-07-06 18:24:38] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 18:24:38] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 18:24:38] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 18:24:39] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 18:24:42] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 18:24:42] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 18:26:58] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 18:26:59] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:34:29] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:34:41] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:34:41] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:34:41] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:34:58] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Dharma.exe
+[2025-07-06 18:34:58] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Dharma.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Dharma.exe'
+[2025-07-06 18:34:58] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Dharma.exe
+[2025-07-06 18:34:58] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Dharma.exe
+[2025-07-06 18:34:58] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 18:34:58] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 18:34:58] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 18:34:58] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 18:35:01] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 18:35:01] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 18:37:20] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 18:37:21] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:38:55] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:39:04] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:39:04] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:39:04] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:39:25] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/CryptoWall.exe
+[2025-07-06 18:39:25] INFO: ERROR - /home/cuckoo/Documents/Ransomware/CryptoWall.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/CryptoWall.exe'
+[2025-07-06 18:39:25] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/CryptoWall.exe
+[2025-07-06 18:39:25] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/CryptoWall.exe
+[2025-07-06 18:39:25] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 18:39:25] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 18:39:25] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 18:39:25] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 18:39:28] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 18:39:29] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 18:41:45] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 18:41:46] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:46:33] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:46:42] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:46:42] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:46:42] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:47:29] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:47:38] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:47:38] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:47:38] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:47:47] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/BadRabbit.exe
+[2025-07-06 18:47:47] INFO: ERROR - /home/cuckoo/Documents/Ransomware/BadRabbit.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/BadRabbit.exe'
+[2025-07-06 18:47:47] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/BadRabbit.exe
+[2025-07-06 18:47:47] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/BadRabbit.exe
+[2025-07-06 18:47:47] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 18:47:47] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 18:47:47] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 18:47:48] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 18:47:51] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 18:47:51] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 18:50:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 18:50:07] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:50:48] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 18:50:57] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 18:50:57] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 18:50:57] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 18:51:03] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Adware/0090bd0e62314edd00e45ec1c436709c8cf00914470012ecdb5865cbcf7e68b5.exe
+[2025-07-06 18:51:03] INFO: ERROR - /home/cuckoo/Documents/Adware/0090bd0e62314edd00e45ec1c436709c8cf00914470012ecdb5865cbcf7e68b5.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/0090bd0e62314edd00e45ec1c436709c8cf00914470012ecdb5865cbcf7e68b5.exe'
+[2025-07-06 18:51:03] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Adware/0090bd0e62314edd00e45ec1c436709c8cf00914470012ecdb5865cbcf7e68b5.exe
+[2025-07-06 18:51:03] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Adware/0090bd0e62314edd00e45ec1c436709c8cf00914470012ecdb5865cbcf7e68b5.exe
+[2025-07-06 18:51:03] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 18:51:03] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 18:51:03] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 18:51:03] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 18:51:07] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 18:51:07] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 18:53:23] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 18:53:23] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 18:54:00] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-06 18:54:00] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-06 18:54:00] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-06 19:10:33] INFO: MainWindow initialized and SetupThread started.
+[2025-07-06 19:10:42] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-06 19:10:42] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-06 19:10:42] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-06 19:10:48] INFO: UploadWidget: Memproses file: /home/cuckoo/sampel_benign2.exe
+[2025-07-06 19:10:48] INFO: ERROR - /home/cuckoo/sampel_benign2.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/sampel_benign2.exe'
+[2025-07-06 19:10:48] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/sampel_benign2.exe
+[2025-07-06 19:10:48] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/sampel_benign2.exe
+[2025-07-06 19:10:48] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 19:10:48] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 19:10:48] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 19:10:48] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 19:10:52] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 19:10:52] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 19:13:08] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 19:13:08] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 19:13:45] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-06 19:13:45] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-06 19:13:45] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-06 19:13:50] INFO: UploadWidget: Memproses file: /home/cuckoo/sampel_benign.exe
+[2025-07-06 19:13:50] INFO: ERROR - /home/cuckoo/sampel_benign.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/sampel_benign.exe'
+[2025-07-06 19:13:50] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/sampel_benign.exe
+[2025-07-06 19:13:50] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/sampel_benign.exe
+[2025-07-06 19:13:50] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 19:13:50] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 19:13:50] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 19:13:50] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 19:13:53] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 19:13:53] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-06 19:16:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-06 19:16:08] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-06 19:16:29] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-06 19:16:30] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-06 19:16:30] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-06 19:16:34] INFO: UploadWidget: Memproses file: /home/cuckoo/win10x64.iso
+[2025-07-06 19:16:34] INFO: ERROR - /home/cuckoo/win10x64.iso - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/win10x64.iso'
+[2025-07-06 19:16:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/win10x64.iso
+[2025-07-06 19:16:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/win10x64.iso
+[2025-07-06 19:16:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-06 19:16:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-06 19:16:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-06 19:16:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-06 19:16:37] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-06 19:16:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 12:52:40] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 12:52:50] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 12:52:50] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 12:52:50] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 12:53:13] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/WannaCry.exe
+[2025-07-07 12:53:13] INFO: ERROR - /home/cuckoo/Documents/Ransomware/WannaCry.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/WannaCry.exe'
+[2025-07-07 12:53:13] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/WannaCry.exe
+[2025-07-07 12:53:13] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/WannaCry.exe
+[2025-07-07 12:53:13] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 12:53:13] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 12:53:13] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 12:53:13] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 12:53:16] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 12:53:16] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 12:55:33] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 12:55:34] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 13:02:23] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:02:32] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:02:32] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:02:32] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:02:37] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/satan.exe
+[2025-07-07 13:02:37] INFO: ERROR - /home/cuckoo/Documents/Ransomware/satan.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/satan.exe'
+[2025-07-07 13:02:37] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/satan.exe
+[2025-07-07 13:02:37] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/satan.exe
+[2025-07-07 13:02:37] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:02:37] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:02:37] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:02:37] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:02:41] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:02:41] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:04:59] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:04:59] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 13:09:06] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:09:16] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:09:16] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:09:16] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:09:19] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-07 13:09:19] INFO: ERROR - /home/cuckoo/Documents/Ransomware/Rensenware.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Rensenware.exe'
+[2025-07-07 13:09:19] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-07 13:09:19] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/Rensenware.exe
+[2025-07-07 13:09:19] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:09:19] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:09:19] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:09:19] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:09:23] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:09:23] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:11:39] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:11:39] ERROR: MainWindow: Error saat beralih ke ReportSummaryWidget: 'ResultSummaryWidget' object has no attribute 'load_latest_report'
+Traceback (most recent call last):
+  File "/home/cuckoo/TA_AnalisisMalware/CuckooUpload/ui/main_window.py", line 113, in show_report_summary_screen
+    self.report_summary.load_latest_report()
+AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_report'
+[2025-07-07 13:18:28] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:18:37] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:18:37] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:18:37] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:18:38] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-07 13:18:38] INFO: ERROR - /home/cuckoo/Documents/Ransomware/RedBoot.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/RedBoot.exe'
+[2025-07-07 13:18:38] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-07 13:18:38] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/RedBoot.exe
+[2025-07-07 13:18:38] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:18:38] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:18:38] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:18:39] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:18:42] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:18:42] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:20:57] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:20:57] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 13:26:44] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:26:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:26:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:26:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:26:59] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/GoldenEye.exe
+[2025-07-07 13:26:59] INFO: ERROR - /home/cuckoo/Documents/Ransomware/GoldenEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/GoldenEye.exe'
+[2025-07-07 13:26:59] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/GoldenEye.exe
+[2025-07-07 13:26:59] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/GoldenEye.exe
+[2025-07-07 13:26:59] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:26:59] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:26:59] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:26:59] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:27:02] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:27:03] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:29:18] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:29:19] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 13:34:12] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:34:21] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:34:21] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:34:21] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:34:22] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/ViraLock.exe
+[2025-07-07 13:34:22] INFO: ERROR - /home/cuckoo/Documents/Ransomware/ViraLock.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/ViraLock.exe'
+[2025-07-07 13:34:22] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/ViraLock.exe
+[2025-07-07 13:34:22] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/ViraLock.exe
+[2025-07-07 13:34:22] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:34:22] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:34:22] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:34:23] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:34:26] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:34:26] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:36:45] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:36:45] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 13:42:12] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:42:21] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:42:21] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:42:21] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:42:23] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Ransomware/WannaCry.exe
+[2025-07-07 13:42:23] INFO: ERROR - /home/cuckoo/Documents/Ransomware/WannaCry.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/WannaCry.exe'
+[2025-07-07 13:42:23] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Ransomware/WannaCry.exe
+[2025-07-07 13:42:23] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Ransomware/WannaCry.exe
+[2025-07-07 13:42:23] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:42:23] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:42:23] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:42:23] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:42:27] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:42:27] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:44:44] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:44:44] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 13:48:00] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 13:48:09] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 13:48:09] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 13:48:09] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 13:48:46] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/trojan/Zika.exe
+[2025-07-07 13:48:46] INFO: ERROR - /home/cuckoo/Documents/trojan/Zika.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Zika.exe'
+[2025-07-07 13:48:46] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/trojan/Zika.exe
+[2025-07-07 13:48:46] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/trojan/Zika.exe
+[2025-07-07 13:48:46] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 13:48:46] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 13:48:46] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 13:48:46] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 13:48:50] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 13:48:50] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 13:51:08] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 13:51:08] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 14:48:47] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 14:48:56] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 14:48:56] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 14:48:56] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 14:49:07] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/Keylogger/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe
+[2025-07-07 14:49:07] INFO: ERROR - /home/cuckoo/Documents/Keylogger/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe'
+[2025-07-07 14:49:07] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/Keylogger/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe
+[2025-07-07 14:49:07] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/Keylogger/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe
+[2025-07-07 14:49:07] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 14:49:07] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 14:49:07] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 14:49:08] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 14:49:11] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 14:49:11] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 14:51:27] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 14:51:28] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 14:51:59] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-07 14:52:00] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-07 14:52:00] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-07 14:52:05] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/trojan/MistInstaller.exe
+[2025-07-07 14:52:05] INFO: ERROR - /home/cuckoo/Documents/trojan/MistInstaller.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/MistInstaller.exe'
+[2025-07-07 14:52:05] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/trojan/MistInstaller.exe
+[2025-07-07 14:52:05] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/trojan/MistInstaller.exe
+[2025-07-07 14:52:05] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 14:52:05] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 14:52:05] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 14:52:05] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 14:52:08] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 14:52:09] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 14:54:22] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 14:54:23] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 14:56:04] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-07 14:56:04] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-07 14:56:04] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-07 14:56:09] INFO: UploadWidget: Memproses file: /home/cuckoo/Documents/trojan/LoveYou.exe
+[2025-07-07 14:56:09] INFO: ERROR - /home/cuckoo/Documents/trojan/LoveYou.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/LoveYou.exe'
+[2025-07-07 14:56:09] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Documents/trojan/LoveYou.exe
+[2025-07-07 14:56:09] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Documents/trojan/LoveYou.exe
+[2025-07-07 14:56:09] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 14:56:09] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 14:56:09] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 14:56:09] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 14:56:13] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 14:56:13] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 14:58:27] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 14:58:27] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 15:11:11] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-07 15:11:11] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-07 15:11:11] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-07 15:11:51] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-07 15:11:51] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-07 15:11:51] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-07 15:11:51] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-07 15:11:51] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 15:11:51] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 15:11:51] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 15:11:52] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 15:11:55] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 15:11:55] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 15:14:09] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 15:14:09] INFO: Berhasil beralih ke ReportSummaryWidget.

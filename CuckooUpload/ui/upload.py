@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import (
     QWidget, QLabel, QVBoxLayout, QPushButton, QFileDialog,
-    QProgressBar, QSizePolicy
+    QSizePolicy
 )
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QDragEnterEvent, QDropEvent
@@ -31,17 +31,6 @@ class UploadWidget(QWidget):
             QPushButton:hover {
                 background-color: #005fa3;
             }
-            QProgressBar {
-                height: 16px;
-                border-radius: 8px;
-                background-color: #444;
-                text-align: center;
-                color: white;
-            }
-            QProgressBar::chunk {
-                background-color: #00bfff;
-                border-radius: 8px;
-            }
             QLabel#dropArea {
                 border: 2px dashed #888;
                 border-radius: 12px;
@@ -59,10 +48,6 @@ class UploadWidget(QWidget):
         self.button = QPushButton("Choose File")
         self.button.clicked.connect(self.open_file_dialog)
 
-        self.progress = QProgressBar()
-        self.progress.setMaximum(100)
-        self.progress.setValue(0)
-
         self.status = QLabel("")
         self.status.setAlignment(Qt.AlignCenter)
         self.status.setStyleSheet("color: #aaaaaa; font-size: 13px;")
@@ -72,7 +57,6 @@ class UploadWidget(QWidget):
         layout.setContentsMargins(20, 20, 20, 20)
         layout.addWidget(self.label)
         layout.addWidget(self.button)
-        layout.addWidget(self.progress)
         layout.addWidget(self.status)
         self.setLayout(layout)
 
@@ -103,11 +87,10 @@ class UploadWidget(QWidget):
 
         self.status.setText("📤 Mengirim file ke sandbox...")
         self.status.setStyleSheet("color: #ffaa00;")
-        self.progress.setValue(25)
         self.button.setEnabled(False)
 
         try:
-            submit_to_cuckoo(file_path, self.status, self.progress)
+            submit_to_cuckoo(file_path, self.status, None)
             logging.info(f"UploadWidget: submit_to_cuckoo selesai untuk {file_path}")
         except Exception as e:
             logging.error(f"UploadWidget: Error saat submit_to_cuckoo: {e}", exc_info=True)
@@ -120,7 +103,6 @@ class UploadWidget(QWidget):
 
         self.status.setText("📊 Analisis dan pembuatan laporan dimulai...")
         self.status.setStyleSheet("color: #00ff99;")
-        self.progress.setValue(40)
         logging.info("UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.")
 
         main_window = self.window()
@@ -151,5 +133,4 @@ class UploadWidget(QWidget):
         print("UploadWidget: reset_fields() dipanggil")
         self.label.setText("📂 Drag & Drop file here")
         self.status.setText("")
-        self.progress.setValue(0)
         self.button.setEnabled(True)

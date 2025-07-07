@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Cuckoo3 Automation Script
-Mengatur bridge VMcloak, membebaskan port, dan menjalankan Cuckoo Engine & Web Interface
-"""
-
 import os
 import subprocess
 import time
@@ -12,6 +6,20 @@ import time
 CUCKOO_DIR = os.path.expanduser("~/cuckoo3")
 SETUP_DONE_FLAG = "/tmp/setup_vmcloak_bridge_done.flag"
 
+def stop_existing_cuckoo():
+    """Mencari dan menghentikan semua proses cuckoo yang mungkin sedang berjalan."""
+    print("🛑 Menghentikan proses Cuckoo dari sesi sebelumnya (jika ada)...")
+    
+    # Menggunakan pkill untuk menghentikan proses berdasarkan nama commandnya.
+    # Opsi -f mencocokkan dengan seluruh argumen command line, membuatnya lebih akurat.
+    # Tidak akan ada error jika proses tidak ditemukan, jadi ini aman dijalankan.
+    subprocess.run(["pkill", "-f", "cuckoo -d"], capture_output=True)
+    subprocess.run(["pkill", "-f", "cuckoo web"], capture_output=True)
+    
+    # Beri waktu jeda agar sistem operasi bisa membersihkan proses sepenuhnya.
+    time.sleep(2)
+    print("✅ Proses lama berhasil dihentikan.\n")
+
 
 def setup_vmcloak_bridge():
     """Mengatur bridge VMcloak jika belum dilakukan sebelumnya."""
@@ -19,7 +27,7 @@ def setup_vmcloak_bridge():
         print("✅ Bridge sudah disiapkan sebelumnya.")
         return
 
-    print("🔧 Membuka terminal untuk setup bridge (input password)...")
+    print("🔧 Menyiapkan bridge VMcloak (input password di terminal ini jika diminta)...")
     
     bridge_cmd = f"""
 echo '[🔐] Masukkan password untuk setup bridge VMcloak'; \
@@ -31,33 +39,20 @@ sudo adduser cuckoo kvm && sudo chmod 666 /dev/kvm && \
 touch {SETUP_DONE_FLAG}
 """
 
-    subprocess.Popen([
-        "gnome-terminal", "--", "bash", "-c", bridge_cmd
-    ])
+    # Jalankan langsung di shell, tanpa membuka terminal baru
+    subprocess.run(bridge_cmd, shell=True, executable="/bin/bash")
 
-    # Menunggu hingga setup selesai
+    # Verifikasi bahwa flag sudah dibuat
     while not os.path.exists(SETUP_DONE_FLAG):
         print("⏳ Menunggu bridge selesai disiapkan...")
         time.sleep(2)
 
 
-def kill_port(port_number):
-    """Membebaskan port yang digunakan oleh proses lain."""
-    try:
-        subprocess.run(
-            ["fuser", "-k", f"{port_number}/tcp"], 
-            check=True, 
-            capture_output=True
-        )
-        print(f"⚠️ Port {port_number} dibebaskan.")
-    except subprocess.CalledProcessError:
-        print(f"✅ Port {port_number} sudah kosong.")
-
-
 def execute_bash_command(description, command):
     """Menjalankan perintah bash dengan deskripsi."""
     print(f"🚀 {description}...")
-    subprocess.call(command, shell=True, executable="/bin/bash")
+    # Menggunakan Popen agar tidak memblokir, karena kita menjalankan dengan '&'
+    subprocess.Popen(command, shell=True, executable="/bin/bash")
 
 
 def start_cuckoo_engine():
@@ -87,17 +82,22 @@ cuckoo web --host 127.0.0.1 --port 8000 &
 
 def main():
     """Fungsi utama untuk menjalankan seluruh proses otomatisasi."""
+    # LANGKAH 1: Selalu hentikan Cuckoo yang lama terlebih dahulu.
+    stop_existing_cuckoo()
+    
+    # LANGKAH 2: Lakukan setup seperti biasa.
     setup_vmcloak_bridge()
     print("✅ Setup bridge selesai. Melanjutkan ke proses berikutnya...\n")
     
-    kill_port(2042)
-    kill_port(8000)
-    
+    # LANGKAH 3: Jalankan Cuckoo yang baru.
     start_cuckoo_engine()
+    print("⏳ Memberi waktu 5 detik bagi engine untuk siap...")
     time.sleep(5)
     
     start_cuckoo_web()
-    time.sleep(5)
+    time.sleep(2) # Sedikit jeda setelah web dijalankan
+
+    print("\n🎉 Cuckoo berhasil di-restart dan siap digunakan.")
 
 
 if __name__ == "__main__":

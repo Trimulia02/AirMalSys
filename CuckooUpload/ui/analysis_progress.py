@@ -61,10 +61,7 @@ class AnalysisProgressWidget(QWidget):
 
         self.progress = QProgressBar()
         self.progress.setMaximum(100)
-        self.progress.setValue(0)
-
-        self.open_button = QPushButton("📄 Lihat Laporan PDF")
-        self.open_button.setVisible(False)
+        self.progress.setValue(6)
 
         layout = QVBoxLayout()
         layout.setSpacing(16)
@@ -72,7 +69,6 @@ class AnalysisProgressWidget(QWidget):
         layout.addLayout(gif_container)
         layout.addWidget(self.label)
         layout.addWidget(self.progress)
-        layout.addWidget(self.open_button)
         self.setLayout(layout)
 
         self.timer = QTimer(self)
@@ -97,6 +93,11 @@ class AnalysisProgressWidget(QWidget):
 
     def update_progress(self):
         value = self.progress.value()
+
+        # Pastikan progress tidak pernah kurang dari 6
+        if value < 6:
+            self.progress.setValue(6)
+            value = 6
 
         latest_report = self.find_latest_report_json()
         if latest_report and os.path.getmtime(latest_report) > self.analysis_started_at.timestamp():
