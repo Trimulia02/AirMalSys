@@ -4759,3 +4759,51 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-07 15:50:15] INFO: Menampilkan AnalysisProgressWidget.
 [2025-07-07 15:52:34] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
 [2025-07-07 15:52:34] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 16:04:02] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 16:04:11] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 16:04:11] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 16:04:11] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 19:01:41] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/Annabelle.exe
+[2025-07-07 19:01:41] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/Annabelle.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Annabelle.exe'
+[2025-07-07 19:01:41] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/Annabelle.exe
+[2025-07-07 19:01:41] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/Annabelle.exe
+[2025-07-07 19:01:41] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 19:01:41] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 19:01:41] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 19:01:41] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 19:01:44] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 19:01:45] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 19:04:05] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 19:04:05] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 19:13:28] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 19:13:38] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 19:13:38] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 19:13:38] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 19:13:42] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-07 19:13:42] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-07-07 19:13:42] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-07 19:13:42] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-07 19:13:42] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 19:13:42] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 19:13:42] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 19:13:43] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 19:13:46] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 19:13:46] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 19:16:03] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 19:16:03] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-07 19:20:10] INFO: MainWindow initialized and SetupThread started.
+[2025-07-07 19:20:19] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-07 19:20:19] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-07 19:20:19] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-07 19:20:24] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-07-07 19:20:24] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/HawkEye.exe'
+[2025-07-07 19:20:24] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-07-07 19:20:24] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-07-07 19:20:24] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-07 19:20:24] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-07 19:20:24] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-07 19:20:24] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-07 19:20:27] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-07 19:20:28] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-07 19:22:44] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-07 19:22:44] INFO: Berhasil beralih ke ReportSummaryWidget.

@@ -119,9 +119,18 @@ class ResultSummaryWidget(QWidget):
 
         title_details = QLabel("Keterangan Malware")
         title_details.setAlignment(Qt.AlignCenter)
-        title_details.setStyleSheet("font-weight: bold; font-size: 15px; color: black; padding-top: 13px; padding-bottom: 15px;")
-        right_layout.addWidget(title_details, 0, 0, 1, 2)
+        title_details.setWordWrap(True)  # <<< Tambahkan ini
+        title_details.setStyleSheet("""
+            font-weight: bold; 
+            font-size: 15px; 
+            color: black; 
+            padding-top: 13px; 
+            padding-bottom: 15px;
+            min-width: 200px; 
+                                    """)
 
+
+        right_layout.addWidget(title_details, 0, 0, 1, 2)
         self.fields = {
             "Classification": QLabel("-"),
             "Family": QLabel("-"),

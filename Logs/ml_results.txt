@@ -1,3 +1,2 @@
-Malware
-1.0
-Coinminer
+Benign
+0.4

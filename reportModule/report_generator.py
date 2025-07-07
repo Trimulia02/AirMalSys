@@ -204,7 +204,7 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
     doc.addPageTemplates([ReportPDFTemplate('main', doc)])
 
     # --- Bagian Ringkasan ---
-    elements.append(Paragraph("Analisys Summary", style_h2))
+    elements.append(Paragraph("Analysis Summary", style_h2))
     
     target = analysis_data.get("target", {})
     submitted = analysis_data.get("submitted", {})
@@ -244,8 +244,8 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
     # --- Bagian Signatures ---
     sigs = report_data.get("signatures", [])
     if sigs:
-        elements.append(Paragraph("Detected Sigantures", style_h2))
-        sig_data = [[Paragraph(h, style_table_header) for h in ["No.", "Siganture Name", "Description"]]]
+        elements.append(Paragraph("Detected Signatures", style_h2))
+        sig_data = [[Paragraph(h, style_table_header) for h in ["No.", "Signature Name", "Description"]]]
         for idx, sig in enumerate(sigs, 1):
             sig_name = sig.get("name", "-")
             desc = sig.get("description", "-")

@@ -85,7 +85,7 @@ class MainWindow(QWidget):
             self.analysis_widget.analysis_started_at = datetime.now()
             self.analysis_widget.last_report_path = self.analysis_widget.find_latest_report_json()
             self.analysis_widget.progress.setValue(0)
-            self.analysis_widget.label.setText("📜 Melakukan analisis...\nSilakan tunggu...")
+            self.analysis_widget.label.setText("📜 Analyzing...\nPlease Wait...")
 
             if hasattr(self.analysis_widget, 'movie') and self.analysis_widget.movie.isValid():
                 self.analysis_widget.movie.start()
