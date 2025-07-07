@@ -42,7 +42,7 @@ class LoadingWidget(QWidget):                      # Widget untuk tampilan loadi
             gif_and_label_layout = QVBoxLayout()   # Layout vertikal untuk GIF dan teks
             gif_and_label_layout.setAlignment(Qt.AlignHCenter)
 
-            self.label = QLabel("🔧 Menjalankan setup sistem...\nSilakan tunggu...")  # Teks status
+            self.label = QLabel("🔧 Setting Up System...\nPlease Wait...")  # Teks status
             self.label.setAlignment(Qt.AlignHCenter)
 
             gif_and_label_layout.addWidget(self.loading_gif, alignment=Qt.AlignHCenter)  # Tambah GIF

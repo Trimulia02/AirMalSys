@@ -123,15 +123,15 @@ class ResultSummaryWidget(QWidget):
         right_layout.addWidget(title_details, 0, 0, 1, 2)
 
         self.fields = {
-            "Jenis": QLabel("-"),
+            "Classification": QLabel("-"),
             "Family": QLabel("-"),
             "Confidence": QLabel("-"),
-            "Nama": QLabel("-"),
-            "Ukuran": QLabel("-"),
+            "File Name": QLabel("-"),
+            "File Size": QLabel("-"),
             "File ID": QLabel("-"),
-            "Kategori": QLabel("-"),
-            "Periode": QLabel("-"),
-            "Lingkungan": QLabel("-")
+            "Category": QLabel("-"),
+            "Period": QLabel("-"),
+            "Environment": QLabel("-")
         }
 
         row = 1
@@ -154,10 +154,10 @@ class ResultSummaryWidget(QWidget):
         content_layout.addSpacing(20)
         content_layout.addWidget(right_panel, 1)
 
-        self.viewPdfButton = QPushButton("Lihat PDF")
+        self.viewPdfButton = QPushButton("Show PDF Report")
         self.viewPdfButton.setMinimumHeight(45)
         self.viewPdfButton.setStyleSheet("QPushButton { background-color: #00c853; color: white; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: #00e676; }")
-        self.restartButton = QPushButton("Analisa Ulang")
+        self.restartButton = QPushButton("Reanalyze")
         self.restartButton.setMinimumHeight(45)
         self.restartButton.setStyleSheet("QPushButton { background-color: #2962FF; color: white; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: #448AFF; }")
 
@@ -225,15 +225,15 @@ class ResultSummaryWidget(QWidget):
                 logging.error(f"Gagal membaca analysis.json: {e}")
 
         metadata = {
-            "Jenis": jenis,
+            "Classification": jenis,
             "Family": predicted_family,
             "Confidence": f"{confidence:.1f}%" if confidence else "-",
-            "Nama": filename,
-            "Ukuran": ukuran,
+            "File Name": filename,
+            "File Size": ukuran,
             "File ID": file_id,
-            "Kategori": category,
-            "Periode": datetime.fromtimestamp(os.path.getmtime(report_path)).strftime('%Y-%m-%d %H:%M'),
-            "Lingkungan": "Windows (Airgap)"
+            "Category": category,
+            "Period": datetime.fromtimestamp(os.path.getmtime(report_path)).strftime('%Y-%m-%d %H:%M'),
+            "Environment": "Windows (Airgap)"
         }
 
         self.update_summary(score, category, metadata)

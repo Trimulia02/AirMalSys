@@ -132,7 +132,7 @@ def main():
 
     signatures = report.get("signatures", [])
     if not signatures:
-        print("[!] Tidak ada tanda tangan yang ditemukan dalam laporan.")
+        print("[!] Tidak ada signature yang ditemukan dalam laporan.")
         vector = "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N/S:N/R:N/V:D"
     else:
         vector = generate_vector_from_signatures(signatures)

@@ -28,7 +28,7 @@ class UploadSuccessWidget(QWidget):
             self.gif_label.setMovie(self.movie)
             self.movie.start()
         else:
-            self.gif_label.setText("✅ File berhasil diunggah")
+            self.gif_label.setText("✅ File Upload Successfully")
 
         gif_wrapper = QHBoxLayout()
         gif_wrapper.setAlignment(Qt.AlignCenter)
@@ -36,7 +36,7 @@ class UploadSuccessWidget(QWidget):
         main_layout.addLayout(gif_wrapper)
 
         # Teks status
-        self.text = QLabel("📤 File berhasil diunggah.\nMenyiapkan analisis...")
+        self.text = QLabel("📤 File Uploaded Succesfully\nStarting Analysis...")
         self.text.setAlignment(Qt.AlignCenter)
         self.text.setStyleSheet("font-size: 13px; color: #f0f0f0;")
         main_layout.addWidget(self.text)

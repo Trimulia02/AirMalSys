@@ -56,7 +56,7 @@ class AnalysisProgressWidget(QWidget):
         gif_container.addWidget(self.gif_label)
         gif_container.addStretch()
 
-        self.label = QLabel("📜 Melakukan analisis...\nSilakan tunggu...")
+        self.label = QLabel("📜 Analyzing...\nPlease Wait...")
         self.label.setAlignment(Qt.AlignCenter)
 
         self.progress = QProgressBar()
@@ -102,7 +102,7 @@ class AnalysisProgressWidget(QWidget):
         latest_report = self.find_latest_report_json()
         if latest_report and os.path.getmtime(latest_report) > self.analysis_started_at.timestamp():
             self.progress.setValue(100)
-            self.label.setText("✅ Analisis selesai. Menampilkan ringkasan...")
+            self.label.setText("✅ Analysis Completed. Showing Report Summary...")
             self.timer.stop()
             print("🟢 on_analysis_complete() dipanggil dari AnalysisProgressWidget")
             if self.on_analysis_complete:
