@@ -20,7 +20,7 @@ class Config:
 
         # Data processing
         self.max_length    = 80
-        self.threshold     = 0.5
+        self.threshold     = 0.4
 
         # Device
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -31,21 +31,20 @@ class MulticlassConfig(Config):
     """
     def __init__(self):
         # Model
-        self.hidden_size     = 128      # hidden dim LSTM
-        self.num_layers      = 2        # jumlah layer LSTM
-        self.dropout         = 0.3      # dropout di classifier
+        self.hidden_size     = 256      # hidden dim LSTM
+        self.num_layers      = 3        # jumlah layer LSTM
+        self.dropout         = 0.4      # dropout di classifier
         self.embedding_dim   = 300       # embedding dim
         self.numeric_dim     = 4        # jumlah fitur numerik
-        self.num_classes     = 6        # output 6 kelas
+        self.num_classes     = 9        # output 6 kelas
         
         # Training
-        self.batch_size = 32
+        self.batch_size = 16
         self.epochs = 20
-        self.learning_rate = 0.001
+        self.learning_rate = 0.0005
         
         # Data
         self.max_length = 80
-        self.num_classes = 6
 
         # Device
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
