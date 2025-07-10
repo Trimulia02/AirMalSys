@@ -4807,3 +4807,511 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-07 19:20:28] INFO: Menampilkan AnalysisProgressWidget.
 [2025-07-07 19:22:44] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
 [2025-07-07 19:22:44] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 16:46:00] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 16:46:09] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 16:46:09] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 16:46:09] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 16:46:29] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 16:46:29] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-10 16:46:29] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 16:46:29] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 16:46:29] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 16:46:29] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 16:46:29] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 16:46:29] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 16:46:32] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 16:46:33] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 16:48:50] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 16:48:50] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 16:48:59] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 16:49:00] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 16:49:00] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 16:49:16] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/DeriaLock.exe
+[2025-07-10 16:49:16] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/DeriaLock.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/DeriaLock.exe'
+[2025-07-10 16:49:16] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/DeriaLock.exe
+[2025-07-10 16:49:16] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/DeriaLock.exe
+[2025-07-10 16:49:16] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 16:49:16] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 16:49:16] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 16:49:16] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 16:49:19] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 16:49:20] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 16:51:35] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 16:51:35] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 16:51:54] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 16:51:54] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 16:51:54] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 16:51:55] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/PolyRansom.exe
+[2025-07-10 16:51:55] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/PolyRansom.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/PolyRansom.exe'
+[2025-07-10 16:51:55] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/PolyRansom.exe
+[2025-07-10 16:51:55] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/PolyRansom.exe
+[2025-07-10 16:51:55] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 16:51:55] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 16:51:55] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 16:51:56] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 16:51:59] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 16:51:59] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 16:54:15] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 16:54:15] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 16:54:22] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 16:54:22] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 16:54:22] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 16:54:24] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/NotPetya.exe
+[2025-07-10 16:54:24] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/NotPetya.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/NotPetya.exe'
+[2025-07-10 16:54:24] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/NotPetya.exe
+[2025-07-10 16:54:24] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/NotPetya.exe
+[2025-07-10 16:54:24] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 16:54:24] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 16:54:24] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 16:54:24] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 16:54:27] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 16:54:27] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 16:56:42] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 16:56:42] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 16:58:39] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 16:58:48] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 16:58:48] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 16:58:48] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 16:58:50] INFO: UploadWidget: Memproses file: /home/cuckoo/Downloads/eicar_com.zip
+[2025-07-10 16:58:50] INFO: ERROR - /home/cuckoo/Downloads/eicar_com.zip - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/eicar_com.zip'
+[2025-07-10 16:58:50] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Downloads/eicar_com.zip
+[2025-07-10 16:58:50] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Downloads/eicar_com.zip
+[2025-07-10 16:58:50] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 16:58:50] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 16:58:50] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 16:58:51] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 16:58:54] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 16:58:54] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 16:59:43] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 16:59:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 16:59:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 16:59:53] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:00:34] INFO: UploadWidget: Memproses file: /home/cuckoo/Downloads/eicarcom2.zip
+[2025-07-10 17:00:34] INFO: ERROR - /home/cuckoo/Downloads/eicarcom2.zip - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/eicarcom2.zip'
+[2025-07-10 17:00:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Downloads/eicarcom2.zip
+[2025-07-10 17:00:34] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Downloads/eicarcom2.zip
+[2025-07-10 17:00:34] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:00:34] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:00:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:00:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:00:38] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:00:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:05:42] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:05:52] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:05:52] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:05:52] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:06:03] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:06:12] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:06:12] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:06:12] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:06:18] INFO: UploadWidget: Memproses file: /home/cuckoo/Downloads/icon2.png
+[2025-07-10 17:06:18] INFO: ERROR - /home/cuckoo/Downloads/icon2.png - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/icon2.png'
+[2025-07-10 17:06:18] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Downloads/icon2.png
+[2025-07-10 17:06:18] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Downloads/icon2.png
+[2025-07-10 17:06:18] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:06:18] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:06:18] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:06:18] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:06:21] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:06:22] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:06:34] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:06:43] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:06:43] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:06:43] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:06:45] INFO: UploadWidget: Memproses file: /home/cuckoo/Downloads/Semua_Sample_dengan_Fungsi_Malware.csv
+[2025-07-10 17:06:45] INFO: ERROR - /home/cuckoo/Downloads/Semua_Sample_dengan_Fungsi_Malware.csv - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Semua_Sample_dengan_Fungsi_Malware.csv'
+[2025-07-10 17:06:45] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Downloads/Semua_Sample_dengan_Fungsi_Malware.csv
+[2025-07-10 17:06:45] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Downloads/Semua_Sample_dengan_Fungsi_Malware.csv
+[2025-07-10 17:06:45] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:06:45] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:06:45] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:06:45] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:06:48] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:06:49] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:07:19] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:07:28] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:07:28] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:07:28] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:07:30] INFO: UploadWidget: Memproses file: /home/cuckoo/Pictures/Screenshots/Screenshot from 2025-05-30 02-28-28.png
+[2025-07-10 17:07:30] INFO: ERROR - /home/cuckoo/Pictures/Screenshots/Screenshot from 2025-05-30 02-28-28.png - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Screenshot from 2025-05-30 02-28-28.png'
+[2025-07-10 17:07:30] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/Pictures/Screenshots/Screenshot from 2025-05-30 02-28-28.png
+[2025-07-10 17:07:30] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/Pictures/Screenshots/Screenshot from 2025-05-30 02-28-28.png
+[2025-07-10 17:07:30] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:07:30] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:07:30] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:07:30] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:07:33] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:07:33] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:16:06] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:16:15] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:16:15] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:16:15] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:16:17] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 17:16:17] INFO: ERROR - /home/cuckoo/tes - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/tes'
+[2025-07-10 17:16:17] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/tes
+[2025-07-10 17:16:17] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/tes
+[2025-07-10 17:16:17] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:16:17] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:16:17] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:16:18] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:16:21] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:16:21] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:36:47] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:36:56] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:36:56] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:36:56] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:36:57] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 17:36:57] INFO: ERROR - /home/cuckoo/tes - File terlalu kecil.
+[2025-07-10 17:36:57] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/tes
+[2025-07-10 17:36:57] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/tes
+[2025-07-10 17:36:57] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:36:57] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:36:57] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:36:57] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:37:01] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:37:01] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:37:40] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:37:49] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:37:49] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:37:49] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:37:52] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 17:37:52] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-10 17:37:52] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 17:37:52] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 17:37:52] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:37:52] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:37:52] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:37:53] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:37:56] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:37:56] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:40:13] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 17:40:13] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 17:42:38] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:42:48] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:42:48] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:42:48] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:42:49] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 17:42:49] INFO: ERROR - /home/cuckoo/tes - File terlalu kecil.
+[2025-07-10 17:42:49] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/tes, success=False
+[2025-07-10 17:43:41] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 17:43:41] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-10 17:43:41] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe, success=False
+[2025-07-10 17:43:51] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/Birele.exe
+[2025-07-10 17:43:51] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/Birele.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/Birele.exe'
+[2025-07-10 17:43:51] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/Birele.exe, success=False
+[2025-07-10 17:44:13] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:44:22] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:44:22] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:44:22] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:44:25] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 17:44:25] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-10 17:44:25] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe, success=False
+[2025-07-10 17:45:54] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Ransomware/7ev3n.exe
+[2025-07-10 17:45:54] INFO: ERROR - /home/cuckoo/cuckoo3/Ransomware/7ev3n.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe'
+[2025-07-10 17:45:54] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Ransomware/7ev3n.exe, success=False
+[2025-07-10 17:45:58] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Ransomware/$uckyLocker.exe
+[2025-07-10 17:45:58] INFO: ERROR - /home/cuckoo/cuckoo3/Ransomware/$uckyLocker.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/$uckyLocker.exe'
+[2025-07-10 17:45:58] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Ransomware/$uckyLocker.exe, success=False
+[2025-07-10 17:47:01] INFO: UploadWidget: Memproses file: /home/cuckoo/cuckoo3/Sample-Malware/Ransomware/7ev3n.exe
+[2025-07-10 17:47:01] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/Ransomware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-07-10 17:47:01] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/cuckoo3/Sample-Malware/Ransomware/7ev3n.exe, success=True
+[2025-07-10 17:47:01] INFO: Menjalankan: /home/cuckoo/cuckoo3/venv/bin/cuckoo submit /home/cuckoo/cuckoo3/Sample-Malware/Ransomware/7ev3n.exe
+[2025-07-10 17:47:01] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:47:01] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:47:01] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:47:01] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:47:04] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:47:05] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:49:19] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 17:49:19] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 17:52:18] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:52:27] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:52:27] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:52:27] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:52:34] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 17:52:34] INFO: COPIED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - File disalin ke Sample-Malware.
+[2025-07-10 17:52:34] INFO: SUBMITTED - /home/cuckoo/cuckoo3/Sample-Malware/7ev3n.exe - Dikirim via subprocess Popen.
+[2025-07-10 17:52:34] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe, success=None
+[2025-07-10 17:54:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 17:54:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 17:57:03] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:57:12] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:57:12] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:57:12] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:57:13] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 17:57:13] INFO: SUBMITTED - /home/cuckoo/tes - Dikirim via subprocess Popen.
+[2025-07-10 17:57:13] INFO: UploadWidget: submit_to_cuckoo return True untuk /home/cuckoo/tes
+[2025-07-10 17:57:13] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:57:13] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:57:13] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:57:13] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:57:17] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:57:17] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 17:57:27] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:57:36] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:57:36] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:57:36] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:57:58] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 17:58:08] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 17:58:08] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 17:58:08] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 17:58:11] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Trojan/ArcticBomb.exe
+[2025-07-10 17:58:11] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Trojan/ArcticBomb.exe - Dikirim via subprocess Popen.
+[2025-07-10 17:58:11] INFO: UploadWidget: submit_to_cuckoo return True untuk /home/cuckoo/The-MALWARE-Repo/Trojan/ArcticBomb.exe
+[2025-07-10 17:58:11] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 17:58:11] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 17:58:11] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 17:58:12] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 17:58:15] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 17:58:15] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:00:32] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:00:32] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:02:14] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:02:24] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:02:24] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:02:24] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 18:02:32] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 18:02:32] INFO: SUBMITTED - /home/cuckoo/tes - Berhasil dikirim.
+[2025-07-10 18:02:32] INFO: UploadWidget: submit_to_cuckoo return True untuk /home/cuckoo/tes
+[2025-07-10 18:02:32] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 18:02:32] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:02:32] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:02:33] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:02:36] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:02:36] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:02:39] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:02:49] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:02:49] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:02:49] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 18:02:53] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Virus/MadMan.exe
+[2025-07-10 18:02:53] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Virus/MadMan.exe - Berhasil dikirim.
+[2025-07-10 18:02:53] INFO: UploadWidget: submit_to_cuckoo return True untuk /home/cuckoo/The-MALWARE-Repo/Virus/MadMan.exe
+[2025-07-10 18:02:53] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 18:02:53] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:02:53] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:02:54] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:02:57] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:02:57] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:07:04] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:07:13] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:07:13] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:07:13] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 18:07:15] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-10 18:07:15] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe - Berhasil dikirim.
+[2025-07-10 18:07:15] INFO: UploadWidget: submit_to_cuckoo return True untuk /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-10 18:07:15] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 18:07:15] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:07:15] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:07:16] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:07:19] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:07:19] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:09:36] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:09:36] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:09:56] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 18:09:56] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 18:09:56] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 18:10:04] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-07-10 18:10:05] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe - Berhasil dikirim.
+[2025-07-10 18:10:05] INFO: UploadWidget: submit_to_cuckoo return True untuk /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-07-10 18:10:05] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 18:10:05] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:10:05] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:10:05] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:10:08] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:10:09] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:12:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:12:24] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:15:16] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:15:25] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:15:25] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:15:25] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 18:15:31] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 18:15:31] INFO: ERROR - /home/cuckoo/tes - File terlalu kecil.
+[2025-07-10 18:15:31] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/tes (result=False)
+[2025-07-10 18:15:44] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-10 18:15:44] INFO: ERROR - /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe - Gagal salin: [Errno 2] No such file or directory: '/home/cuckoo/cuckoo3/Sample-Malware/AgentTesla.exe'
+[2025-07-10 18:15:44] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe (result=False)
+[2025-07-10 18:18:11] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:18:20] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:18:20] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:18:20] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 18:18:22] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 18:18:22] INFO: SUBMITTED - /home/cuckoo/tes - Submit sukses.
+[2025-07-10 18:18:22] INFO: UploadWidget: submit_to_cuckoo selesai untuk /home/cuckoo/tes (result=True)
+[2025-07-10 18:18:22] INFO: UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.
+[2025-07-10 18:18:22] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:18:22] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:18:23] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:18:26] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:18:26] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:27:40] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:27:49] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:27:49] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:27:51] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 18:27:51] INFO: SUBMITTED - /home/cuckoo/tes - File berhasil disubmit.
+[2025-07-10 18:27:51] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:27:51] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:27:52] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:27:55] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:27:55] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:27:59] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:28:08] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:28:08] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:28:09] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-10 18:28:10] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe - File berhasil disubmit.
+[2025-07-10 18:28:10] INFO: UploadWidget: Memanggil main_window.handle_file_upload_success()
+[2025-07-10 18:28:10] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:28:10] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:28:13] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:28:14] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:30:29] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:30:29] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:33:12] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:33:21] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:33:21] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:33:21] INFO: UploadWidget: Mereset tampilan (reset_fields dipanggil).
+[2025-07-10 18:33:22] INFO: UploadWidget: Memproses file: /home/cuckoo/tes
+[2025-07-10 18:33:22] INFO: ERROR - /home/cuckoo/tes - ❌ File terlalu kecil (<133 bytes).
+[2025-07-10 18:33:22] WARNING: UploadWidget: Submit gagal, tidak memicu animasi.
+[2025-07-10 18:33:33] INFO: UploadWidget: Memproses file: /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe
+[2025-07-10 18:33:34] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Spyware/AgentTesla.exe - Berhasil dikirim ke Cuckoo.
+[2025-07-10 18:33:34] INFO: UploadWidget: Memanggil handle_file_upload_success() karena submit sukses.
+[2025-07-10 18:33:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:33:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:33:37] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:33:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:35:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:35:53] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:38:46] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:38:55] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:38:55] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:38:55] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 18:38:59] INFO: UploadWidget: Processing file: /home/cuckoo/tes
+[2025-07-10 18:38:59] INFO: ERROR - /home/cuckoo/tes - ❌ File is too small (<133 bytes).
+[2025-07-10 18:38:59] WARNING: UploadWidget: Submission failed. Animation not triggered.
+[2025-07-10 18:39:29] INFO: UploadWidget: Processing file: /home/cuckoo/tes.exe
+[2025-07-10 18:39:29] INFO: ERROR - /home/cuckoo/tes.exe - ❌ File is too small (<133 bytes).
+[2025-07-10 18:39:29] WARNING: UploadWidget: Submission failed. Animation not triggered.
+[2025-07-10 18:39:40] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-10 18:39:40] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-10 18:39:40] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 18:39:40] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:39:41] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:39:44] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:39:44] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:41:59] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:41:59] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:47:33] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:47:42] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:47:42] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:47:42] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 18:47:44] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/ransomware.exe
+[2025-07-10 18:47:44] INFO: ERROR - /home/cuckoo/UAT/ransomware.exe - ❌ File is too small (<133 bytes).
+[2025-07-10 18:47:44] WARNING: UploadWidget: Submission failed. Animation not triggered.
+[2025-07-10 18:47:46] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/virus.exe
+[2025-07-10 18:47:46] INFO: ERROR - /home/cuckoo/UAT/virus.exe - ❌ File is too small (<133 bytes).
+[2025-07-10 18:47:46] WARNING: UploadWidget: Submission failed. Animation not triggered.
+[2025-07-10 18:47:48] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/report_20250710-165144.pdf
+[2025-07-10 18:47:49] INFO: SUBMITTED - /home/cuckoo/UAT/report_20250710-165144.pdf - Successfully submitted to Cuckoo.
+[2025-07-10 18:47:49] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 18:47:49] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:47:49] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:47:52] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:47:53] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:50:14] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 18:50:14] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 18:53:21] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 18:53:22] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 18:53:22] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 18:53:26] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/eicar_com.zip
+[2025-07-10 18:53:26] INFO: SUBMITTED - /home/cuckoo/UAT/eicar_com.zip - Successfully submitted to Cuckoo.
+[2025-07-10 18:53:26] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 18:53:26] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:53:27] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:53:30] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:53:30] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 18:55:46] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 18:55:55] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 18:55:55] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 18:55:55] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 18:58:35] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/7ev3n.exe
+[2025-07-10 18:58:36] INFO: SUBMITTED - /home/cuckoo/UAT/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-10 18:58:36] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 18:58:36] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 18:58:36] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 18:58:39] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 18:58:40] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:00:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 19:00:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 19:01:24] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 19:01:25] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 19:01:25] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 19:01:33] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/$uckyLocker.exe
+[2025-07-10 19:01:34] INFO: SUBMITTED - /home/cuckoo/UAT/$uckyLocker.exe - Successfully submitted to Cuckoo.
+[2025-07-10 19:01:34] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 19:01:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 19:01:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 19:01:37] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 19:01:37] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:15:06] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 19:15:15] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 19:15:15] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 19:15:15] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 19:15:18] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/7ev3n.exe
+[2025-07-10 19:15:19] INFO: SUBMITTED - /home/cuckoo/UAT/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-10 19:15:19] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 19:15:19] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 19:15:19] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 19:15:22] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 19:15:23] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:17:43] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 19:17:43] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 19:18:01] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 19:18:01] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 19:18:01] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 19:18:07] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/eicar_com.zip
+[2025-07-10 19:18:08] INFO: SUBMITTED - /home/cuckoo/UAT/eicar_com.zip - Successfully submitted to Cuckoo.
+[2025-07-10 19:18:08] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 19:18:08] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 19:18:08] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 19:18:11] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 19:18:11] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:21:39] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 19:21:48] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 19:21:48] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 19:21:48] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 19:22:06] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/eicar_com.zip
+[2025-07-10 19:22:07] INFO: SUBMITTED - /home/cuckoo/UAT/eicar_com.zip - Successfully submitted to Cuckoo.
+[2025-07-10 19:22:07] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 19:22:07] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 19:22:07] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 19:22:11] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 19:22:11] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:27:35] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 19:27:44] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 19:27:44] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 19:27:44] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 19:27:45] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/ransomware.exe
+[2025-07-10 19:27:45] INFO: ERROR - /home/cuckoo/UAT/ransomware.exe - ❌ File is too small (<133 bytes).
+[2025-07-10 19:27:45] WARNING: UploadWidget: Submission failed. Animation not triggered.
+[2025-07-10 19:27:48] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/7ev3n.exe
+[2025-07-10 19:27:49] INFO: SUBMITTED - /home/cuckoo/UAT/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-10 19:27:49] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 19:27:49] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 19:27:49] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 19:27:52] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 19:27:53] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:30:11] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 19:30:11] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 19:30:33] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-10 19:30:33] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-10 19:30:33] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-10 19:30:38] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/AgentTesla.exe
+[2025-07-10 19:30:39] INFO: SUBMITTED - /home/cuckoo/UAT/AgentTesla.exe - Successfully submitted to Cuckoo.
+[2025-07-10 19:30:39] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 19:30:39] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 19:30:39] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 19:30:42] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 19:30:43] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 19:32:58] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 19:32:58] INFO: Berhasil beralih ke ReportSummaryWidget.

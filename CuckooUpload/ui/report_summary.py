@@ -14,9 +14,6 @@ CUSTOM_PDF_REPORT_DIR = "/home/cuckoo/TA_AnalisisMalware/Report"
 ML_RESULT_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
 CVSS_SCORE_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/cvss_score.txt"
 CVSS_CALCULATOR_PATH = "/home/cuckoo/TA_AnalisisMalware/reportModule/cvss_calculator.py"
-INFERENCE_PATH = "/home/cuckoo/TA_AnalisisMalware/resultML/inference.py"
-VENV_PYTHON = "/home/cuckoo/TA_AnalisisMalware/resultML/venv/bin/python"
-ARTIFACTS_DIR = "/home/cuckoo/TA_AnalisisMalware/resultML/artifacts"
 
 
 class GaugeWidget(QWidget):
@@ -119,7 +116,7 @@ class ResultSummaryWidget(QWidget):
 
         title_details = QLabel("Keterangan Malware")
         title_details.setAlignment(Qt.AlignCenter)
-        title_details.setWordWrap(True)  # <<< Tambahkan ini
+        title_details.setWordWrap(True)
         title_details.setStyleSheet("""
             font-weight: bold; 
             font-size: 15px; 
@@ -127,8 +124,7 @@ class ResultSummaryWidget(QWidget):
             padding-top: 13px; 
             padding-bottom: 15px;
             min-width: 200px; 
-                                    """)
-
+        """)
 
         right_layout.addWidget(title_details, 0, 0, 1, 2)
         self.fields = {
@@ -198,10 +194,11 @@ class ResultSummaryWidget(QWidget):
 
         try:
             subprocess.run([
-                VENV_PYTHON, INFERENCE_PATH,
+                "/home/cuckoo/TA_AnalisisMalware/resultML/venv/bin/python",
+                "/home/cuckoo/TA_AnalisisMalware/resultML/inference.py",
                 "--report", report_path,
-                "--artifacts", ARTIFACTS_DIR,
-                "--output", ML_RESULT_PATH
+                "--artifacts", "/home/cuckoo/TA_AnalisisMalware/resultML/artifacts",
+                "--output", "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
             ], check=True)
         except Exception as e:
             logging.error(f"Gagal menjalankan inference: {e}")
@@ -216,7 +213,6 @@ class ResultSummaryWidget(QWidget):
         category = "Sangat Berbahaya" if score >= 8 else "Berbahaya" if score >= 6 else "Mencurigakan" if score >= 3 else "Aman"
         predicted_family, confidence, jenis = self._read_ml_results()
 
-        # Cari analysis.json
         analysis_json_path = os.path.join(os.path.dirname(os.path.dirname(report_path)), "analysis.json")
         filename = "-"
         ukuran = "-"

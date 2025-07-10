@@ -274,6 +274,64 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
         proc_table = create_styled_table(proc_data, col_widths=[1.5*cm, None, 2*cm, 2*cm])
         elements.append(proc_table)
 
+# Tambahkan ini di bagian bawah, sebelum `doc.build(elements)`
+    # --- Glossary EN ---
+    elements.append(Spacer(1, 1*cm))
+    elements.append(Paragraph("Glossary of Terms", style_h2))
+    glossary_en = [
+        ["Malware", "Malicious software designed to harm, exploit, or disrupt systems or data."],
+        ["Benign", "A file or program that does not show harmful or suspicious behavior."],
+        ["Malware Family", "A group of malware that share similar behavior, structure, or purpose."],
+        ["Confidence", "A measure of how certain the system is about its classification result."],
+        ["CVSS Score", "A standardized score that estimates the severity of a vulnerability or attack."],
+        ["Severity Level", "The level of risk posed, based on the CVSS score."],
+        ["Signature", "A known pattern of malicious activity detected in a file or process."],
+        ["Process", "A running instance of a program or executable during analysis."],
+        ["Timestamp", "The date and time a specific event occurred, shown in local timezone."],
+    ]
+    glossary_data_en = [[Paragraph(term, style_table_cell), Paragraph(desc, style_table_cell)] for term, desc in glossary_en]
+    glossary_table_en = create_styled_table(
+        [[Paragraph("<b>Term</b>", style_table_header), Paragraph("<b>Definition</b>", style_table_header)]] + glossary_data_en,
+        col_widths=[4*cm, None]
+    )
+    elements.append(glossary_table_en)
+    elements.append(Spacer(1, 0.6*cm))
+    elements.append(Paragraph(
+        "<i>Note:</i> The CVSS score does not represent the overall danger of the malware, "
+        "but rather the severity of the behavior observed.",
+        style_body
+    ))
+
+    # --- Glosarium ID ---
+    elements.append(Spacer(1, 1*cm))
+    elements.append(Paragraph("Glosarium Istilah", style_h2))
+    glossary_id = [
+        ["Malware", "Perangkat lunak jahat yang dirancang untuk merusak, mengeksploitasi, atau mengganggu sistem atau data."],
+        ["Benign", "File atau program yang tidak menunjukkan perilaku berbahaya atau mencurigakan."],
+        ["Malware Family", "Kelompok malware dengan perilaku, struktur, atau tujuan yang serupa."],
+        ["Confidence", "Tingkat keyakinan sistem terhadap hasil klasifikasinya."],
+        ["CVSS Score", "Skor baku yang mengukur tingkat keparahan kerentanan atau serangan."],
+        ["Severity Level", "Tingkat risiko berdasarkan skor CVSS."],
+        ["Signature", "Pola aktivitas berbahaya yang dikenali dalam sebuah file atau proses."],
+        ["Process", "Proses yang sedang berjalan dari program selama analisis."],
+        ["Timestamp", "Tanggal dan waktu suatu peristiwa terjadi, ditampilkan dalam zona waktu lokal."],
+    ]
+    glossary_data_id = [[Paragraph(term, style_table_cell), Paragraph(desc, style_table_cell)] for term, desc in glossary_id]
+    glossary_table_id = create_styled_table(
+        [[Paragraph("<b>Istilah</b>", style_table_header), Paragraph("<b>Definisi</b>", style_table_header)]] + glossary_data_id,
+        col_widths=[4*cm, None]
+    )
+    elements.append(glossary_table_id)
+
+    # --- Catatan CVSS ---
+    elements.append(Spacer(1, 0.6*cm))
+    elements.append(Paragraph(
+        "<i>Catatan:</i> Skor CVSS tidak menunjukkan tingkat bahaya total dari malware, "
+        "melainkan tingkat keparahan dari perilaku yang terdeteksi.",
+        style_body
+    ))
+
+
     # Build PDF
     try:
         doc.build(elements)

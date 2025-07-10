@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QDragEnterEvent, QDropEvent
 from submitter import submit_to_cuckoo
-import subprocess
 import os
 import logging
 
@@ -76,61 +75,30 @@ class UploadWidget(QWidget):
             self.process_file(file_path)
 
     def process_file(self, file_path):
-        logging.info(f"UploadWidget: Memproses file: {file_path}")
-        if not os.path.isfile(file_path) or os.path.getsize(file_path) == 0:
-            self.status.setText("❌ File tidak valid atau kosong.")
-            self.status.setStyleSheet("color: red;")
-            logging.warning(f"UploadWidget: File tidak valid atau kosong: {file_path}")
-            return
-
-        self.current_uploaded_file = file_path
-
-        self.status.setText("📤 Mengirim file ke sandbox...")
+        logging.info(f"UploadWidget: Processing file: {file_path}")
+        self.status.setText("📤 Sending file to sandbox...")
         self.status.setStyleSheet("color: #ffaa00;")
         self.button.setEnabled(False)
 
-        try:
-            submit_to_cuckoo(file_path, self.status, None)
-            logging.info(f"UploadWidget: submit_to_cuckoo selesai untuk {file_path}")
-        except Exception as e:
-            logging.error(f"UploadWidget: Error saat submit_to_cuckoo: {e}", exc_info=True)
-            self.status.setText(f"❌ Error saat mengirim: {e}")
-            self.status.setStyleSheet("color: red;")
-            self.button.setEnabled(True)
-            return
+        success, message = submit_to_cuckoo(file_path)
+        self.status.setText(message)
 
-        self.run_dynamic_analysis()
+        if success:
+            self.status.setStyleSheet("color: #00ff99;")
+            self.current_uploaded_file = file_path
 
-        self.status.setText("📊 Analisis dan pembuatan laporan dimulai...")
-        self.status.setStyleSheet("color: #00ff99;")
-        logging.info("UploadWidget: Pembuatan laporan (analisis dinamis) dimulai.")
-
-        main_window = self.window()
-        if main_window:
-            if hasattr(main_window, "handle_file_upload_success") and callable(main_window.handle_file_upload_success):
-                logging.info("UploadWidget: Memanggil main_window.handle_file_upload_success()")
-                print("UploadWidget: Memanggil main_window.handle_file_upload_success()")
+            # ✅ Trigger animation only if submit was successful
+            main_window = self.window()
+            if main_window and hasattr(main_window, "handle_file_upload_success"):
+                logging.info("UploadWidget: Calling handle_file_upload_success() because submission succeeded.")
                 main_window.handle_file_upload_success()
-
-    def run_dynamic_analysis(self):
-        try:
-            file_path = self.current_uploaded_file
-            if not file_path:
-                raise Exception("File belum dipilih.")
-
-            cuckoo_cli = "/home/cuckoo/cuckoo3/venv/bin/cuckoo"  # path ke cuckoo CLI
-            logging.info(f"Menjalankan: {cuckoo_cli} submit {file_path}")
-            subprocess.Popen([cuckoo_cli, "submit", file_path])
-        except Exception as e:
-            logging.error(f"Gagal menjalankan cuckoo submit: {e}", exc_info=True)
-            print(f"❌ Gagal menjalankan cuckoo submit: {e}")
-            self.status.setText("❌ Error saat menjalankan analisis dinamis.")
+        else:
             self.status.setStyleSheet("color: red;")
             self.button.setEnabled(True)
+            logging.warning("UploadWidget: Submission failed. Animation not triggered.")
 
     def reset_fields(self):
-        logging.info("UploadWidget: Mereset tampilan (reset_fields dipanggil).")
-        print("UploadWidget: reset_fields() dipanggil")
+        logging.info("UploadWidget: Resetting UI fields (reset_fields called).")
         self.label.setText("📂 Drag & Drop file here")
         self.status.setText("")
         self.button.setEnabled(True)
