@@ -5315,3 +5315,69 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-10 19:30:43] INFO: Menampilkan AnalysisProgressWidget.
 [2025-07-10 19:32:58] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
 [2025-07-10 19:32:58] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-10 20:35:50] INFO: MainWindow initialized and SetupThread started.
+[2025-07-10 20:35:59] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-10 20:35:59] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-10 20:35:59] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-10 20:36:02] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/7ev3n.exe
+[2025-07-10 20:36:03] INFO: SUBMITTED - /home/cuckoo/UAT/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-10 20:36:03] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-10 20:36:03] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-10 20:36:03] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-10 20:36:06] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-10 20:36:07] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-10 20:38:23] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-10 20:38:23] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-11 11:05:40] INFO: MainWindow initialized and SetupThread started.
+[2025-07-11 11:05:49] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-11 11:05:49] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-11 11:05:49] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-11 11:05:54] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/7ev3n.exe
+[2025-07-11 11:05:55] INFO: SUBMITTED - /home/cuckoo/UAT/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-11 11:05:55] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-11 11:05:55] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-11 11:05:55] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-11 11:05:59] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-11 11:05:59] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-11 11:08:14] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-11 11:08:14] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-11 11:08:27] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-11 11:08:27] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-11 11:08:27] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-11 11:08:29] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/ransomware.exe
+[2025-07-11 11:08:29] INFO: ERROR - /home/cuckoo/UAT/ransomware.exe - ❌ File is too small (<133 bytes).
+[2025-07-11 11:08:29] WARNING: UploadWidget: Submission failed. Animation not triggered.
+[2025-07-11 11:08:32] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/Vista.exe
+[2025-07-11 11:08:33] INFO: SUBMITTED - /home/cuckoo/UAT/Vista.exe - Successfully submitted to Cuckoo.
+[2025-07-11 11:08:33] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-11 11:08:33] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-11 11:08:33] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-11 11:08:36] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-11 11:08:36] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-11 11:10:52] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-11 11:10:52] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-11 11:15:35] INFO: MainWindow initialized and SetupThread started.
+[2025-07-11 11:15:44] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-11 11:15:44] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-11 11:15:44] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-11 11:15:48] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/7ev3n.exe
+[2025-07-11 11:15:49] INFO: SUBMITTED - /home/cuckoo/UAT/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-11 11:15:49] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-11 11:15:49] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-11 11:15:49] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-11 11:15:53] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-11 11:15:53] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-11 11:18:10] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-11 11:18:10] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-11 11:18:33] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-11 11:18:34] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-11 11:18:34] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-11 11:18:36] INFO: UploadWidget: Processing file: /home/cuckoo/UAT/AgentTesla.exe
+[2025-07-11 11:18:37] INFO: SUBMITTED - /home/cuckoo/UAT/AgentTesla.exe - Successfully submitted to Cuckoo.
+[2025-07-11 11:18:37] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-11 11:18:37] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-11 11:18:37] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-11 11:18:40] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-11 11:18:41] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-11 11:20:56] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-11 11:20:56] INFO: Berhasil beralih ke ReportSummaryWidget.

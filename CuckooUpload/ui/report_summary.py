@@ -95,11 +95,11 @@ class ResultSummaryWidget(QWidget):
         left_layout = QVBoxLayout(left_panel)
         left_layout.setContentsMargins(15, 15, 15, 15)
 
-        title_gauge = QLabel("Skor Perilaku")
+        title_gauge = QLabel("CVSS Score")
         title_gauge.setAlignment(Qt.AlignCenter)
         title_gauge.setStyleSheet("font-weight: bold; font-size: 15px; color: black; padding-top: 10px;")
         self.gauge = GaugeWidget()
-        self.categoryLabel = QLabel("Kategori : -")
+        self.categoryLabel = QLabel("Category : -")
         self.categoryLabel.setAlignment(Qt.AlignCenter)
         self.categoryLabel.setStyleSheet("background-color: gray; color: white; font-weight: bold; font-size: 14px; border-radius: 15px; padding: 8px 30px;")
 
@@ -114,7 +114,7 @@ class ResultSummaryWidget(QWidget):
         right_layout = QGridLayout(right_panel)
         right_layout.setContentsMargins(25, 15, 25, 15)
 
-        title_details = QLabel("Keterangan Malware")
+        title_details = QLabel("Malware Information")
         title_details.setAlignment(Qt.AlignCenter)
         title_details.setWordWrap(True)
         title_details.setStyleSheet("""
@@ -210,7 +210,7 @@ class ResultSummaryWidget(QWidget):
             time.sleep(0.5)
 
         score = self._read_cvss_score()
-        category = "Sangat Berbahaya" if score >= 8 else "Berbahaya" if score >= 6 else "Mencurigakan" if score >= 3 else "Aman"
+        category = "Very Dangerous" if score >= 8 else "Dangerous" if score >= 6 else "Suspicious" if score >= 3 else "Safe"
         predicted_family, confidence, jenis = self._read_ml_results()
 
         analysis_json_path = os.path.join(os.path.dirname(os.path.dirname(report_path)), "analysis.json")
