@@ -64,7 +64,6 @@ class MalwareInference:
         self.multiclass_cfg = MulticlassConfig()
         self.binary_model_path = os.path.join(artifacts_dir, "binary_model.pth")
         self.multiclass_model_path = os.path.join(artifacts_dir, "multiclass_model.pth")
-        self.confidence_threshold = 0.6
         self._load_preprocessing_artifacts()
         self._load_models()
         print("✅ Binary dan Multiclass models loaded successfully!")
@@ -92,7 +91,16 @@ class MalwareInference:
         parts = [str(features.get(col, "")) for col in sequence_cols if features.get(col, "")]
         sequence = ';'.join(parts)
 
-        numeric_cols = ['num_execs', 'num_unique_execs', 'num_dns_queries', 'num_udp_packets']
+        features['hosts_seq_length'] = len(str(features.get('hosts_seq', '')).split(';'))
+        features['sig_names_seq_length'] = len(str(features.get('sig_names_seq', '')).split(';'))
+        features['network_activity_ratio'] = features.get('num_dns_queries', 0) / (features.get('num_udp_packets', 0) + 1)
+        features['hosts_per_query'] = features['hosts_seq_length'] / (features.get('num_dns_queries', 0) + 1)
+
+        numeric_cols = [
+            'num_unique_execs', 'num_dns_queries', 
+            'network_activity_ratio', 'hosts_per_query',
+            'hosts_seq_length', 'sig_names_seq_length'
+        ]
         numeric_values = [float(features.get(col, 0)) for col in numeric_cols]
         numeric_array = np.array([numeric_values])
 
@@ -127,8 +135,6 @@ class MalwareInference:
             prob_values = probs[0].cpu().numpy()
             predicted_idx = np.argmax(prob_values)
             max_conf = prob_values[predicted_idx]
-            if max_conf < self.confidence_threshold:
-                return "Other", max_conf
             return self.multiclass_classes[predicted_idx].capitalize(), max_conf
 
     def predict_pipeline(self, features: Dict) -> Dict:
