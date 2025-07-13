@@ -42,7 +42,7 @@ class MainWindow(QWidget):
         self.loading_widget    = LoadingWidget()
         self.upload_widget     = UploadWidget()
         self.upload_success    = UploadSuccessWidget()
-        self.analysis_widget   = AnalysisProgressWidget(on_analysis_complete=self._safe_switch_to_summary)
+        self.analysis_widget   = AnalysisProgressWidget(on_analysis_complete=self._safe_switch_to_summary, on_error=self.handle_analysis_error)
         self.report_summary    = ResultSummaryWidget(on_restart_analysis=self.switch_to_upload_after_rebuild)
 
         self.stack.addWidget(self.loading_widget)
@@ -122,6 +122,13 @@ class MainWindow(QWidget):
         self.setFixedSize(480, 340)
         self.fade_out_widget(self.report_summary, self.rebuild_core_widgets_and_show_upload)
 
+    def handle_analysis_error(self):
+        logging.error("Analysis failed or timeout. Returning to upload page.")
+        self.setFixedSize(480, 340)
+        self.stack.setCurrentWidget(self.upload_widget)
+        if hasattr(self.upload_widget, 'show_error_message'):
+            self.upload_widget.show_error_message("Analysis failed or took too long. Please try again.")
+
     def rebuild_core_widgets_and_show_upload(self):
         logging.info("🔁 Membangun ulang widget inti...")
 
@@ -132,7 +139,7 @@ class MainWindow(QWidget):
 
         self.stack.removeWidget(self.analysis_widget)
         self.analysis_widget.deleteLater()
-        self.analysis_widget = AnalysisProgressWidget(on_analysis_complete=self._safe_switch_to_summary)
+        self.analysis_widget = AnalysisProgressWidget(on_analysis_complete=self._safe_switch_to_summary, on_error=self.handle_analysis_error)
         self.stack.insertWidget(3, self.analysis_widget)
 
         self.stack.setCurrentWidget(self.upload_widget)

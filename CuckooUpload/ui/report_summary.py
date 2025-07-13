@@ -130,7 +130,7 @@ class ResultSummaryWidget(QWidget):
         self.fields = {
             "Classification": QLabel("-"),
             "Family": QLabel("-"),
-            "Confidence": QLabel("-"),
+            "Probability": QLabel("-"),
             "File Name": QLabel("-"),
             "File Size": QLabel("-"),
             "File ID": QLabel("-"),
@@ -211,7 +211,7 @@ class ResultSummaryWidget(QWidget):
 
         score = self._read_cvss_score()
         category = "Very Dangerous" if score >= 8 else "Dangerous" if score >= 6 else "Suspicious" if score >= 3 else "Safe"
-        predicted_family, confidence, jenis = self._read_ml_results()
+        predicted_family, probability, jenis = self._read_ml_results()
 
         analysis_json_path = os.path.join(os.path.dirname(os.path.dirname(report_path)), "analysis.json")
         filename = "-"
@@ -232,7 +232,7 @@ class ResultSummaryWidget(QWidget):
         metadata = {
             "Classification": jenis,
             "Family": predicted_family,
-            "Confidence": f"{confidence:.1f}%" if confidence else "-",
+            "Probability": f"{probability:.1f}%" if probability else "-",
             "File Name": filename,
             "File Size": ukuran,
             "File ID": file_id,
@@ -264,7 +264,7 @@ class ResultSummaryWidget(QWidget):
 
     def _read_ml_results(self):
         predicted_family = "-"
-        confidence = None
+        probability = None
         jenis = "-"
         if os.path.exists(ML_RESULT_PATH):
             try:
@@ -274,27 +274,32 @@ class ResultSummaryWidget(QWidget):
                         status = lines[0].lower()
                         if status == "malware" and len(lines) >= 3:
                             predicted_family = lines[2]
-                            confidence = float(lines[1]) * 100
+                            probability = float(lines[1]) * 100
                             jenis = "Malware"
                         elif status == "benign":
                             predicted_family = "Benign"
-                            confidence = float(lines[1]) * 100
+                            probability = float(lines[1]) * 100
                             jenis = "Benign"
             except Exception as e:
                 logging.error(f"Error reading ML_RESULT_PATH: {e}")
-        return predicted_family, confidence, jenis
+        return predicted_family, probability, jenis
 
     def update_summary(self, score, category, metadata):
         self.gauge.set_score(score)
-        self.categoryLabel.setText(f"Kategori : {category}")
-        color_map = {
-            "Sangat Berbahaya": "#D32F2F",
-            "Berbahaya": "#F57C00",
-            "Mencurigakan": "#FFC107",
-            "Aman": "#4CAF50"
-        }
-        bg_color = color_map.get(category, "gray")
-        fg_color = "white" if category != "Mencurigakan" else "black"
+        self.categoryLabel.setText(f"Category : {category}")
+        # Set background color to match gauge color
+        if score >= 8:
+            bg_color = "#D32F2F"
+            fg_color = "white"
+        elif score >= 6:
+            bg_color = "#F57C00"
+            fg_color = "white"
+        elif score >= 3:
+            bg_color = "#FFC107"
+            fg_color = "black"
+        else:
+            bg_color = "#4CAF50"
+            fg_color = "white"
         self.categoryLabel.setStyleSheet(f"background-color: {bg_color}; color: {fg_color}; font-weight: bold; border-radius: 15px; padding: 8px 30px; font-size: 14px;")
 
         for key, label_widget in self.fields.items():

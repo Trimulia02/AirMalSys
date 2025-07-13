@@ -68,13 +68,13 @@ def read_ml_results():
             lines = [line.strip() for line in f.readlines()]
             if len(lines) >= 3:
                 jenis = "Malware" if "malware" in lines[0].lower() else "Benign"
-                confidence = f"{float(lines[1]) * 100:.1f}%"
+                probab = f"{float(lines[1]) * 100:.1f}%"
                 family = lines[2] if lines[2] else "-"
-                return jenis, family, confidence
+                return jenis, family, probab
             elif len(lines) >= 2:
                 jenis = "Malware" if "malware" in lines[0].lower() else "Benign"
-                confidence = f"{float(lines[1]) * 100:.1f}%"
-                return jenis, "-", confidence
+                probab = f"{float(lines[1]) * 100:.1f}%"
+                return jenis, "-", probab
     except Exception as e:
         logging.error(f"Error membaca hasil ML: {e}")
     return "Tidak Diketahui", "Tidak Diketahui", "-"
@@ -224,7 +224,7 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
         [Paragraph("<b>Start Time</b>", style_table_cell_white), Paragraph(format_timestamp(task.get("started_on", {}).get("__isodt__", "-")), style_table_cell)],
         [Paragraph("<b>End Time</b>", style_table_cell_white), Paragraph(format_timestamp(task.get("stopped_on", {}).get("__isodt__", "-")), style_table_cell)],
         [Paragraph("<b>Severity Score</b>", style_table_cell_white), Paragraph(f"{score} ({severity})", style_table_cell)],
-        [Paragraph("<b>Classification</b>", style_table_cell_white), Paragraph(f"<b>{jenis}</b> (Confidence: {confidence})", style_table_cell)],
+        [Paragraph("<b>Classification</b>", style_table_cell_white), Paragraph(f"<b>{jenis}</b> (Probabability: {confidence})", style_table_cell)],
         [Paragraph("<b>Malware Family</b>", style_table_cell_white), Paragraph(family, style_table_cell)],
     ]
     
@@ -282,7 +282,7 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
         ["Malware", "Malicious software designed to harm, exploit, or disrupt systems or data."],
         ["Benign", "A file or program that does not show harmful or suspicious behavior."],
         ["Malware Family", "A group of malware that share similar behavior, structure, or purpose."],
-        ["Confidence", "A measure of how certain the system is about its classification result."],
+        ["Probabability", "A measure of how certain the system is about its classification result."],
         ["CVSS Score", "A standardized score that estimates the severity of a vulnerability or attack."],
         ["Severity Level", "The level of risk posed, based on the CVSS score."],
         ["Signature", "A known pattern of malicious activity detected in a file or process."],
@@ -309,7 +309,7 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
         ["Malware", "Perangkat lunak jahat yang dirancang untuk merusak, mengeksploitasi, atau mengganggu sistem atau data."],
         ["Benign", "File atau program yang tidak menunjukkan perilaku berbahaya atau mencurigakan."],
         ["Malware Family", "Kelompok malware dengan perilaku, struktur, atau tujuan yang serupa."],
-        ["Confidence", "Tingkat keyakinan sistem terhadap hasil klasifikasinya."],
+        ["Probabability", "Tingkat keyakinan sistem terhadap hasil klasifikasinya."],
         ["CVSS Score", "Skor baku yang mengukur tingkat keparahan kerentanan atau serangan."],
         ["Severity Level", "Tingkat risiko berdasarkan skor CVSS."],
         ["Signature", "Pola aktivitas berbahaya yang dikenali dalam sebuah file atau proses."],

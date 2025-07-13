@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import (
     QWidget, QLabel, QVBoxLayout, QPushButton, QFileDialog,
-    QSizePolicy
+    QSizePolicy, QHBoxLayout
 )
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QDragEnterEvent, QDropEvent
@@ -44,8 +44,23 @@ class UploadWidget(QWidget):
         self.label.setAlignment(Qt.AlignCenter)
         self.label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
 
+        # Tombol Choose File dan Preview File simetris dan mengisi layout
         self.button = QPushButton("Choose File")
+        self.button.setMinimumHeight(38)
+        self.button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
         self.button.clicked.connect(self.open_file_dialog)
+
+        self.preview_button = QPushButton("Preview File")
+        self.preview_button.setMinimumHeight(38)
+        self.preview_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+        self.preview_button.setStyleSheet("background-color: #22bb55; color: white; border-radius: 6px; padding: 10px;")
+        self.preview_button.clicked.connect(self.open_report_preview_dialog)
+
+        button_layout = QHBoxLayout()
+        button_layout.setSpacing(16)
+        button_layout.setContentsMargins(0, 0, 0, 0)
+        button_layout.addWidget(self.button)
+        button_layout.addWidget(self.preview_button)
 
         self.status = QLabel("")
         self.status.setAlignment(Qt.AlignCenter)
@@ -55,7 +70,7 @@ class UploadWidget(QWidget):
         layout.setSpacing(12)
         layout.setContentsMargins(20, 20, 20, 20)
         layout.addWidget(self.label)
-        layout.addWidget(self.button)
+        layout.addLayout(button_layout)
         layout.addWidget(self.status)
         self.setLayout(layout)
 
@@ -96,6 +111,18 @@ class UploadWidget(QWidget):
             self.status.setStyleSheet("color: red;")
             self.button.setEnabled(True)
             logging.warning("UploadWidget: Submission failed. Animation not triggered.")
+
+    def open_report_preview_dialog(self):
+        report_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../Report'))
+        file_path, _ = QFileDialog.getOpenFileName(self, "Preview Report File", report_dir, "PDF Files (*.pdf)")
+        if file_path:
+            self.open_report_file(file_path)
+
+    def open_report_file(self, file_path):
+        try:
+            os.system(f'xdg-open "{file_path}"')
+        except Exception as e:
+            logging.error(f"UploadWidget: Failed to open report file: {e}")
 
     def reset_fields(self):
         logging.info("UploadWidget: Resetting UI fields (reset_fields called).")

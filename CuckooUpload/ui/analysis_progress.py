@@ -10,10 +10,13 @@ from PyQt5.QtGui import QMovie
 
 
 class AnalysisProgressWidget(QWidget):
-    def __init__(self, on_analysis_complete=None):
+    def __init__(self, on_analysis_complete=None, on_error=None):
         super().__init__()
         self.on_analysis_complete = on_analysis_complete
+        self.on_error = on_error
         self.analysis_started_at = datetime.now()
+        self.downtime_timer = None
+        self.downtime_active = False
 
         self.setStyleSheet("""
             QProgressBar {
@@ -91,6 +94,30 @@ class AnalysisProgressWidget(QWidget):
             return None
         return max(files, key=os.path.getmtime)
 
+    def start_downtime(self):
+        if self.downtime_active:
+            return
+        self.downtime_active = True
+        self.label.setText("⏳ Analysis is taking longer than usual. Waiting up to 3 minutes...")
+        self.downtime_timer = QTimer(self)
+        self.downtime_timer.setSingleShot(True)
+        self.downtime_timer.timeout.connect(self.handle_downtime_timeout)
+        self.downtime_timer.start(180000)  # 3 minutes
+
+    def stop_downtime(self):
+        if self.downtime_timer:
+            self.downtime_timer.stop()
+            self.downtime_timer = None
+        self.downtime_active = False
+
+    def handle_downtime_timeout(self):
+        self.timer.stop()
+        self.label.setText("❌ Error: Analysis failed or took too long. Returning to upload page...")
+        if self.on_error:
+            QTimer.singleShot(1500, self.on_error)
+        else:
+            print("[ERROR] on_error callback not set!")
+
     def update_progress(self):
         value = self.progress.value()
 
@@ -101,6 +128,7 @@ class AnalysisProgressWidget(QWidget):
 
         latest_report = self.find_latest_report_json()
         if latest_report and os.path.getmtime(latest_report) > self.analysis_started_at.timestamp():
+            self.stop_downtime()
             self.progress.setValue(100)
             self.label.setText("✅ Analysis Completed. Showing Report Summary...")
             self.timer.stop()
@@ -113,3 +141,5 @@ class AnalysisProgressWidget(QWidget):
 
         if value < 97:
             self.progress.setValue(value + 1)
+        elif value == 97:
+            self.start_downtime()
