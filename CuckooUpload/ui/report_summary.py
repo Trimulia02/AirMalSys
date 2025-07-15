@@ -130,7 +130,7 @@ class ResultSummaryWidget(QWidget):
         self.fields = {
             "Classification": QLabel("-"),
             "Family": QLabel("-"),
-            "Probability": QLabel("-"),
+            "Malware Probability": QLabel("-"),
             "File Name": QLabel("-"),
             "File Size": QLabel("-"),
             "File ID": QLabel("-"),
@@ -162,7 +162,7 @@ class ResultSummaryWidget(QWidget):
         self.viewPdfButton = QPushButton("Show PDF Report")
         self.viewPdfButton.setMinimumHeight(45)
         self.viewPdfButton.setStyleSheet("QPushButton { background-color: #00c853; color: white; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: #00e676; }")
-        self.restartButton = QPushButton("Reanalyze")
+        self.restartButton = QPushButton("Analyze New File")
         self.restartButton.setMinimumHeight(45)
         self.restartButton.setStyleSheet("QPushButton { background-color: #2962FF; color: white; font-size: 14px; font-weight: bold; border-radius: 22px; } QPushButton:hover { background-color: #448AFF; }")
 
@@ -232,7 +232,7 @@ class ResultSummaryWidget(QWidget):
         metadata = {
             "Classification": jenis,
             "Family": predicted_family,
-            "Probability": f"{probability:.1f}%" if probability else "-",
+            "Malware Probability": f"{probability:.1f}%" if probability else "-",
             "File Name": filename,
             "File Size": ukuran,
             "File ID": file_id,
@@ -277,7 +277,7 @@ class ResultSummaryWidget(QWidget):
                             probability = float(lines[1]) * 100
                             jenis = "Malware"
                         elif status == "benign":
-                            predicted_family = "Benign"
+                            predicted_family = "-"
                             probability = float(lines[1]) * 100
                             jenis = "Benign"
             except Exception as e:

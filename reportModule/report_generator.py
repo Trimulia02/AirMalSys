@@ -224,7 +224,7 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
         [Paragraph("<b>Start Time</b>", style_table_cell_white), Paragraph(format_timestamp(task.get("started_on", {}).get("__isodt__", "-")), style_table_cell)],
         [Paragraph("<b>End Time</b>", style_table_cell_white), Paragraph(format_timestamp(task.get("stopped_on", {}).get("__isodt__", "-")), style_table_cell)],
         [Paragraph("<b>Severity Score</b>", style_table_cell_white), Paragraph(f"{score} ({severity})", style_table_cell)],
-        [Paragraph("<b>Classification</b>", style_table_cell_white), Paragraph(f"<b>{jenis}</b> (Probabability: {confidence})", style_table_cell)],
+        [Paragraph("<b>Classification</b>", style_table_cell_white), Paragraph(f"<b>{jenis}</b> (Malware Probability: {confidence})", style_table_cell)],
         [Paragraph("<b>Malware Family</b>", style_table_cell_white), Paragraph(family, style_table_cell)],
     ]
     

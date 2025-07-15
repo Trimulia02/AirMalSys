@@ -5759,3 +5759,169 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-14 01:38:41] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
 [2025-07-14 01:38:42] INFO: Menampilkan AnalysisProgressWidget.
 [2025-07-14 01:43:15] ERROR: Analysis failed or timeout. Returning to upload page.
+[2025-07-15 04:08:55] INFO: MainWindow initialized and SetupThread started.
+[2025-07-15 04:09:05] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-15 04:09:05] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-15 04:09:05] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-15 04:09:33] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-15 04:09:34] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:09:34] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:09:34] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:09:34] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:09:37] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:09:38] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:11:53] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:11:54] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:12:19] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:12:19] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:12:19] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:14:03] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Trojan/000.exe
+[2025-07-15 04:14:04] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Trojan/000.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:14:04] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:14:04] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:14:04] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:14:07] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:14:08] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:16:23] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:16:24] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:16:53] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:16:53] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:16:53] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:17:37] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe
+[2025-07-15 04:17:38] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Spyware/HawkEye.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:17:38] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:17:38] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:17:38] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:17:41] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:17:42] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:19:56] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:19:57] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:21:35] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:21:35] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:21:35] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:22:21] INFO: UploadWidget: Processing file: /home/cuckoo/Documents/Adware/fa95a74bd124a32e198c07511e563c2c5a3f9ec71a4a40ffb4de15b3b2b5ddf7.exe
+[2025-07-15 04:22:22] INFO: SUBMITTED - /home/cuckoo/Documents/Adware/fa95a74bd124a32e198c07511e563c2c5a3f9ec71a4a40ffb4de15b3b2b5ddf7.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:22:22] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:22:22] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:22:22] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:22:25] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:22:25] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:25:11] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:25:11] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:25:41] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:25:42] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:25:42] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:26:35] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/RAT/WarzoneRAT.exe
+[2025-07-15 04:26:35] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/RAT/WarzoneRAT.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:26:35] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:26:35] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:26:36] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:26:39] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:26:39] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:28:54] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:28:54] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:29:26] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:29:27] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:29:27] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:30:23] INFO: UploadWidget: Processing file: /home/cuckoo/Documents/Rootkit/fd765103cd948bd0099cc05782348f2b425441a87a7f38f1bfcdb185aecca84d.exe
+[2025-07-15 04:30:23] INFO: SUBMITTED - /home/cuckoo/Documents/Rootkit/fd765103cd948bd0099cc05782348f2b425441a87a7f38f1bfcdb185aecca84d.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:30:23] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:30:23] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:30:24] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:30:27] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:30:27] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:35:00] ERROR: Analysis failed or timeout. Returning to upload page.
+[2025-07-15 04:35:28] INFO: UploadWidget: Processing file: /home/cuckoo/Documents/Coinminer/1b5a9d662f62a301d29a0c3e6f3fe51bb27e5bd0866c0144676915a170c86fc9.exe
+[2025-07-15 04:35:30] INFO: SUBMITTED - /home/cuckoo/Documents/Coinminer/1b5a9d662f62a301d29a0c3e6f3fe51bb27e5bd0866c0144676915a170c86fc9.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:35:30] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:35:30] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:35:30] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:35:33] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:35:33] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:37:58] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:37:59] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:38:48] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:38:49] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:38:49] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:38:57] INFO: UploadWidget: Processing file: /home/cuckoo/Documents/Keylogger/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe
+[2025-07-15 04:38:57] INFO: SUBMITTED - /home/cuckoo/Documents/Keylogger/0d5ebd253df5e050773f0af43351f805d4b96c06ca23c02a27b7b8d104e31200.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:38:57] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:38:57] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:38:58] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:39:01] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:39:01] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:41:15] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:41:15] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:42:35] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:42:36] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:42:36] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:42:48] INFO: UploadWidget: Processing file: /home/cuckoo/Documents/Trojan/5c0d18aca04d9fe8b13d00adfecacc289aa608b90e57b978f1d3ae3974c60944.exe
+[2025-07-15 04:42:49] INFO: SUBMITTED - /home/cuckoo/Documents/Trojan/5c0d18aca04d9fe8b13d00adfecacc289aa608b90e57b978f1d3ae3974c60944.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:42:49] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:42:49] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:42:49] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:42:53] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:42:53] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:45:07] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:45:07] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:46:26] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:46:26] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:46:26] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:47:07] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Worm/Nople.exe
+[2025-07-15 04:47:07] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Worm/Nople.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:47:07] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:47:07] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:47:08] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:47:11] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:47:11] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:49:26] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:49:26] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:50:31] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:50:31] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:50:31] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:50:35] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Worm/Mantas.exe
+[2025-07-15 04:50:35] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Worm/Mantas.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:50:35] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:50:35] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:50:36] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:50:39] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:50:39] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:52:55] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:52:55] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 04:53:18] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 04:53:19] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 04:53:19] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 04:53:41] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-15 04:53:42] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-15 04:53:42] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 04:53:42] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 04:53:42] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 04:53:45] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 04:53:45] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 04:55:59] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 04:56:00] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 07:35:18] INFO: MainWindow: Menerima panggilan switch_to_upload_after_rebuild.
+[2025-07-15 07:35:18] INFO: 🔁 Membangun ulang widget inti...
+[2025-07-15 07:35:18] INFO: ✅ Widget inti telah dibangun ulang. Tampilan saat ini: UploadWidget.
+[2025-07-15 07:35:58] INFO: UploadWidget: Processing file: /home/cuckoo/sampel_benign.exe
+[2025-07-15 07:35:59] INFO: SUBMITTED - /home/cuckoo/sampel_benign.exe - Successfully submitted to Cuckoo.
+[2025-07-15 07:35:59] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 07:35:59] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 07:35:59] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 07:36:02] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 07:36:02] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 07:38:16] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 07:38:17] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-15 07:58:06] INFO: MainWindow initialized and SetupThread started.
+[2025-07-15 07:58:15] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-15 07:58:15] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-15 07:58:15] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-15 07:58:31] INFO: UploadWidget: Processing file: /home/cuckoo/sampel_benign2.exe
+[2025-07-15 07:58:31] INFO: SUBMITTED - /home/cuckoo/sampel_benign2.exe - Successfully submitted to Cuckoo.
+[2025-07-15 07:58:31] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-15 07:58:31] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-15 07:58:32] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-15 07:58:35] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-15 07:58:35] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-15 08:00:50] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-15 08:00:50] INFO: Berhasil beralih ke ReportSummaryWidget.
