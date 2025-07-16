@@ -1,7 +1,6 @@
 import os
 import pickle
 from collections import Counter
-import numpy as np
 
 import torch
 from torch.utils.data import Dataset

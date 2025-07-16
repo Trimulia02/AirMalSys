@@ -6,9 +6,9 @@ class Config:
     """
     def __init__(self):
         # Model
-        self.hidden_size     = 128      # hidden dim LSTM
-        self.num_layers      = 2        # jumlah layer LSTM
-        self.dropout         = 0.3      # dropout di classifier
+        self.hidden_size     = 256      # hidden dim LSTM
+        self.num_layers      = 3        # jumlah layer LSTM
+        self.dropout         = 0.4      # dropout di classifier
         self.embedding_dim   = 300       # embedding dim
         self.numeric_dim     = 6        # jumlah fitur numerik
         self.num_classes     = 2        # output 2 kelas
@@ -20,7 +20,7 @@ class Config:
 
         # Data processing
         self.max_length    = 80
-        self.threshold     = 0.4
+        self.threshold     = 0.2
 
         # Device
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

@@ -1,2 +1,3 @@
-Benign
-0.2
+Malware
+0.8
+Rat

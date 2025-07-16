@@ -130,7 +130,7 @@ class ResultSummaryWidget(QWidget):
         self.fields = {
             "Classification": QLabel("-"),
             "Family": QLabel("-"),
-            "Malware Probability": QLabel("-"),
+            "Probability": QLabel("-"),
             "File Name": QLabel("-"),
             "File Size": QLabel("-"),
             "File ID": QLabel("-"),
@@ -232,7 +232,7 @@ class ResultSummaryWidget(QWidget):
         metadata = {
             "Classification": jenis,
             "Family": predicted_family,
-            "Malware Probability": f"{probability:.1f}%" if probability else "-",
+            "Probability": f"{probability:.1f}%" if probability else "-",
             "File Name": filename,
             "File Size": ukuran,
             "File ID": file_id,
