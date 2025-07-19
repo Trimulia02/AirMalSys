@@ -9,24 +9,23 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, LongTable, TableStyle, PageBreak, Frame, PageTemplate
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
 from reportlab.lib.units import cm
+import matplotlib.pyplot as plt
+from io import BytesIO
+from reportlab.platypus import Image
 
 # --- KONFIGURASI ---
-# Sesuaikan path ini dengan lingkungan Anda
 ANALYSIS_DIR = "/home/cuckoo/.cuckoocwd/storage/analyses"
 REPORT_DIR = "/home/cuckoo/TA_AnalisisMalware/Report"
 ML_RESULT_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"
 CVSS_SCORE_PATH = "/home/cuckoo/TA_AnalisisMalware/Logs/cvss_score.txt"
 
 # --- PALET WARNA & GAYA ---
-# Palet warna yang lebih modern untuk tampilan profesional
-COLOR_PRIMARY_DARK = colors.HexColor("#2C3E50")  # Biru Gelap Keabuan
-COLOR_PRIMARY = colors.HexColor("#3498DB")      # Biru Cerah
-COLOR_ACCENT = colors.HexColor("#E74C3C")       # Merah
-COLOR_LIGHT_GREY = colors.HexColor("#ECF0F1")   # Abu-abu Sangat Terang
-COLOR_MEDIUM_GREY = colors.HexColor("#BDC3C7")  # Abu-abu
-COLOR_TEXT = colors.HexColor("#34495E")         # Warna Teks Utama
-
-# --- FUNGSI HELPER (Tidak Berubah Banyak) ---
+COLOR_PRIMARY_DARK = colors.HexColor("#2C3E50")
+COLOR_PRIMARY = colors.HexColor("#3498DB")
+COLOR_ACCENT = colors.HexColor("#E74C3C")
+COLOR_LIGHT_GREY = colors.HexColor("#ECF0F1")
+COLOR_MEDIUM_GREY = colors.HexColor("#BDC3C7")
+COLOR_TEXT = colors.HexColor("#34495E")
 
 def find_latest_analysis():
     """Menemukan report.json dan analysis.json terbaru berdasarkan mtime."""
@@ -274,7 +273,6 @@ def generate_pdf(report_data, analysis_data, jenis, family, confidence):
         proc_table = create_styled_table(proc_data, col_widths=[1.5*cm, None, 2*cm, 2*cm])
         elements.append(proc_table)
 
-# Tambahkan ini di bagian bawah, sebelum `doc.build(elements)`
     # --- Glossary EN ---
     elements.append(Spacer(1, 1*cm))
     elements.append(Paragraph("Glossary of Terms", style_h2))

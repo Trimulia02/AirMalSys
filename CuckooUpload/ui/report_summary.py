@@ -296,7 +296,7 @@ class ResultSummaryWidget(QWidget):
             fg_color = "white"
         elif score >= 3:
             bg_color = "#FFC107"
-            fg_color = "black"
+            fg_color = "white"
         else:
             bg_color = "#4CAF50"
             fg_color = "white"
