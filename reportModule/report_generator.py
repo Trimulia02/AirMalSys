@@ -9,9 +9,6 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, LongTable, TableStyle, PageBreak, Frame, PageTemplate
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
 from reportlab.lib.units import cm
-import matplotlib.pyplot as plt
-from io import BytesIO
-from reportlab.platypus import Image
 
 # --- KONFIGURASI ---
 ANALYSIS_DIR = "/home/cuckoo/.cuckoocwd/storage/analyses"
