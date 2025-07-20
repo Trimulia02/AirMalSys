@@ -36,7 +36,7 @@ class MulticlassConfig(Config):
         self.dropout         = 0.4      # dropout di classifier
         self.embedding_dim   = 300       # embedding dim
         self.numeric_dim     = 6        # jumlah fitur numerik
-        self.num_classes     = 9        # output 6 kelas
+        self.num_classes     = 8        # output 6 kelas
         
         # Training
         self.batch_size = 16

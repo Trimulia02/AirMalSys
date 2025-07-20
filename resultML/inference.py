@@ -9,53 +9,54 @@ from config import Config, MulticlassConfig
 from preprocessing import load_vocab, load_scaler, load_label_encoder, MalwareDataset
 from model import BiLSTM
 
-
-def extract_features_from_report(report_path: str) -> Dict:
-    with open(report_path, 'r') as f:
+def extract_features_from_report(report_path: str):
+    with open(report_path) as f:
         r = json.load(f)
-
     feats = {}
 
-    # --- Sequence features: exec & dropped exe ---
+    # --- exec processes (exact same logic) ---
     procs, paths = [], []
     for sig in r.get("signatures", []):
-        name = sig.get("name", "")
-        if name == "executes_dropped_exe":
+        if sig.get("name") == "executes_dropped_exe":
             for entry in sig.get("iocs", {}).get("iocs", []):
                 i = entry.get("ioc", {})
-                p = i.get("process")
-                q = i.get("path")
-                if p:
-                    procs.append(p)
-                if q:
-                    paths.append(q)
-    feats["exec_processes_seq"] = ";".join(procs)
-    feats["exec_paths_seq"] = ";".join(paths)
-
-    # --- Additional sequence features ---
-    net = r.get("network", {})
-
-    dns_queries = [q.get("name", "") for q in net.get("dns", {}).get("query", [])]
-    feats["dns_queries_seq"] = ";".join(dns_queries)
-
-    udp_entries = net.get("udp", [])
-    udp_ports = [f"{u.get('srcport')}->{u.get('dstport')}" for u in udp_entries]
-    feats["udp_ports_seq"] = ";".join(udp_ports)
-
-    hosts = net.get("host", [])
-    feats["hosts_seq"] = ";".join(hosts)
-
-    sig_names = [sig.get("name", "") for sig in r.get("signatures", [])]
-    feats["sig_names_seq"] = ";".join(sig_names)
-
-    # --- Numeric features ---
+                procs.append(i.get("process", ""))
+                paths.append(i.get("path", ""))
+    feats["exec_processes_seq"] = procs
+    feats["exec_paths_seq"] = paths
     feats["num_execs"] = len(procs)
-    feats["num_unique_execs"] = len(set(procs))
-    feats["num_dns_queries"] = len(dns_queries)
-    feats["num_udp_packets"] = len(udp_entries)
+
+    # dns
+    dns = r.get("network", {}).get("dns", {}).get("query", [])
+    feats["dns_queries_seq"] = [d.get("name","") for d in dns]
+    feats["dns_types_seq"]   = [d.get("type","") for d in dns]
+    feats["num_dns_queries"] = len(dns)
+
+    # udp
+    udp = r.get("network", {}).get("udp", [])
+    feats["udp_ports_seq"] = [f"{u.get('srcport')}->{u.get('dstport')}" for u in udp]
+    feats["num_udp_packets"] = len(udp)
+
+    # hosts
+    hosts = r.get("network", {}).get("host", [])
+    feats["hosts_seq"] = hosts
+    feats["num_hosts"] = len(hosts)
+
+    # signatures (names)
+    sig_names = [s.get("name","") for s in r.get("signatures", [])]
+    feats["sig_names_seq"] = sig_names
+
+    # ttps
+    ttps = [t.get("id","") for t in r.get("ttps", [])]
+    feats["ttps_seq"] = ttps
+    feats["num_ttps"] = len(ttps)
+
+    # processes list
+    proc_list = r.get("processes", {}).get("process_list", [])
+    feats["processes_seq"] = [p.get("name","") for p in proc_list]
+    feats["num_processes"] = len(proc_list)
 
     return feats
-
 
 class MalwareInference:
     def __init__(self, artifacts_dir: str = "artifacts"):
@@ -85,21 +86,27 @@ class MalwareInference:
 
     def preprocess_features(self, features: Dict) -> tuple:
         sequence_cols = [
-            'exec_processes_seq', 'exec_paths_seq', 'dns_queries_seq',
-            'udp_ports_seq', 'hosts_seq', 'sig_names_seq'
+        "exec_processes_seq","exec_paths_seq",
+        "dns_queries_seq","dns_types_seq",
+        "udp_ports_seq","udp_src_ports_seq","udp_dst_ports_seq","udp_sizes_seq","udp_timestamps_seq",
+        "hosts_seq","sig_names_seq","ttps_seq",
+        "processes_seq","process_states_seq","injection_flags_seq","parent_procid_seq","start_ts_seq",
+        "screenshot_scores_seq"
         ]
-        parts = [str(features.get(col, "")) for col in sequence_cols if features.get(col, "")]
-        sequence = ';'.join(parts)
-
-        features['hosts_seq_length'] = len(str(features.get('hosts_seq', '')).split(';'))
-        features['sig_names_seq_length'] = len(str(features.get('sig_names_seq', '')).split(';'))
-        features['network_activity_ratio'] = features.get('num_dns_queries', 0) / (features.get('num_udp_packets', 0) + 1)
-        features['hosts_per_query'] = features['hosts_seq_length'] / (features.get('num_dns_queries', 0) + 1)
+        parts = []
+        for col in sequence_cols:
+            vals = features.get(col, [])
+            if isinstance(vals, (list, tuple)):
+                parts.extend(str(x) for x in vals)
+        sequence = ";".join(parts)
 
         numeric_cols = [
-            'num_unique_execs', 'num_dns_queries', 
-            'network_activity_ratio', 'hosts_per_query',
-            'hosts_seq_length', 'sig_names_seq_length'
+            'num_execs',
+            'num_dns_queries',
+            'num_udp_packets',
+            'num_hosts',
+            'num_ttps',
+            'num_processes'
         ]
         numeric_values = [float(features.get(col, 0)) for col in numeric_cols]
         numeric_array = np.array([numeric_values])
