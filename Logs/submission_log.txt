@@ -6301,3 +6301,5 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-21 02:57:03] INFO: Menampilkan UploadSuccessWidget.
 [2025-07-21 02:57:06] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
 [2025-07-21 02:57:07] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-21 02:59:22] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-21 02:59:23] INFO: Berhasil beralih ke ReportSummaryWidget.

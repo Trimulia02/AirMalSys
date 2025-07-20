@@ -25,7 +25,7 @@ def analyze_signatures(signatures):
         "SC": "N", "SI": "N", "SA": "N",
         "V": "U",
         "AV": "L", "AC": "H", "PR": "H",
-        "UI": "A",  # diperbaiki dari "Y" → "A"
+        "UI": "A",  
         "S": "N",
         "AT": "N"
     }
@@ -185,14 +185,12 @@ def analyze_dns_udp_host(report):
             "V": "D"     # Proven exploit
         })
 
-    # Host-related communication (C2, exfil)
     if any("mega.nz" in d or "bitbucket" in d or ".onion" in d for d in dns_queries):
         vector.update({
             "VC": "H",
             "V": "D"
         })
 
-    # UDP communication (if exists)
     network = report.get("network", {})
     if "udp" in network and network["udp"]:
         vector.update({
