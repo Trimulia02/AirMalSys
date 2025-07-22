@@ -18,7 +18,6 @@ def find_latest_report():
     print(f"[DEBUG] Menggunakan report.json terbaru: {latest}")
     return latest
 
-
 def analyze_signatures(signatures):
     vector = {
         "VC": "N", "VI": "N", "VA": "N",

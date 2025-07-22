@@ -6303,3 +6303,60 @@ AttributeError: 'ResultSummaryWidget' object has no attribute 'load_latest_repor
 [2025-07-21 02:57:07] INFO: Menampilkan AnalysisProgressWidget.
 [2025-07-21 02:59:22] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
 [2025-07-21 02:59:23] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-23 02:36:44] INFO: MainWindow initialized and SetupThread started.
+[2025-07-23 02:36:53] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-23 02:36:53] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-23 02:36:53] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-23 02:37:02] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-23 02:37:02] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-23 02:37:02] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-23 02:37:02] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-23 02:37:03] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-23 02:37:06] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-23 02:37:06] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-23 02:39:22] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-23 02:39:23] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-23 02:40:16] ERROR: Gagal menjalankan report_generator.py: Command '['python3', '/home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py']' returned non-zero exit status 1.
+[2025-07-23 02:40:20] ERROR: Gagal menjalankan report_generator.py: Command '['python3', '/home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py']' returned non-zero exit status 1.
+[2025-07-23 02:40:22] ERROR: Gagal menjalankan report_generator.py: Command '['python3', '/home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py']' returned non-zero exit status 1.
+[2025-07-23 02:40:24] ERROR: Gagal menjalankan report_generator.py: Command '['python3', '/home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py']' returned non-zero exit status 1.
+[2025-07-23 02:40:49] INFO: MainWindow initialized and SetupThread started.
+[2025-07-23 02:40:58] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-23 02:40:58] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-23 02:40:58] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-23 02:41:06] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-23 02:41:07] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-23 02:41:07] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-23 02:41:07] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-23 02:41:07] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-23 02:41:10] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-23 02:41:10] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-23 02:43:27] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-23 02:43:28] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-23 02:43:33] ERROR: Gagal menjalankan report_generator.py: Command '['python3', '/home/cuckoo/TA_AnalisisMalware/reportModule/report_generator.py']' returned non-zero exit status 1.
+[2025-07-23 03:24:36] INFO: MainWindow initialized and SetupThread started.
+[2025-07-23 03:24:45] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-23 03:24:45] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-23 03:24:45] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-23 03:24:55] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/Annabelle.exe
+[2025-07-23 03:24:56] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/Annabelle.exe - Successfully submitted to Cuckoo.
+[2025-07-23 03:24:56] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-23 03:24:56] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-23 03:24:56] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-23 03:25:00] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-23 03:25:00] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-23 03:27:19] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-23 03:27:19] INFO: Berhasil beralih ke ReportSummaryWidget.
+[2025-07-23 04:53:52] INFO: MainWindow initialized and SetupThread started.
+[2025-07-23 04:54:01] INFO: SetupThread: auto_start.py dipanggil.
+[2025-07-23 04:54:01] INFO: SetupThread selesai. Beralih ke UploadWidget.
+[2025-07-23 04:54:01] INFO: UploadWidget: Resetting UI fields (reset_fields called).
+[2025-07-23 04:54:04] INFO: UploadWidget: Processing file: /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe
+[2025-07-23 04:54:05] INFO: SUBMITTED - /home/cuckoo/The-MALWARE-Repo/Ransomware/7ev3n.exe - Successfully submitted to Cuckoo.
+[2025-07-23 04:54:05] INFO: UploadWidget: Calling handle_file_upload_success() because submission succeeded.
+[2025-07-23 04:54:05] INFO: MainWindow: Menerima panggilan handle_file_upload_success.
+[2025-07-23 04:54:05] INFO: Menampilkan UploadSuccessWidget.
+[2025-07-23 04:54:08] INFO: 📡 switch_to_analysis_progress() aktif dari UploadSuccessWidget.
+[2025-07-23 04:54:08] INFO: Menampilkan AnalysisProgressWidget.
+[2025-07-23 04:56:24] INFO: MainWindow: Menerima panggilan _safe_switch_to_summary.
+[2025-07-23 04:56:25] INFO: Berhasil beralih ke ReportSummaryWidget.
