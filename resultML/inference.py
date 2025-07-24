@@ -63,17 +63,35 @@ class MalwareInference:
         self.artifacts_dir = artifacts_dir
         self.binary_cfg = Config()
         self.multiclass_cfg = MulticlassConfig()
+
         self.binary_model_path = os.path.join(artifacts_dir, "binary_model.pth")
         self.multiclass_model_path = os.path.join(artifacts_dir, "multiclass_model.pth")
+
         self._load_preprocessing_artifacts()
         self._load_models()
         print("✅ Binary dan Multiclass models loaded successfully!")
 
     def _load_preprocessing_artifacts(self):
         self.vocab = load_vocab(os.path.join(self.artifacts_dir, "vocab.pkl"))
-        self.scaler = load_scaler(os.path.join(self.artifacts_dir, "scaler.pkl"))
+        self.scaler_binary = load_scaler(os.path.join(self.artifacts_dir, "scaler_binary.pkl"))
+        self.scaler_multi = load_scaler(os.path.join(self.artifacts_dir, "scaler_multi.pkl"))
         self.label_encoder = load_label_encoder(os.path.join(self.artifacts_dir, "label_encoder.pkl"))
         self.multiclass_classes = list(self.label_encoder.classes_)
+
+        self.binary_features = [
+            'num_unique_execs', 'num_dns_queries', 
+            'network_activity_ratio', 'hosts_per_query',
+            "num_execs", 'hosts_seq_length', "num_hosts",
+            "num_ttps", "num_processes", "exec_diversity_ratio",
+            "network_activity_ratio", "seq_length", "seq_unique_count",
+            "sig_names_seq_length", "signatures_density", 'num_udp_packets',
+        ]
+        self.multi_features = [
+            "seq_diversity", "num_execs", "num_dns_queries", "num_hosts", "num_ttps",
+            "seq_length", "seq_unique_count", "hosts_seq_length", "sig_names_seq_length",
+            "exec_diversity_ratio", "hosts_per_query", "signatures_density",
+            "num_unique_execs", "num_udp_packets", "num_processes", "network_activity_ratio"
+        ]
 
     def _load_models(self):
         self.binary_model = BiLSTM(vocab_size=len(self.vocab), cfg=self.binary_cfg)
@@ -84,14 +102,10 @@ class MalwareInference:
         self.multiclass_model.load_state_dict(torch.load(self.multiclass_model_path, map_location=self.multiclass_cfg.device))
         self.multiclass_model.to(self.multiclass_cfg.device).eval()
 
-    def preprocess_features(self, features: Dict) -> tuple:
+    def preprocess_features(self, features: Dict, mode: str = "binary") -> tuple:
         sequence_cols = [
-        "exec_processes_seq","exec_paths_seq",
-        "dns_queries_seq","dns_types_seq",
-        "udp_ports_seq","udp_src_ports_seq","udp_dst_ports_seq","udp_sizes_seq","udp_timestamps_seq",
-        "hosts_seq","sig_names_seq","ttps_seq",
-        "processes_seq","process_states_seq","injection_flags_seq","parent_procid_seq","start_ts_seq",
-        "screenshot_scores_seq"
+            "exec_processes_seq","exec_paths_seq","dns_queries_seq","dns_types_seq",
+            "udp_ports_seq","hosts_seq","sig_names_seq","ttps_seq","processes_seq"
         ]
         parts = []
         for col in sequence_cols:
@@ -100,27 +114,39 @@ class MalwareInference:
                 parts.extend(str(x) for x in vals)
         sequence = ";".join(parts)
 
-        numeric_cols = [
-            'num_execs',
-            'num_dns_queries',
-            'num_udp_packets',
-            'num_hosts',
-            'num_ttps',
-            'num_processes'
-        ]
-        numeric_values = [float(features.get(col, 0)) for col in numeric_cols]
-        numeric_array = np.array([numeric_values])
+        # Hitung engineered features
+        feats = features.copy()
+        feats['hosts_seq_length'] = len(feats.get("hosts_seq", []))
+        feats['sig_names_seq_length'] = len(feats.get("sig_names_seq", []))
+        feats['exec_diversity_ratio'] = feats.get("num_unique_execs", 0) / (feats.get("num_execs", 0) + 1)
+        feats['network_activity_ratio'] = feats.get("num_dns_queries", 0) / (feats.get("num_udp_packets", 0) + 1)
+        feats['hosts_per_query'] = feats['hosts_seq_length'] / (feats.get("num_dns_queries", 0) + 1)
+        feats['signatures_density'] = feats['sig_names_seq_length'] / (feats.get("num_execs", 0) + 1)
+        feats['seq_length'] = len(parts)
+        feats['seq_unique_count'] = len(set(parts))
+        feats['seq_diversity'] = feats['seq_unique_count'] / (feats['seq_length'] + 1)
+
+        if mode == "binary":
+            numeric_keys = self.binary_features
+            scaler = self.scaler_binary
+            cfg = self.binary_cfg
+        else:
+            numeric_keys = self.multi_features
+            scaler = self.scaler_multi
+            cfg = self.multiclass_cfg
+
+        numeric_values = [float(feats.get(k, 0)) for k in numeric_keys]
+        numeric_scaled = scaler.transform([numeric_values])
 
         dummy_dataset = MalwareDataset(
             sequences=[sequence],
-            numeric_features=numeric_array,
+            numeric_features=numeric_scaled,
             labels=[0],
             vocab=self.vocab,
-            scaler=self.scaler,
+            scaler=scaler,
             label_encoder=self.label_encoder,
-            max_length=self.binary_cfg.max_length
+            max_length=cfg.max_length
         )
-
         sample = dummy_dataset[0]
         return sample["sequence"].unsqueeze(0), sample["numeric"].unsqueeze(0)
 
@@ -145,13 +171,15 @@ class MalwareInference:
             return self.multiclass_classes[predicted_idx].capitalize(), max_conf
 
     def predict_pipeline(self, features: Dict) -> Dict:
-        seq_tensor, num_tensor = self.preprocess_features(features)
+        seq_tensor, num_tensor = self.preprocess_features(features, mode="binary")
         is_malware, malware_prob = self.predict_binary(seq_tensor, num_tensor)
         if not is_malware:
             return {"result": "Benign", "probability": f"{malware_prob:.1f}", "malware_type": None}
+        # Multiclass prediction
+        seq_tensor, num_tensor = self.preprocess_features(features, mode="multiclass")
         malware_type, confidence = self.predict_multiclass(seq_tensor, num_tensor)
         return {"result": "Malware", "probability": f"{malware_prob:.1f}", "malware_type": malware_type}
-
+    
     def predict_from_report(self, report_path: str, output_path: str = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt"):
         features = extract_features_from_report(report_path)
         result = self.predict_pipeline(features)
@@ -167,7 +195,6 @@ class MalwareInference:
         print(f"Probability: {result['probability']}")
         return result
 
-
 def run_inference(report_json_path: str,
                   output_file: str = "/home/cuckoo/TA_AnalisisMalware/Logs/ml_results.txt",
                   artifacts_dir: str = "artifacts"):
@@ -177,7 +204,6 @@ def run_inference(report_json_path: str,
     except Exception as e:
         print(f"❌ Error during inference: {str(e)}")
         return None
-
 
 def main():
     """
@@ -194,7 +220,6 @@ def main():
 
     inference = MalwareInference(artifacts_dir=args.artifacts)
     inference.predict_from_report(args.report, args.output)
-
 
 if __name__ == "__main__":
     main()

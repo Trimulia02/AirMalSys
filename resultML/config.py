@@ -10,7 +10,7 @@ class Config:
         self.num_layers      = 3        # jumlah layer LSTM
         self.dropout         = 0.3      # dropout di classifier
         self.embedding_dim   = 300       # embedding dim
-        self.numeric_dim     = 4        # jumlah fitur numerik
+        self.numeric_dim     = 16        # jumlah fitur numerik
         self.num_classes     = 2        # output 2 kelas
 
         # Training
@@ -35,7 +35,7 @@ class MulticlassConfig(Config):
         self.num_layers      = 4        # jumlah layer LSTM
         self.dropout         = 0.4      # dropout di classifier
         self.embedding_dim   = 300       # embedding dim
-        self.numeric_dim     = 5        # jumlah fitur numerik
+        self.numeric_dim     = 16     # jumlah fitur numerik
         self.num_classes     = 3        # output 6 kelas
         
         # Training
