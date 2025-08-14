@@ -46,7 +46,7 @@ This project was built for a college final project task. For that reason, all de
 
 3. **Clone this repository**
    - git clone https://github.com/atanasiusps/AirMalSys.git TA_AnalisisMalware
-   - **Please use the command above. During development, this system had a different name, but we later changed it. Using this command will ensure the cloned repository is saved as TA_AnalisisMalware, keeping all existing paths and scripts functional.***
+   - **Please use the command above. During development, this system had a different name, but later changed. Using this command will ensure the cloned repository is saved as TA_AnalisisMalware, keeping all existing paths and scripts functional.***
 
 4. As per last development, **this system can only be used via terminal.**
    - From home : cd TA_AnalisisMalware/Cuckooupload
