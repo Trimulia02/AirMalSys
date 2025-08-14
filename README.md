@@ -47,11 +47,8 @@ This project was built for a college final project task. For that reason, all de
 4. **Clone this repository**
 
 5. As per last development, **this system can only be used via terminal.**
-  # From home
-  cd TA_AnalisisMalware/Cuckooupload
-
-  # From TA_AnalisisMalware/Cuckooupload
-  python3 main.py
+   - From home : cd TA_AnalisisMalware/Cuckooupload
+   - From TA_AnalisisMalware/Cuckooupload : python3 main.py
 
 
 
