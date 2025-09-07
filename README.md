@@ -37,26 +37,9 @@ This project was built for a college final project task. For that reason, all de
 ---
 
 ## Installation and Usage
-1. Ensure you are using the cuckoo Linux user.
-   - sudo adduser cuckoo
-   
-2. **Follow the official Cuckoo3 installation guide**  
+ 
+1. **Follow the official Cuckoo3 installation guide**  
    - [Cuckoo3 Documentation](https://github.com/cert-ee/cuckoo3)
    - Ensure all dependencies are installed.
-
-3. **Clone this repository**
-   - git clone https://github.com/atanasiusps/AirMalSys.git TA_AnalisisMalware
-   - **Please use the command above. During development, this system had a different name, but later changed. Using this command will ensure the cloned repository is saved as TA_AnalisisMalware, keeping all existing paths and scripts functional.***
   
-4. Set up a virtual environment in resultML and install all ML libraries and tools mentioned in your book:
-   - cd resultML
-   - python3 -m venv venv
-   - source venv/bin/activate
-   - pip install scikit-learn pandas numpy matplotlib seaborn joblib tensorflow keras xgboost lightgbm catboost scipy
-   
-4. As per last development, **this system can only be used via terminal.**
-   - From home : cd TA_AnalisisMalware/Cuckooupload
-   - From TA_AnalisisMalware/Cuckooupload : python3 main.py
-
-
-
+2. As per last development, **this system can only be used via terminal.**
