@@ -14,13 +14,15 @@
 
 ---
 
-## 👨‍💻 **Creators**
+<div align="center">
 
+👨‍💻 Creators
 <table>
+<tbody>
 <tr>
 <td align="center" width="33%">
 <a href="https://github.com/Trimulia02">
-<img src="https://github.com/Trimulia02.png" width="80px;" alt="Tri Mulia Bahar"/>
+<img src="https://github.com/Trimulia02.png" width="90px;" style="border-radius: 50%;" alt="Tri Mulia Bahar"/>
 <br />
 <sub><b>Tri Mulia Bahar</b></sub>
 </a>
@@ -29,16 +31,16 @@
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/atanasiusps">
-<img src="https://github.com/atanasiusps.png" width="80px;" alt="Atanasius Pradiptha Sampurno"/>
+<img src="https://github.com/atanasiusps.png" width="90px;" style="border-radius: 50%;" alt="Atanasius Pradiptha Sampurno"/>
 <br />
-<sub><b>Atanasius Pradiptha Sampurno</b></sub>
+<sub><b>Atanasius Pradiptha S.</b></sub>
 </a>
 <br />
 <sub>1103213036</sub>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/Kinnaruo">
-<img src="https://github.com/Kinnaruo.png" width="80px;" alt="Kinanti Aria Widaswara"/>
+<img src="https://github.com/Kinnaruo.png" width="90px;" style="border-radius: 50%;" alt="Kinanti Aria Widaswara"/>
 <br />
 <sub><b>Kinanti Aria Widaswara</b></sub>
 </a>
@@ -46,11 +48,24 @@
 <sub>1103213165</sub>
 </td>
 </tr>
+</tbody>
 </table>
 
-**Program Studi S1 Teknik Komputer**  
-**Fakultas Teknik Elektro - Universitas Telkom**  
-**Bandung, 2025**
+<p>
+<strong>Program Studi S1 Teknik Komputer</strong>
+
+
+
+
+Fakultas Teknik Elektro - Universitas Telkom
+
+
+
+
+Bandung, 2025
+</p>
+
+</div>
 
 ---
 
