@@ -321,7 +321,7 @@ graph TB
 ### 🤝 **Industry Collaboration**
 - **Partner**: Direktorat Pusat Teknologi Informasi (PuTI) - Telkom University
 - **Laboratory**: Seculab (Security Laboratory) - Telkom University  
-- **Hardware Provider**: Intel NUC8i3BEH mini-PC platform
+
 
 ### 📊 **Research Contributions**
 1. **Cost Reduction**: Eliminated cloud service dependency (saved ~$7,000/year AWS costs)
