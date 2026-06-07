@@ -58,11 +58,9 @@ AirMalSys is an automated malware analysis solution designed for air-gapped mini
 
 <div align="center">
 
-https://github.com/user-attachments/assets/placeholder
+[![Watch Demo Video](https://img.youtube.com/vi/6Kd1kNdGdlw/maxresdefault.jpg)](https://youtu.be/6Kd1kNdGdlw?si=LejiTV_83X1l10FY)
 
-[**▶️ Watch Full Demo Video**](https://github.com/Trimulia02/AirMalSys/raw/main/AIRMALYSIS.mp4)
-
-*or download directly: [AIRMALYSIS.mp4](https://github.com/Trimulia02/AirMalSys/raw/main/AIRMALYSIS.mp4)*
+**Click to watch on YouTube →**
 
 </div>
 
