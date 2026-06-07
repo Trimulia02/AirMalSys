@@ -58,9 +58,7 @@ AirMalSys is an automated malware analysis solution designed for air-gapped mini
 
 <div align="center">
 
-[![Watch Demo Video](https://img.youtube.com/vi/6Kd1kNdGdlw/maxresdefault.jpg)](https://www.youtube.com/watch?v=6Kd1kNdGdlw)
-
-**Click to watch on YouTube →**
+[![▶️ Tonton Demo Video di YouTube](https://img.shields.io/badge/▶️%20Tonton%20Demo%20Video-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=6Kd1kNdGdlw)
 
 </div>
 
