@@ -50,7 +50,7 @@
 
 ## 📋 Overview
 
-AirMalSys is an automated malware analysis solution designed for air-gapped mini-PCs. It integrates **Cuckoo Sandbox 3** for isolated dynamic analysis and a **Bi-LSTM** model to classify malware behaviors with high accuracy.
+AirMalSys is an automated malware analysis solution designed for air-gapped mini-PCs. It integrates **Cuckoo Sandbox 3** for isolated dynamic analysis and a **Bi-LSTM** model to classify malware behav[...]
 
 ---
 
@@ -58,7 +58,7 @@ AirMalSys is an automated malware analysis solution designed for air-gapped mini
 
 <div align="center">
 
-[![Watch Demo Video](https://www.youtube.com/watch?v=6Kd1kNdGdlw)
+[![Watch Demo Video](https://img.youtube.com/vi/6Kd1kNdGdlw/maxresdefault.jpg)](https://www.youtube.com/watch?v=6Kd1kNdGdlw)
 
 **Click to watch on YouTube →**
 
